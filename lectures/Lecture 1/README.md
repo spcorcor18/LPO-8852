@@ -16,5 +16,4 @@ Topics covered:
 
 Video resources:
 
-Ceteris Paribus: Public vs. Private Universities
-https://www.youtube.com/watch?v=iPBV3BlV7jk
+[Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals
