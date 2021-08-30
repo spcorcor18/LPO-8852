@@ -13,3 +13,8 @@ Topics covered:
 * <em>Potential outcomes</em> and <em>counterfactuals</em> - definitions
 
 * <em>Omitted variables bias</em> - "short" vs. "long" regression
+
+Video resources:
+
+Ceteris Paribus: Public vs. Private Universities
+https://www.youtube.com/watch?v=iPBV3BlV7jk
