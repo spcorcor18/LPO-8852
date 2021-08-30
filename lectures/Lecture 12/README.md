@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 12: Clusered data and inference
 
+Topics covered:

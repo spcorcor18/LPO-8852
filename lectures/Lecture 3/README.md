@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 3: Matching estimators (I)
 
+Topics covered:

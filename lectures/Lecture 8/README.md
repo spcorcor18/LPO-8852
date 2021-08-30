@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 8: Panel data (II)
 
+Topics covered:

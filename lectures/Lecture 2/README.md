@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 2: Regression estimation and inference (review)
 
+Topics covered:

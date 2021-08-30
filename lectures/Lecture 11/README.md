@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 11: Regression discontinuity
 
+Topics covered:

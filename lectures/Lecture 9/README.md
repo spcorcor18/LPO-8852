@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 9: Instrumental variables (I)
 
+Topics covered:

@@ -1,2 +1,3 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 6: Difference-in-differences (II)
 
+Topics covered:
