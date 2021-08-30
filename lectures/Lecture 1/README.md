@@ -14,6 +14,8 @@ Topics covered:
 
 * <em>Omitted variables bias</em> - "short" vs. "long" regression
 
+* <em>Regression anatomy</em>, or the Frisch Waugh Lovell theorem
+
 Video resources:
 
 [Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals and causal inference.
