@@ -17,3 +17,5 @@ Topics covered:
 Video resources:
 
 [Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals
+
+[Selection bias: Will You Make More Going to a Private University?](https://www.youtube.com/watch?v=6YrIDhaUQOE)
