@@ -16,6 +16,10 @@ Topics covered:
 
 Video resources:
 
-[Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals
+[Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals and causal inference.
 
-[Selection bias: Will You Make More Going to a Private University?](https://www.youtube.com/watch?v=6YrIDhaUQOE)
+[Selection bias: Will You Make More Going to a Private University?](https://www.youtube.com/watch?v=6YrIDhaUQOE) on selection bias, RCTs, regression. Includes Dale & Krueger example used in Mastering Metrics chapter 2.
+
+[Randomized Trials: The Ideal Weapon](https://www.youtube.com/watch?v=eGRd8jBdNYg&list=RDCMUCnkEhPBMZcEO0QGu51fDFDg&index=2) on RCTs.
+
+[Regression Part I: Call in the CIA](https://www.youtube.com/watch?v=OwNxEaOF8yY) on regression.
