@@ -12,7 +12,10 @@ Topics covered:
 
 * Use of <em>robust</em> standard error formula.
 
+* <em>Boostrapping</em> as a tool for estimating standard errors.
+
 * In-class exercise:
-	* Simulating data from a known population distribution, and estimating a regression using OLS
-	* Illustration of omitted variables bias and regression anatomy formulas
+	* Simulating data from a known population distribution, and estimating a regression using OLS.
+	* Illustration of omitted variables bias and regression anatomy formulas.
+	* Bootstrapping examples.
 
