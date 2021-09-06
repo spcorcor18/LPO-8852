@@ -3,6 +3,7 @@
 Topics covered:
 
 Video resources:
+
 [Stata introduction to teffects Part 1](https://www.youtube.com/watch?v=p578jxAPJT4) - uses birthweight and smoking example
 
 [Stata introduction to teffects Part 2](https://www.youtube.com/watch?v=v4l3F3BrtlQ)
