@@ -14,6 +14,10 @@ Topics covered:
 
 * The propensity score: use in weighting and matching
 
+Other resources:
+
+[U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
+
 Video resources:
 
 [Stata introduction to teffects Part 1](https://www.youtube.com/watch?v=p578jxAPJT4) - uses birthweight and smoking example
