@@ -1,8 +1,24 @@
 # Lecture 3: Matching estimators (I)
 
-Topics covered:
+**Topics covered**:
 
-Video resources:
+* Review of concepts: potential outcomes and treatment effects, ATE vs. ATT, selection bias
+
+* Subclassification as a method of estimating treatment effects: grouping treated and untreated observations into strata, calculating differences within strata, and taking a weighted average across strata.
+
+* The conditional independence assumption (CIA) and methods relying on selection on observables.
+
+* The role of common support
+
+* Matching methods: exact matching, approximate matching (e.g., nearest neighbor)
+
+* The propensity score: use in weighting and matching
+
+**Other resources**:
+
+[U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
+
+**Video resources**:
 
 [Stata introduction to teffects Part 1](https://www.youtube.com/watch?v=p578jxAPJT4) - uses birthweight and smoking example
 
