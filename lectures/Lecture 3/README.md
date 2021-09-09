@@ -33,3 +33,5 @@
 [Gary King on why propensity scores should not be used for matching](https://www.youtube.com/watch?v=rBv39pK1iEs)
 
 [Chris Curran on psmatch2 in Stata](https://www.youtube.com/watch?v=7RT8zFC5Rac) - uses an ECLS-K example
+
+[Logic of inverse probability weighting](https://www.youtube.com/watch?v=VJhLaOdpUv0) - from UPenn
