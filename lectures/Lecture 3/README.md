@@ -1,6 +1,6 @@
 # Lecture 3: Matching estimators (I)
 
-**Topics covered**:
+## Topics covered:
 
 * Review of concepts: potential outcomes and treatment effects, ATE vs. ATT, selection bias
 
