@@ -30,6 +30,8 @@
 
 [Stata inverse probability weighting with teffects](https://www.youtube.com/watch?v=fmnkEmlJPOU) - uses birthweight and smoking example
 
+[Gary King lecture on matching](https://www.youtube.com/watch?v=tvMyjDi4dyg) - great lecture on matching methods and their connection to RCTs and blocked randomization. Covers nearest neighbors, coarsened exact matching, and propensity score matching.
+
 [Gary King on why propensity scores should not be used for matching](https://www.youtube.com/watch?v=rBv39pK1iEs)
 
 [Chris Curran on psmatch2 in Stata](https://www.youtube.com/watch?v=7RT8zFC5Rac) - uses an ECLS-K example
