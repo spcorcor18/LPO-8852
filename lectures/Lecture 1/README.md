@@ -16,7 +16,7 @@
 
 * *Regression anatomy*, or the Frisch Waugh Lovell theorem
 
-## Other resources:
+## Video resources:
 
 [Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals and causal inference.
 
@@ -25,3 +25,9 @@
 [Randomized Trials: The Ideal Weapon](https://www.youtube.com/watch?v=eGRd8jBdNYg&list=RDCMUCnkEhPBMZcEO0QGu51fDFDg&index=2) on RCTs.
 
 [Regression Part I: Call in the CIA](https://www.youtube.com/watch?v=OwNxEaOF8yY) on regression.
+
+## References:
+
+* MM chapter 2
+
+* Abadie, A., & Cattaneo, M. D. (2018). Econometric Methods for Program Evaluation. *Annual Review of Economics*, 10(1), 465–503. https://doi.org/10.1146/annurev-economics-080217-053402
