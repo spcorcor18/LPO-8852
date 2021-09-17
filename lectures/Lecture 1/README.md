@@ -18,16 +18,16 @@
 
 ## Video resources:
 
-[Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals and causal inference.
+[Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) - Mastering 'Metrics video on counterfactuals and causal inference.
 
-[Selection bias: Will You Make More Going to a Private University?](https://www.youtube.com/watch?v=6YrIDhaUQOE) on selection bias, RCTs, regression. Includes Dale & Krueger example used in Mastering Metrics chapter 2.
+[Selection bias: Will You Make More Going to a Private University?](https://www.youtube.com/watch?v=6YrIDhaUQOE) - Mastering 'Metrics video on selection bias, RCTs, regression. Includes Dale & Krueger example used in MM chapter 2.
 
-[Randomized Trials: The Ideal Weapon](https://www.youtube.com/watch?v=eGRd8jBdNYg&list=RDCMUCnkEhPBMZcEO0QGu51fDFDg&index=2) on RCTs.
+[Randomized Trials: The Ideal Weapon](https://www.youtube.com/watch?v=eGRd8jBdNYg&list=RDCMUCnkEhPBMZcEO0QGu51fDFDg&index=2) - Mastering 'Metrics video on RCTs.
 
-[Regression Part I: Call in the CIA](https://www.youtube.com/watch?v=OwNxEaOF8yY) on regression.
+[Regression Part I: Call in the CIA](https://www.youtube.com/watch?v=OwNxEaOF8yY) - Josh Angrist lecture on regression.
 
 ## References:
 
-* MM chapter 2
+* MM chapter 2, MHE chapters 1-3
 
 * Abadie, A., & Cattaneo, M. D. (2018). Econometric Methods for Program Evaluation. *Annual Review of Economics*, 10(1), 465–503. https://doi.org/10.1146/annurev-economics-080217-053402
