@@ -1,21 +1,22 @@
 # Lecture 2: Regression estimation and inference (review)
 
-Topics covered:
+## Topics covered:
 
-* Review concept of <em>sampling distributions</em> and <em>standard errors</em>.
+* Review concept of *sampling distributions* and *standard errors*.
 
 * Review of Gauss-Markov assumptions applied to simple linear regression, and what they tell us about the sampling distribution of the slope estimator.
 
 * Review of Gauss-Markov assumptions applied to multiple linear regression.
 
-* Review concept of <em>heteroskedasticity</em> and its consequences for the sampling distribution of the slope estimator.
+* Review concept of *heteroskedasticity* and its consequences for the sampling distribution of the slope estimator.
 
-* Use of <em>robust</em> standard error formula.
+* Use of *robust* standard error formula.
 
-* <em>Boostrapping</em> as a tool for estimating standard errors.
+* *Boostrapping* as a tool for estimating standard errors.
 
 * In-class exercise:
 	* Simulating data from a known population distribution, and estimating a regression using OLS.
 	* Illustration of omitted variables bias and regression anatomy formulas.
 	* Bootstrapping examples.
 
+## Other resources:
