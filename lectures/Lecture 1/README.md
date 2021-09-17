@@ -3,17 +3,11 @@
 ## Topics covered:
 
 * Regression as a technique for estimating the population *conditional expectation function* of Y|X
-
 * The *popluation regression function* (PRF) as an approximation to the CEF
-
 * *Saturated regression models* 
-
 * When the population regression function can be considered *causal*
-
 * *Potential outcomes* and *counterfactuals* - definitions
-
 * *Omitted variables bias* - "short" vs. "long" regression
-
 * *Regression anatomy*, or the Frisch Waugh Lovell theorem
 
 ## Video resources:
@@ -29,5 +23,4 @@
 ## References:
 
 * MM chapter 2, MHE chapters 1-3
-
 * Abadie, A., & Cattaneo, M. D. (2018). Econometric Methods for Program Evaluation. *Annual Review of Economics*, 10(1), 465–503. https://doi.org/10.1146/annurev-economics-080217-053402
