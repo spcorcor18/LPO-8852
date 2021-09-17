@@ -1,22 +1,22 @@
 # Lecture 1: Introduction: regression and causality
 
-Topics covered:
+## Topics covered:
 
-* Regression as a technique for estimating the population <em>conditional expectation function</em> of Y|X
+* Regression as a technique for estimating the population *conditional expectation function* of Y|X
 
-* The <em>popluation regression function</em> (PRF) as an approximation to the CEF
+* The *popluation regression function* (PRF) as an approximation to the CEF
 
-* <em>Saturated regression models</em> 
+* *Saturated regression models* 
 
-* When the population regression function can be considered <em>causal</em>
+* When the population regression function can be considered *causal*
 
-* <em>Potential outcomes</em> and <em>counterfactuals</em> - definitions
+* *Potential outcomes* and *counterfactuals* - definitions
 
-* <em>Omitted variables bias</em> - "short" vs. "long" regression
+* *Omitted variables bias* - "short" vs. "long" regression
 
-* <em>Regression anatomy</em>, or the Frisch Waugh Lovell theorem
+* *Regression anatomy*, or the Frisch Waugh Lovell theorem
 
-Video resources:
+## Other resources:
 
 [Ceteris Paribus: Public vs. Private Universities](https://www.youtube.com/watch?v=iPBV3BlV7jk) on counterfactuals and causal inference.
 
