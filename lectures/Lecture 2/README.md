@@ -19,4 +19,11 @@
 	* Illustration of omitted variables bias and regression anatomy formulas.
 	* Bootstrapping examples.
 
-## Other resources:
+## References:
+
+* MM chapter 2 and its appendix
+* MIX, *Probability and Regression Review* (especially pp. 36-93)
+* Wooldridge chapters 2-6, 8
+* C&T chapters 3 and 5
+* Stine, R. (1989). An Introduction to Bootstrap Methods: Examples and Ideas. *Sociological Methods & Research* 18(2-3): 243–291. https://doi.org/10.1177/0049124189018002003
+
