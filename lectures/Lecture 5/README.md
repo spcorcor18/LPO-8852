@@ -26,4 +26,5 @@
 * :star: Clarke, D., & Schythe, K. T. (2020). Implementing the Panel Event Study. IZA Discussion Paper Series No. 13524. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3660271
 * Goodman-Bacon, A. (forthcoming). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*. https://www.sciencedirect.com/science/article/pii/S0304407621001445
 * :star: Jakiela, P. (2021). Simple Diagnostics for Two-Way Fixed Effects. Working paper available at https://arxiv.org/pdf/2103.13229.pdf
+* Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
 
