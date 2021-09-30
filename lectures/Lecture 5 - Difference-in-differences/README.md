@@ -15,7 +15,7 @@
 
 [Introduction to Difference-in-Differences](https://www.youtube.com/watch?v=eiffOVbYvNc) - Mastering 'Metrics video on difference-in-differences.
 
-[Andrew Baker video on difference-in-differences, and recent developments](https://www.youtube.com/watch?v=mCOzQxJuvZk)
+[Andrew Baker video on difference-in-differences, and recent developments](https://www.youtube.com/watch?v=mCOzQxJuvZk) - covers the recent work by Goodman-Bacon and others.
 
 ## References:
 
