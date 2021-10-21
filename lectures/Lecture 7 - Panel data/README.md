@@ -1,9 +1,9 @@
-# Lecture 6: Panel data 
+# Lecture 7: Panel data 
 
 ## Topics covered:
 
 * Panel data: long vs. wide, reshaping
-* Stata panel commands
+* Stata panel commands (xtdescribe, xtsum, xtline, etc.)
 * The fixed effects model or "within" transformation
 * The first difference model
 * Fixed effects model assumptions
