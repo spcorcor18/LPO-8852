@@ -19,4 +19,4 @@
 * :star: MHE chapter 5
 * :star: MIX, *Panel Data*
 * Wooldridge chapters 13-14
-* C&T chapter 13
+* C&T chapter 8
