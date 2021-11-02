@@ -1,3 +1,34 @@
-# Lecture 7: Panel data (I)
+# Lecture 9: Instrumental variables
 
-Topics covered:
+## Topics covered:
+
+* Method of moments estimation of OLS slope
+* Method of moments motivation for IV
+* Two key assumptions of a valid instrumental variable (relevance, and exclusion restriction)
+* Application of IV to a charter school lottery (a "broken experiment")
+* Structural equations, reduced forms, and first stage
+* IV as a LATE estimator: compliers, always-takers, never-takers, and defiers
+* Monotonicity assumption (no defiers)
+* Statistical properties of IV estimator: consistency, bias in finite samples, less efficient than OLS
+* Weak instruments problem
+* Two stage least squares (2SLS): combining multiple instrumental variables efficiently, and using covariates
+* 2SLS with multiple endogenous explanatory variables
+* Just identified, under-identified, and over-identified models
+* Over-identification tests
+* Applications of IV
+
+## Video resources:
+
+## References:
+
+* :star: Murnane & Willett chapters 10-11
+* :star: MM chapter 3
+* :star: MIX, *Instrumental Variables*
+* MHE chapter 4
+* Wooldridge chapter 15
+* C&T chapter 6
+* Angrist, J. D., & Krueger, A. B. (2001). Instrumental Variables and the Search for Identification: From Supply and Demand to Natural Experiments. *Journal of Economic Perspectives*, 15(4), 69--85. https://www.aeaweb.org/articles?id=10.1257/jep.15.4.69 
+* Bacher-Hicks, A., & Goodman, J. (2021). The Covid-19 Pandemic Is a Lousy Natural Experiment for Studying the Effects of Online Learning. *Education Next*, 21(4). https://www.educationnext.org/covid-19-pandemic-lousy-natural-experiment-for-studying-the-effects-online-learning/ 
+
+
+
