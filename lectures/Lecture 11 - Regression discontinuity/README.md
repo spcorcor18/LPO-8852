@@ -1,3 +1,3 @@
-# Lecture 8: Panel data (II)
+# Lecture 11: Regression discontinuity
 
 Topics covered:
