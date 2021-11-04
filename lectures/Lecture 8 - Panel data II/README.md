@@ -1,4 +1,4 @@
-# Lecture 8: Panel data II - reandom effects and clustered data
+# Lecture 8: Panel data II - random effects
 
 ## Topics covered:
 
