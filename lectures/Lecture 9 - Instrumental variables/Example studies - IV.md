@@ -41,6 +41,16 @@ Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Pol
 
 Goldsmith-Pinkham, P., Sorkin, I., & Swift, H. (2020). Bartik Instruments: What, When, Why, and How. *American Economic Review*, 110(8), 2586-2624. doi:10.1257/aer.20181047
 
+## Applications: simulated instruments
+
+Biasi, B. (2019). School Finance Equalization Increases Intergenerational Mobility: Evidence from a Simulated-Instruments Approach. National Bureau of Economic Research Working Paper Series, No. 25600. doi:10.3386/w25600
+
+Bulman, G. B., & Hoxby, C. M. (2015). The Returns to the Federal Tax Credits for Higher Education. *Tax Policy and the Economy*, 29(1), 13-88. doi:10.1086/683364
+
+Jackson, C. K., Johnson, R. C., & Persico, C. (2016). The Effects of School Spending on Educational and Economic Outcomes: Evidence from School Finance Reforms. *Quarterly Journal of Economics*, 131, 157--218. Retrieved from https://academic.oup.com/qje/article-abstract/131/1/157/2461148?papetoc
+
+Johnson, R. C., & Tanner, S. (2018). Money and Freedom: The Impact of California's School Finance Reform on Academic Achievement and the Composition of District Spending. Technical Report. Getting Down to Facts II. Policy Analysis for California Education, PACE.  Retrieved from https://eric.ed.gov/?id=ED594733
+
 ## Weak instruments
 
 Andrews, I., Stock, J. H., & Sun, L. (2019, 2019/08/02). Weak Instruments in Instrumental Variables Regression: Theory and Practice. *Annual Review of Economics*, 11(1), 727-753. https://doi.org/10.1146/annurev-economics-080218-025643 
