@@ -33,6 +33,24 @@ Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Ex
 
 ## Applications: shift-share designs
 
+Adão, R., Kolesár, M., & Morales, E. (2019). Shift-Share Designs: Theory and Inference. *The Quarterly Journal of Economics*, 134(4), 1949-2010. doi:10.1093/qje/qjz025
+
+Borusyak, K., Hull, P., & Jaravel, X. (2018). Quasi-Experimental Shift-Share Research Designs. National Bureau of Economic Research Working Paper Series, No. 24997. doi:10.3386/w24997
+
+Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Policy Preferences: The Great Migration and Civil Rights. National Bureau of Economic Research Working Paper Series, No. 28965. doi:10.3386/w28965
+
+Goldsmith-Pinkham, P., Sorkin, I., & Swift, H. (2020). Bartik Instruments: What, When, Why, and How. *American Economic Review*, 110(8), 2586-2624. doi:10.1257/aer.20181047
+
+## Applications: simulated instruments
+
+Biasi, B. (2019). School Finance Equalization Increases Intergenerational Mobility: Evidence from a Simulated-Instruments Approach. National Bureau of Economic Research Working Paper Series, No. 25600. doi:10.3386/w25600
+
+Bulman, G. B., & Hoxby, C. M. (2015). The Returns to the Federal Tax Credits for Higher Education. *Tax Policy and the Economy*, 29(1), 13-88. doi:10.1086/683364
+
+Jackson, C. K., Johnson, R. C., & Persico, C. (2016). The Effects of School Spending on Educational and Economic Outcomes: Evidence from School Finance Reforms. *Quarterly Journal of Economics*, 131, 157--218. Retrieved from https://academic.oup.com/qje/article-abstract/131/1/157/2461148?papetoc
+
+Johnson, R. C., & Tanner, S. (2018). Money and Freedom: The Impact of California's School Finance Reform on Academic Achievement and the Composition of District Spending. Technical Report. Getting Down to Facts II. Policy Analysis for California Education, PACE.  Retrieved from https://eric.ed.gov/?id=ED594733
+
 ## Weak instruments
 
 Andrews, I., Stock, J. H., & Sun, L. (2019, 2019/08/02). Weak Instruments in Instrumental Variables Regression: Theory and Practice. *Annual Review of Economics*, 11(1), 727-753. https://doi.org/10.1146/annurev-economics-080218-025643 
@@ -45,7 +63,7 @@ Altonji, J. G., Elder, T. E., & Taber, C. R. (2005). An Evaluation of Instrument
 
 Deaton, A. (2010). Instruments, Randomization, and Learning about Development. *Journal of Economic Literature*, 48(2), 424--455. https://doi.org/10.2307/20778731 
 
-Fan, E., Liu, J.-T., & Chen, Y.-C. (2014). Is the 'Quarter of Birth' Endogenous? Evidence From One Million Siblings in Taiwan. National Bureau of Economic Research Working Paper Series, No. 20444. https://doi.org/10.3386/w20444 
+Fan, E., Liu, J.-T., & Chen, Y.-C. (2017). Is the Quarter of Birth Endogenous? New Evidence from Taiwan, the US, and Indonesia. *Oxford Bulletin of Economics and Statistics*, 79(6), 1087-1124. doi:https://doi.org/10.1111/obes.12175
 
 Mellon, J. (2020). Rain, Rain, Go away: 137 potential exclusion-restriction violations for studies using weather as an instrumental variable. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610
 
