@@ -33,6 +33,12 @@ Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Ex
 
 ## Applications: shift-share designs
 
+Adão, R., Kolesár, M., & Morales, E. (2019). Shift-Share Designs: Theory and Inference. *The Quarterly Journal of Economics*, 134(4), 1949-2010. doi:10.1093/qje/qjz025
+
+Borusyak, K., Hull, P., & Jaravel, X. (2018). Quasi-Experimental Shift-Share Research Designs. National Bureau of Economic Research Working Paper Series, No. 24997. doi:10.3386/w24997
+
+Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Policy Preferences: The Great Migration and Civil Rights. National Bureau of Economic Research Working Paper Series, No. 28965. doi:10.3386/w28965
+
 ## Weak instruments
 
 Andrews, I., Stock, J. H., & Sun, L. (2019, 2019/08/02). Weak Instruments in Instrumental Variables Regression: Theory and Practice. *Annual Review of Economics*, 11(1), 727-753. https://doi.org/10.1146/annurev-economics-080218-025643 
@@ -45,7 +51,7 @@ Altonji, J. G., Elder, T. E., & Taber, C. R. (2005). An Evaluation of Instrument
 
 Deaton, A. (2010). Instruments, Randomization, and Learning about Development. *Journal of Economic Literature*, 48(2), 424--455. https://doi.org/10.2307/20778731 
 
-Fan, E., Liu, J.-T., & Chen, Y.-C. (2014). Is the 'Quarter of Birth' Endogenous? Evidence From One Million Siblings in Taiwan. National Bureau of Economic Research Working Paper Series, No. 20444. https://doi.org/10.3386/w20444 
+Fan, E., Liu, J.-T., & Chen, Y.-C. (2017). Is the Quarter of Birth Endogenous? New Evidence from Taiwan, the US, and Indonesia. *Oxford Bulletin of Economics and Statistics*, 79(6), 1087-1124. doi:https://doi.org/10.1111/obes.12175
 
 Mellon, J. (2020). Rain, Rain, Go away: 137 potential exclusion-restriction violations for studies using weather as an instrumental variable. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610
 
