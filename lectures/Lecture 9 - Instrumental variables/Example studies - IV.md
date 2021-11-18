@@ -39,6 +39,8 @@ Borusyak, K., Hull, P., & Jaravel, X. (2018). Quasi-Experimental Shift-Share Res
 
 Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Policy Preferences: The Great Migration and Civil Rights. National Bureau of Economic Research Working Paper Series, No. 28965. doi:10.3386/w28965
 
+Goldsmith-Pinkham, P., Sorkin, I., & Swift, H. (2020). Bartik Instruments: What, When, Why, and How. *American Economic Review*, 110(8), 2586-2624. doi:10.1257/aer.20181047
+
 ## Weak instruments
 
 Andrews, I., Stock, J. H., & Sun, L. (2019, 2019/08/02). Weak Instruments in Instrumental Variables Regression: Theory and Practice. *Annual Review of Economics*, 11(1), 727-753. https://doi.org/10.1146/annurev-economics-080218-025643 
