@@ -4,7 +4,7 @@
 
 Abdulkadiroğlu, A., Angrist, J., & Pathak, P. (2014). The Elite Illusion: Achievement Effects at Boston and New York Exam Schools. *Econometrica*, 82(1), 137–196. https://doi.org/10.3982/ECTA10266
 
-Brunner, E. J., Dougherty, S. M., & Ross, S. L. (2021). The Effects of Career and Technical Education: Evidence from the Connecticut Technical High School System. *The Review of Economics and Statistics*, 1-46.
+Brunner, E. J., Dougherty, S. M., & Ross, S. L. (2021). The Effects of Career and Technical Education: Evidence from the Connecticut Technical High School System. *The Review of Economics and Statistics*, 1-46. https://doi.org/10.1162/rest_a_01098 
 
 Card, D., & Giuliano, L. (2016). Can Tracking Raise the Test Scores of High-Ability Minority Students? *American Economic Review*, 106(10), 2783–2816. https://www.aeaweb.org/articles?id=10.1257/aer.20150484
 
