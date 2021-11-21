@@ -4,6 +4,8 @@
 
 Abdulkadiroğlu, A., Angrist, J., & Pathak, P. (2014). The Elite Illusion: Achievement Effects at Boston and New York Exam Schools. *Econometrica*, 82(1), 137–196. https://doi.org/10.3982/ECTA10266
 
+Angrist, J. D., & Lavy, V. (1999). Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement. *The Quarterly Journal of Economics,* 114(2), 533--575. https://www.jstor.org/stable/2587016
+
 Brunner, E. J., Dougherty, S. M., & Ross, S. L. (2021). The Effects of Career and Technical Education: Evidence from the Connecticut Technical High School System. *The Review of Economics and Statistics*, 1-46. https://doi.org/10.1162/rest_a_01098 
 
 Card, D., & Giuliano, L. (2016). Can Tracking Raise the Test Scores of High-Ability Minority Students? *American Economic Review*, 106(10), 2783–2816. https://www.aeaweb.org/articles?id=10.1257/aer.20150484
@@ -15,6 +17,8 @@ Cook, P. J., & Kang, S. (2016). Birthdays, Schooling, and Crime: Regression-Disc
 Dee, T. S., & Wyckoff, J. (2015). Incentives, Selection, and Teacher Performance: Evidence from IMPACT. *Journal of Policy Analysis and Management*, 34(2), 267–297. https://doi.org/10.1002/pam.21818
 
 Eren, O., Lovenheim, M. F., & Mocan, H. N. (2021). The Effect of Grade Retention on Adult Crime: Evidence from a Test-Based Promotion Policy. *Journal of Labor Economics*. https://doi.org/10.1086/715836
+
+Hoekstra, M. (2009). The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach. *Review of Economics and Statistics,* 91(4), 717--724. https://doi.org/10.1162/rest.91.4.717 
 
 Jacob, B. A., & Lefgren, L. (2004). Remedial Education and Student Achievement: A Regression-Discontinuity Analysis. *Review of Economics and Statistics*, 86(1), 226–244. https://doi.org/10.1162/003465304323023778
 
@@ -28,6 +32,11 @@ Pop-Eleches, C., & Urquiola, M. (2013). Going to a Better School: Effects and Be
 
 Sorensen, L. C., Acosta, M. A., Engberg, J., & Bushway, S. D. (2021). The Thin Blue Line in Schools: New Evidence on School-Based Policing Across the U.S. EdWorkingPapers.com. http://www.edworkingpapers.com/ai21-476
 
+## Applications - regression discontinuity in health policy
+
+Almond, D., Doyle, J. J., Jr., Kowalski, A. E., & Williams, H. (2010). Estimating Marginal Returns to Medical Care: Evidence from At-risk Newborns. *The Quarterly Journal of Economics,* 125(2), 591-634. https://doi.org/10.1162/qjec.2010.125.2.591 
+
+Card, D., Dobkin, C., & Maestas, N. (2008). The Impact of Nearly Universal Insurance Coverage on Health Care Utilization: Evidence from Medicare. *American Economic Review,* 98(5), 2242-2258. https://doi.org/10.1257/aer.98.5.2242 
 
 ## Regression discontinuity: methodological issues
 
