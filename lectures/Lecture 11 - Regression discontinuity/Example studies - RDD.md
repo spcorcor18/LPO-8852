@@ -8,7 +8,7 @@ Brunner, E. J., Dougherty, S. M., & Ross, S. L. (2021). The Effects of Career an
 
 Card, D., & Giuliano, L. (2016). Can Tracking Raise the Test Scores of High-Ability Minority Students? *American Economic Review*, 106(10), 2783–2816. https://www.aeaweb.org/articles?id=10.1257/aer.20150484
 
-Cohodes, S. R. (2020). The Long-Run Impacts of Specialized Programming for High-Achieving Students. *American Economic Journal: Economic Policy,* 12(1): 127-166.
+Cohodes, S. R. (2020). The Long-Run Impacts of Specialized Programming for High-Achieving Students. *American Economic Journal: Economic Policy,* 12(1): 127-166. https://doi.org/10.1257/pol.20180315 
 
 Cook, P. J., & Kang, S. (2016). Birthdays, Schooling, and Crime: Regression-Discontinuity Analysis of School Performance, Delinquency, Dropout, and Crime Initiation. *American Economic Journal: Applied Economics,* 8(1), 33–57. http://www.aeaweb.org/articles.php?doi=10.1257/app.20140323
 
