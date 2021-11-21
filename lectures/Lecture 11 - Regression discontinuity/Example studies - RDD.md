@@ -41,7 +41,7 @@ Cook, Thomas D., John Deke, Lisa Dragoset, Sean F. Reardon, Rocio Titiunik, Petr
 
 DiNardo, J., & Lee, D. S. (2010). Program Evaluation and Research Designs. National Bureau of Economic Research Working Paper Series (Vol. No. 16016). http://www.nber.org/papers/w16016
 
-Gelman, A., & Imbens, G. (2019, 2019/07/03). Why High-Order Polynomials Should Not Be Used in Regression Discontinuity Designs. *Journal of Business & Economic Statistics*, 37(3), 447-456. https://doi.org/10.1080/07350015.2017.1366909 
+Gelman, A., & Imbens, G. (2019). Why High-Order Polynomials Should Not Be Used in Regression Discontinuity Designs. *Journal of Business & Economic Statistics*, 37(3), 447-456. https://doi.org/10.1080/07350015.2017.1366909 
 
 Hausman, C., & Rapson, D. S. (2018). Regression Discontinuity in Time: Considerations for Empirical Applications. *Annual Review of Resource Economics*, 10(1), 533–552. https://doi.org/10.1146/annurev-resource-121517-033306
 
