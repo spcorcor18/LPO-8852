@@ -55,7 +55,6 @@ Schochet, P. Z. (2009). Statistical Power for Regression Discontinuity Designs i
 
 Deke, J., & Dragoset, L. (2012). Statistical Power for Regression Discontinuity Designs in Education: Empirical Estimates of Design Effects Relative to Randomized Controlled Trials. https://www.mathematica-mpr.com/download-media?MediaItemId=%7B4D453424-2DC7-4113-BF8F-F1FB98646D66%7D 
 
-
-WWC Standards for RD Analysis (Schochet et al) - for IES (2010) https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_rd.pdf
+WWC Standards for RD Analysis (2015) https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_rdd_standards_122315.pdf
 
 Wong, V. C., Steiner, P. M., & Cook, T. D. (2013). Analyzing Regression-Discontinuity Designs With Multiple Assignment Variables: A Comparative Study of Four Estimation Methods. *Journal of Educational and Behavioral Statistics*, 38(2), 107–141. https://doi.org/10.3102/1076998611432172
