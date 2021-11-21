@@ -3,7 +3,9 @@
 ## Topics covered:
 
 * Sharp regression discontinuity
-* Fuzzy regression discontinuity 
+* Fuzzy regression discontinuity
+* Parametric vs. nonparametric estimation
+* RD assumptions and tests for validity of assumptions 
 
 ## Video resources:
 

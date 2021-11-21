@@ -15,6 +15,8 @@ Angrist, J. D., & Lang, K. (2004). Does School Integration Generate Peer Effects
 
 Angrist, J. D., & Lavy, V. (1999). Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement. *The Quarterly Journal of Economics*, 114(2), 533--575. http://links.jstor.org/sici?sici=0033-5533(199905)114:2%3C533:UMRTET%3E2.0.CO;2-3 
 
+Ballis, B., & Heath, K. (2021). The Long-Run Impacts of Special Education. *American Economic Journal: Economic Policy*, 13(4), 72-111. https://doi.org/10.1257/pol.20190603
+
 Barrow, L., Schanzenbach, D. W., & Claessens, A. (2015). The impact of Chicago's small high school initiative. *Journal of Urban Economics*, 87(0), 100--113. https://doi.org/http://dx.doi.org/10.1016/j.jue.2015.02.002 
 
 Bettinger, E. P., Fox, L., Loeb, S., & Taylor, E. S. (2017). Virtual Classrooms: How Online College Courses Affect Student Success. *American Economic Review*, 107(9), 2855--2875. http://www.aeaweb.org/articles?id=10.1257/aer.20151193 
