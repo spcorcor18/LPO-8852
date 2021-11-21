@@ -20,4 +20,6 @@
 * Lee, D. S., & Lemieux, T. (2010). Regression Discontinuity Designs in Economics. *Journal of Economic Literature*, 48(2), 281-355. https://doi.org/10.1257/jel.48.2.281 
 * What Works Clearinghouse Standards Handbook Version 4.1. (2020), https://ies.ed.gov/ncee/wwc/Docs/referenceresources/WWC-Standards-Handbook-v4-1-508.pdf (section III on RD)
 
+## Example studies:
 
+[List of example studies and other RD references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%2011%20-%20Regression%20discontinuity/Example%20studies%20-%20RDD.md)
