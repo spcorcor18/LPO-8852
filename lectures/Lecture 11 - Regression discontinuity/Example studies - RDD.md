@@ -40,6 +40,8 @@ Card, D., Dobkin, C., & Maestas, N. (2008). The Impact of Nearly Universal Insur
 
 ## Regression discontinuity: methodological issues
 
+Barreca, A. I., Lindo, J. M., & Waddell, G. R. (2016). Heaping-Induced Bias in Regression Discontinuity Designs. *Economic Inquiry*, 54(1), 268-293. https://doi.org/10.1111/ecin.12225
+
 Calonico, S., Cattaneo, M. D., & Titiunik, R. (2014). Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs. *Econometrica*, 82(6), 2295–2326. https://doi.org/10.3982/ECTA11757
 
 Calonico, S., Cattaneo, M. D., Farrell, M. H., & Titiunik, R. (2018). Regression Discontinuity Designs Using Covariates. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_00760
