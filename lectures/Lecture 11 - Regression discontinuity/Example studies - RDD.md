@@ -54,6 +54,8 @@ Gelman, A., & Imbens, G. (2019). Why High-Order Polynomials Should Not Be Used i
 
 Hausman, C., & Rapson, D. S. (2018). Regression Discontinuity in Time: Considerations for Empirical Applications. *Annual Review of Resource Economics*, 10(1), 533–552. https://doi.org/10.1146/annurev-resource-121517-033306
 
+Imbens, G., & Kalyanaraman, K. (2012). Optimal Bandwidth Choice for the Regression Discontinuity Estimator. *The Review of Economic Studies*, 79(3), 933-959. https://doi.org/10.1093/restud/rdr043
+
 Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
 
 Lipsey, M. W., Weiland, C., Yoshikawa, H., Wilson, S. J., & Hofer, K. G. (2015). The Prekindergarten Age-Cutoff Regression-Discontinuity Design: Methodological Issues and Implications for Application. *Educational Evaluation and Policy Analysis*, 37(3), 296–313. https://doi.org/10.3102/0162373714547266
