@@ -40,6 +40,8 @@ Card, D., Dobkin, C., & Maestas, N. (2008). The Impact of Nearly Universal Insur
 
 ## Regression discontinuity: methodological issues
 
+Barreca, A. I., Lindo, J. M., & Waddell, G. R. (2016). Heaping-Induced Bias in Regression Discontinuity Designs. *Economic Inquiry*, 54(1), 268-293. https://doi.org/10.1111/ecin.12225
+
 Calonico, S., Cattaneo, M. D., & Titiunik, R. (2014). Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs. *Econometrica*, 82(6), 2295–2326. https://doi.org/10.3982/ECTA11757
 
 Calonico, S., Cattaneo, M. D., Farrell, M. H., & Titiunik, R. (2018). Regression Discontinuity Designs Using Covariates. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_00760
@@ -53,6 +55,8 @@ DiNardo, J., & Lee, D. S. (2010). Program Evaluation and Research Designs. Natio
 Gelman, A., & Imbens, G. (2019). Why High-Order Polynomials Should Not Be Used in Regression Discontinuity Designs. *Journal of Business & Economic Statistics*, 37(3), 447-456. https://doi.org/10.1080/07350015.2017.1366909 
 
 Hausman, C., & Rapson, D. S. (2018). Regression Discontinuity in Time: Considerations for Empirical Applications. *Annual Review of Resource Economics*, 10(1), 533–552. https://doi.org/10.1146/annurev-resource-121517-033306
+
+Imbens, G., & Kalyanaraman, K. (2012). Optimal Bandwidth Choice for the Regression Discontinuity Estimator. *The Review of Economic Studies*, 79(3), 933-959. https://doi.org/10.1093/restud/rdr043
 
 Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
 
