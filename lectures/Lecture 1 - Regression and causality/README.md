@@ -22,5 +22,6 @@
 
 ## References:
 
-* MM chapter 2, MHE chapters 1-3
-* Abadie, A., & Cattaneo, M. D. (2018). Econometric Methods for Program Evaluation. *Annual Review of Economics*, 10(1), 465–503. https://doi.org/10.1146/annurev-economics-080217-053402
+* MM chapters 1-2 (and appendix)
+* MHE chapters 1-3
+* MIX, *Introduction* and *Probability and Regression Review* (especially pp. 36-93)
