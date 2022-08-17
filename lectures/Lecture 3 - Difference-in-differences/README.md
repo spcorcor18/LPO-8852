@@ -26,7 +26,7 @@
 * HK chapters 17-18
 * WOOL chapter 13
 * Bertrand, M., Duflo, E., & Mullainathan, S. (2004). How Much Should We Trust Differences-in-Differences Estimates? *Quarterly Journal of Economics*, 119(1), 249–275. https://academic.oup.com/qje/article-abstract/119/1/249/1876068
-* Goodman-Bacon, A. (forthcoming). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*. https://www.sciencedirect.com/science/article/pii/S0304407621001445
+* Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254-277. https://www.sciencedirect.com/science/article/pii/S0304407621001445
 * Jakiela, P. (2021). Simple Diagnostics for Two-Way Fixed Effects. Working paper available at https://arxiv.org/pdf/2103.13229.pdf
 * Olden, A., & Møen, J. (2022). The triple difference estimator. The Econometrics Journal. https://doi.org/10.1093/ectj/utac010
 
