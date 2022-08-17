@@ -21,7 +21,7 @@
 
 [Introduction to Instrumental Variables Part 1](https://mru.org/courses/mastering-econometrics/introduction-instrumental-variables-part-one) - Mastering 'Metrics video on IV
 
-## References:
+## Syllabus readings:
 
 * :star: MM chapter 3
 * :star: MIX, *Instrumental Variables*
