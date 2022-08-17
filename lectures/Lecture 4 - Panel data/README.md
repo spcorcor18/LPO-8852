@@ -14,10 +14,12 @@
 
 ## Video resources:
 
-## References:
+## Syllabus readings:
 
 * :star: MIX, *Panel Data*
 * :star: MHE chapter 5
 * :star: C&T chapter 8
 * Wooldridge chapters 13-14
 * Raudenbush, S. W. (2009). Adaptive Centering with Random Effects: An Alternative to the Fixed Effects Model for Studying Time-Varying Treatments in School Settings. *Education Finance and Policy*, 4(4), 468--491. https://doi.org/10.1162/edfp.2009.4.4.468
+
+## Other references:
