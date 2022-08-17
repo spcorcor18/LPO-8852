@@ -1,4 +1,4 @@
-# Lecture 1: Introduction: regression and causality
+# Lecture 1: Regression and causality
 
 ## Topics covered:
 
@@ -20,10 +20,13 @@
 
 [Regression Part I: Call in the CIA](https://www.youtube.com/watch?v=OwNxEaOF8yY) - Josh Angrist lecture on regression.
 
-## References:
+## Syllabus readings:
 
-* MM chapters 1-2 (and appendix)
-* MHE chapters 1-3
-* MIX, *Introduction* and *Probability and Regression Review* (especially pp. 36-93)
+* :star: MM chapters 1-2 and appendix to chapter 2
+* :star: MHE chapters 1-3
+* :star: MIX, *Introduction* and *Probability and Regression Review* (especially pp. 36-93)
 * HK chapters 10 and 13
 * C&T chapters 3 and 5
+* Stine, R. (1989). An Introduction to Bootstrap Methods: Examples and Ideas. *Sociological Methods & Research*, 18(2-3), 243--291. https://doi.org/10.1177/0049124189018002003
+
+## Other references:
