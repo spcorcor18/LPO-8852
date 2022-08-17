@@ -33,7 +33,7 @@
 
 [Logic of inverse probability weighting](https://www.youtube.com/watch?v=VJhLaOdpUv0) - from UPenn
 
-## References
+## Syllabus readings:
 
 * MM chapter 2 (especially pp. 47-59)
 * MIX, *Matching and Subclassification*
@@ -44,3 +44,4 @@
 * Imbens, G. W. (2015). Matching Methods in Practice: Three Examples. *Journal of Human Resources*, 50(2), 373–419. https://doi.org/10.3368/jhr.50.2.373 
 * Morgan, S. L., & Harding, D. J. (2006). Matching Estimators of Causal Effects: Prospects and Pitfalls in Theory and Practice. *Sociological Methods & Research*, 35(1), 3–60. https://doi.org/10.1177/0049124106289164
 
+## Other references:
