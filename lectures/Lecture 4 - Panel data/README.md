@@ -1,4 +1,4 @@
-# Lecture 7: Panel data 
+# Lecture 4: Panel data 
 
 ## Topics covered:
 
