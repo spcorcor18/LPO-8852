@@ -35,10 +35,10 @@
 
 ## Syllabus readings:
 
-* MM chapter 2 (especially pp. 47-59)
-* MIX, *Matching and Subclassification*
-* MW chapter 12
-* Guo & Fraser (2015), *Propensity Score Analysis: Statistical Methods and Applications, 2e*
+* :star: MM chapter 2 (especially pp. 47-59)
+* :star: MIX, *Matching and Subclassification*
+* :star: MW chapter 12
+* :star: Guo & Fraser (2015), *Propensity Score Analysis: Statistical Methods and Applications, 2e*
 * HK chapter 14
 * Caliendo, M., & Kopeinig, S. (2008). Some Practical Guidance for the Implementation of Propensity Score Matching. *Journal of Economic Surveys*, 22(1), 31–72. https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-6419.2007.00527.x
 * Imbens, G. W. (2015). Matching Methods in Practice: Three Examples. *Journal of Human Resources*, 50(2), 373–419. https://doi.org/10.3368/jhr.50.2.373 
