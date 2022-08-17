@@ -25,3 +25,5 @@
 * MM chapters 1-2 (and appendix)
 * MHE chapters 1-3
 * MIX, *Introduction* and *Probability and Regression Review* (especially pp. 36-93)
+* HK chapters 10 and 13
+* C&T chapters 3 and 5
