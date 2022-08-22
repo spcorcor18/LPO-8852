@@ -14,6 +14,8 @@ Chu, Y-W. L., & Cuffe, H. E. (2021). Do Academically Struggling Students Benefit
 
 Cohodes, S. R. (2020). The Long-Run Impacts of Specialized Programming for High-Achieving Students. *American Economic Journal: Economic Policy,* 12(1): 127-166. https://doi.org/10.1257/pol.20180315 
 
+Connolly, M., & Haeck, C. (2022). Nonlinear Class Size Effects on Cognitive and Noncognitive Development of Young Children. *Journal of Labor Economics*, 40(S1), S341-S382. https://doi.org/10.1086/718328 
+
 Cook, P. J., & Kang, S. (2016). Birthdays, Schooling, and Crime: Regression-Discontinuity Analysis of School Performance, Delinquency, Dropout, and Crime Initiation. *American Economic Journal: Applied Economics,* 8(1), 33–57. http://www.aeaweb.org/articles.php?doi=10.1257/app.20140323
 
 Dee, T. S., & Wyckoff, J. (2015). Incentives, Selection, and Teacher Performance: Evidence from IMPACT. *Journal of Policy Analysis and Management*, 34(2), 267–297. https://doi.org/10.1002/pam.21818
@@ -29,6 +31,8 @@ Kane, T. J., Boatman, A., Kozakowski, W., Bennett, C., Hitch, R., & Weisenfeld, 
 Ost, B., Pan, W., & Webber, D. (2018). The Returns to College Persistence for Marginal Students: Regression Discontinuity Evidence from University Dismissal Policies. *Journal of Labor Economics*, 36(3), 779–805. https://doi.org/10.1086/696204
 
 Malamud, O., & Pop-Eleches, C. (2011). Home Computer Use and the Development of Human Capital. *The Quarterly Journal of Economics*, 126(2), 987–1027. https://doi.org/10.1093/qje/qjr008
+
+Papay, J. P., Mantil, A., & Murnane, R. J. (2022). On the Threshold: Impacts of Barely Passing High-School Exit Exams on Post-Secondary Enrollment and Completion. *Educational Evaluation and Policy Analysis*, 01623737221090258. https://doi.org/10.3102/01623737221090258 
 
 Pop-Eleches, C., & Urquiola, M. (2013). Going to a Better School: Effects and Behavioral Responses. *American Economic Review*, 103(4), 1289–1324. http://www.aeaweb.org/articles.php?doi=10.1257/aer.103.4.1289
 
@@ -50,11 +54,15 @@ Calonico, S., Cattaneo, M. D., Farrell, M. H., & Titiunik, R. (2018). Regression
 
 Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2017). Comparing Inference Approaches for RD Designs: A Reexamination of the Effect of Head Start on Child Mortality. *Journal of Policy Analysis and Management*, 36(3), 643-681. https://doi.org/10.1002/pam.21985
 
+Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2020). Analysis of regression-discontinuity designs with multiple cutoffs or multiple scores. *The Stata Journal*, 20(4), 866-891. https://doi.org/10.1177/1536867X20976320 
+
 Cook, Thomas D., John Deke, Lisa Dragoset, Sean F. Reardon, Rocio Titiunik, Petra Todd, Wilbert van der Klaauw, and Glenn Wadell. 2015. Preview of Regression Discontinuity Design Standards. What Works Clearinghouse.
 
 DiNardo, J., & Lee, D. S. (2010). Program Evaluation and Research Designs. National Bureau of Economic Research Working Paper Series (Vol. No. 16016). http://www.nber.org/papers/w16016
 
 Gelman, A., & Imbens, G. (2019). Why High-Order Polynomials Should Not Be Used in Regression Discontinuity Designs. *Journal of Business & Economic Statistics*, 37(3), 447-456. https://doi.org/10.1080/07350015.2017.1366909 
+
+Gilraine, M. (2020). A Method for Disentangling Multiple Treatments from a Regression Discontinuity Design. *Journal of Labor Economics*, 38(4), 1267–1311. https://doi.org/10.1086/706740 
 
 Hausman, C., & Rapson, D. S. (2018). Regression Discontinuity in Time: Considerations for Empirical Applications. *Annual Review of Resource Economics*, 10(1), 533–552. https://doi.org/10.1146/annurev-resource-121517-033306
 
@@ -69,6 +77,8 @@ Papay, J. P., Willett, J. B., & Murnane, R. J. (2011). Extending the regression-
 Schochet, P. Z. (2009). Statistical Power for Regression Discontinuity Designs in Education Evaluations. *Journal of Educational and Behavioral Statistics*, 34(2), 238–266. http://www.jstor.org/stable/40263528
 
 Deke, J., & Dragoset, L. (2012). Statistical Power for Regression Discontinuity Designs in Education: Empirical Estimates of Design Effects Relative to Randomized Controlled Trials. https://www.mathematica-mpr.com/download-media?MediaItemId=%7B4D453424-2DC7-4113-BF8F-F1FB98646D66%7D 
+
+Jacob, R. T., Zhu, P., Somers, M.-A., & Bloom, H. (2012). A Practical Guide to Regression Discontinuity. https://www.mdrc.org/publication/practical-guide-regression-discontinuity
 
 WWC Standards for RD Analysis (2015) https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_rdd_standards_122315.pdf
 

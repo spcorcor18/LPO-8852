@@ -8,6 +8,7 @@ Dobbie, W., & Fryer, R. G. (2011). Are High-Quality Schools Enough to Increase A
 
 Gurantz, O., Pender, M., Mabel, Z., Larson, C., & Bettinger, E. (2020, 2020/04/01/). Virtual advising for high-achieving high school students. *Economics of Education Review*, 75, 101974. https://doi.org/https://doi.org/10.1016/j.econedurev.2020.101974 
 
+Guryan, J., Ludwig, J., Bhatt, M. P., Cook, P. J., Davis, J. M. V., Dodge, K., Farkas, G., Fryer, R. G., Jr., Mayer, S., Pollack, H., & Steinberg, L. (2021). Not Too Late: Improving Academic Outcomes Among Adolescents. National Bureau of Economic Research Working Paper Series, No. 28531. https://doi.org/10.3386/w28531 
 
 ## Applications: instrumental variables
 
@@ -21,6 +22,8 @@ Barrow, L., Schanzenbach, D. W., & Claessens, A. (2015). The impact of Chicago's
 
 Bettinger, E. P., Fox, L., Loeb, S., & Taylor, E. S. (2017). Virtual Classrooms: How Online College Courses Affect Student Success. *American Economic Review*, 107(9), 2855--2875. http://www.aeaweb.org/articles?id=10.1257/aer.20151193 
 
+Buckles, K., Evans, W. N., & Lieber, E. M. J. (2020). The Drug Crisis and the Living Arrangements of Children. National Bureau of Economic Research Working Paper Series, No. 27633. https://doi.org/10.3386/w27633 
+
 Card, D. (1993). Using Geographic Variation in College Proximity to Estimate the Return to Schooling. National Bureau of Economic Research Working Paper Series, No. 4483. http://www.nber.org/papers/w4483 
 
 Gentzkow, M., & Shapiro, J. M. (2008). Preschool Television Viewing and Adolescent Test Scores: Historical Evidence from the Coleman Study. *The Quarterly Journal of Economics*, 123(1), 279-323. https://doi.org/10.1162/qjec.2008.123.1.279 
@@ -29,7 +32,11 @@ Imberman, S. A. (2011). The effect of charter schools on achievement and behavio
 
 Jackson, C. K., Johnson, R. C., & Persico, C. (2016). The Effects of School Spending on Educational and Economic Outcomes: Evidence from School Finance Reforms. *Quarterly Journal of Economics*, 131, 157--218. https://academic.oup.com/qje/article-abstract/131/1/157/2461148?papetoc 
 
+Jackson, C. K., Wigger, C., & Xiong, H. (2021). Do School Spending Cuts Matter? Evidence from the Great Recession. *American Economic Journal: Economic Policy*, 13(2), 304-335. https://doi.org/10.1257/pol.20180674 
+
 Kearney, M. S., & Levine, P. B. (2015). Media Influences on Social Outcomes: The Impact of MTV's 16 and Pregnant on Teen Childbearing. *American Economic Review*, 105(12), 3597--3632. http://www.aeaweb.org/articles.php?doi=10.1257/aer.20140012 
+
+Mountjoy, J. (2022). Community Colleges and Upward Mobility. *American Economic Review*, 112(8), 2580-2630. https://doi.org/10.1257/aer.20181756  
 
 Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Expansion on Teacher and Student Composition at Traditional Public Schools. *Economics of Education Review*, 82, 102095. https://doi.org/https://doi.org/10.1016/j.econedurev.2021.102095 
 
@@ -69,8 +76,11 @@ Fan, E., Liu, J.-T., & Chen, Y.-C. (2017). Is the Quarter of Birth Endogenous? N
 
 Mellon, J. (2020). Rain, Rain, Go away: 137 potential exclusion-restriction violations for studies using weather as an instrumental variable. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610
 
+## Instrumental variables: other methodological papers
 
+Black, D. A., Joo, J., LaLonde, R., Smith, J. A., & Taylor, E. J. (2022). Simple Tests for Selection: Learning More from Instrumental Variables. National Bureau of Economic Research Working Paper Series, No. 30291. https://doi.org/10.3386/w30291 
 
+Blandhol, C., Bonney, J., Mogstad, M., & Torgovitsky, A. (2022). When is TSLS Actually LATE? National Bureau of Economic Research Working Paper Series, No. 29709. https://doi.org/10.3386/w29709 
 
 
 
