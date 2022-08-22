@@ -29,4 +29,4 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 
 ## Example studies:
 
-[List of example studies and other RD references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%2011%20-%20Regression%20discontinuity/Example%20studies%20-%20RDD.md)
+[List of example studies and other RD references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%206%20-%20Regression%20discontinuity/Example%20studies%20-%20RDD.md)
