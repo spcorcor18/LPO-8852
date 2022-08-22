@@ -1,7 +1,10 @@
 # LPO-8852: Regression II (Corcoran)
 
-## :star: Announcements (Fall 2021)
+## :star: Announcements (Fall 2022)
 
-1. Thanks for a great semester!
-2. FYI: the Libraries' Digital Scholarship and Communications (DiSC) Office will be offering several series of free workshops and lessons to help you build your technical skills. There are beginner lessons in R using RStudio and Python using Jupyter notebooks. There is also an intermediate lesson series on data visualization using R and ggplot. For those interested in GitHub, there is a hands-on series on building a free website using the GitHub Pages system. A workshop series on a variety of topics related to GIS will also be offered, including introductions to both the ArcGIS and open-source QGIS systems. For more information including dates and registration information, visit the DiSC workshops page at https://www.library.vanderbilt.edu/disc/workshops/ .
+1. Class begins on *Thursday August 25 from 2:35-3:50 pm* in Payne Hall 109.
+2. The Fall 2022 syllabus is now available in the "syllabi" folder.
+3. Use Calendly to schedule a 15 or 30 minute visit during office hours (Th 9-11 am): https://calendly.com/sean-p-corcoran
+4. For more information on using Github in this course, see https://github.com/spcorcor18/LPO-8852/blob/main/using%20github.md
+5. FYI: the Libraries' Digital Scholarship and Communications (DiSC) Office will offers free workshops and lessons to help you build your technical skills. There are introductions to R, Python, GIS, Github, and more. For more information including dates and registration information, visit the DiSC workshops page at https://www.library.vanderbilt.edu/disc/workshops/.
 
