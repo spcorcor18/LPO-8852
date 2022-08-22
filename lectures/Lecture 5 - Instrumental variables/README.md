@@ -36,5 +36,8 @@
 * Angrist, J. D., Imbens, G. W., & Rubin, D. B. (1996). Identification of Causal Effects Using Instrumental Variables. Journal of the American Statistical Association, 91, 444--455. http://links.jstor.org/sici?sici=0162-1459(199606)91:434%3C444:IOCEUI%3E2.0.CO;2-O 
 * Bacher-Hicks, A., & Goodman, J. (2021). The Covid-19 Pandemic Is a Lousy Natural Experiment for Studying the Effects of Online Learning. *Education Next*, 21(4). https://www.educationnext.org/covid-19-pandemic-lousy-natural-experiment-for-studying-the-effects-online-learning/ 
 
+## Example studies:
+
+[List of example studies and other IV references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%205%20-%20Instrumental%20variables/Example%20studies%20-%20IV.md)
 
 

@@ -35,3 +35,6 @@
 
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
 
+## Example studies:
+
+[List of example studies and other difference-in-differences references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%203%20-%20Difference-in-differences/Example%20studies%20-%20diff%20in%20diff.md)

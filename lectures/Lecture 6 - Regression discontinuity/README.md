@@ -23,7 +23,7 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 * Lee, D. S., & Lemieux, T. (2010). Regression Discontinuity Designs in Economics. *Journal of Economic Literature*, 48(2), 281-355. https://doi.org/10.1257/jel.48.2.281 
 * What Works Clearinghouse Standards Handbook Version 4.1. (2020), https://ies.ed.gov/ncee/wwc/Docs/referenceresources/WWC-Standards-Handbook-v4-1-508.pdf (section III on RD)
 
-## Other references
+## Other references:
 
 * [rd packages](https://rdpackages.github.io/): Calonico et al. RDD resources for Stata.
 

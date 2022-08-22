@@ -9,10 +9,6 @@
 * Matching methods: exact matching, approximate matching (e.g., nearest neighbor)
 * The propensity score: use in weighting and matching
 
-## Other resources
-
-[U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
-
 ## Video resources
 
 [Stata introduction to teffects Part 1](https://www.youtube.com/watch?v=p578jxAPJT4) - uses birthweight and smoking example
@@ -45,3 +41,9 @@
 * Morgan, S. L., & Harding, D. J. (2006). Matching Estimators of Causal Effects: Prospects and Pitfalls in Theory and Practice. *Sociological Methods & Research*, 35(1), 3–60. https://doi.org/10.1177/0049124106289164
 
 ## Other references:
+
+* [U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
+
+## Example studies:
+
+[List of example studies and other matching references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%202%20-%20Matching%20estimators/Example%20studies%20-%20matching.md)

@@ -23,3 +23,8 @@
 * Raudenbush, S. W. (2009). Adaptive Centering with Random Effects: An Alternative to the Fixed Effects Model for Studying Time-Varying Treatments in School Settings. *Education Finance and Policy*, 4(4), 468--491. https://doi.org/10.1162/edfp.2009.4.4.468
 
 ## Other references:
+
+## Example studies:
+
+[List of example studies and other panel data references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%204%20-%20Panel%20data/Example%20studies%20-%20panel%20data.md)
+
