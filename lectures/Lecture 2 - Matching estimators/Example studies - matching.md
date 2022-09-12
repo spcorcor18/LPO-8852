@@ -8,6 +8,8 @@ Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs
 
 ## Applying matching to experimental data
 
+Fortson, K., Gleason, P., Kopa, E., & Verbitsky-Savitz, N. (2015). Horseshoes, hand grenades, and treatment effects? Reassessing whether nonexperimental estimators are biased. *Economics of Education Review*, 44(0), 100--113. http://dx.doi.org/10.1016/j.econedurev.2014.11.001
+
 Wilde, E. T., & Hollister, R. (2007). How Close is Close Enough? Evaluating Propensity Score Matching Using Data from a Class Size Reduction Experiment. *Journal of Policy
 Analysis and Management*, 26(3), 455–477. https://doi.org/10.1002/pam.20262
 
