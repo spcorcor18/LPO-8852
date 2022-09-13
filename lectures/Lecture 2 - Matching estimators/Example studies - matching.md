@@ -25,3 +25,4 @@ Iacus, S. M., King, G., & Porro, G. (2012). Causal Inference without Balance Che
 
 King, G., & Nielsen, R. (2019). Why Propensity Scores Should Not Be Used for Matching. *Political Analysis*, 27(4), 435-454. https://www.cambridge.org/core/article/why-propensity-scores-should-not-be-used-for-matching/94DDE7ED8E2A796B693096EB714BE68B
 
+Kush, J. M., Pas, E. T., Musci, R. J., & Bradshaw, C. P. (2022). Covariate Balance for Observational Effectiveness Studies: A Comparison of Matching and Weighting. *Journal Of Research on Educational Effectiveness*, 1-24. https://doi.org/10.1080/19345747.2022.2110545
