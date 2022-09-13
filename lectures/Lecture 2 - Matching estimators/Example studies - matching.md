@@ -2,6 +2,8 @@
 
 ## Applications: matching methods
 
+Hill, C. J., Gormley, W. T., & Adelstein, S. (2015). Do the short-term effects of a high-quality preschool program persist? *Early Childhood Research Quarterly*, 32, 60-79. https://doi.org/10.1016/j.ecresq.2014.12.005
+
 ## Applications: inverse probability weighting
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
