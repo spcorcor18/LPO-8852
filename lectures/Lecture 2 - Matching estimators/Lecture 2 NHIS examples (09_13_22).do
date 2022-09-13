@@ -1,10 +1,13 @@
 
 // Lecture 2 - exmaples of matching and weighting syntax
-// Last updated: 9/7/22
+// Last updated: 9/13/22
 
 // Source: subsample of National Household Interview Survey data used in 
 // Angrist & Pischke Mastering Metrics chapter 1
 
+// ***************************************************************************
+// Data set up
+// ***************************************************************************
 clear all
 cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 2 - Matching estimators"
 
@@ -38,16 +41,20 @@ program setup
 
 setup
 	
-	
+// ***************************************************************************
+// Matching examples
+// ***************************************************************************
+
 // Exact matching based on educnew
-teffects nnmatch (health) (uninsured), ematch(educnew) atet
+teffects nnmatch (health) (treat), ematch(educnew) atet
 
 // Attempted exact matching based on age (doesn't work--some nonoverlap)
-teffects nnmatch (health) (uninsured), ematch(age) atet osample(unmatch)
+// The option osample() creates a variable flagging the cases w/o overlap
+teffects nnmatch (health) (treat), ematch(age) atet osample(unmatch)
 drop unmatch
 
 // Nearest neighbor distance matching based on age
-teffects nnmatch (health age) (uninsured), atet
+teffects nnmatch (health age) (treat), atet
 
 // Obs# of nnmatches can depend on sort order. I'm going to fix the sort order
 // by sorting on the unique IDs and creating a "obsno" variable for my reference
@@ -57,11 +64,11 @@ gen obsno=_n
 
 // Same matching based on age, but request 5 nneighbors and variables 
 // indicating obs # of matches
-teffects nnmatch (health age) (uninsured), atet nneighbor(5) gen(nn)
+teffects nnmatch (health age) (treat), atet nneighbor(5) gen(nn)
 
 
 // *************************************************************************
-// Requested 5 neighbors, but gen() yields up to 86 neighbors. Why? Let's 
+// I requested 5 neighbors, but gen() yields up to 86 neighbors. Why? Let's 
 // explore. But first, teffects nnmatch does not create a variable with the
 // # of matches, so we'll create one
 gen nofmatches=0
@@ -95,7 +102,7 @@ drop nn* nofmatches
 // Nearest neighbor match--Mahalanobis with four matching variables. The matching
 // variables are all pretty discrete (even income) so there are still some ties
 // resulting in >5 matches
-teffects nnmatch (health age educrec1 inc famsize) (uninsured), atet nneighbor(5) gen(nn)
+teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5) gen(nn)
 drop nn*
 
 // teffects does not save the distance measure--what if we want it? mahapick
@@ -117,3 +124,42 @@ setup
 ssc install psmatch2
 psmatch2 treat , mahalanobis(age educrec1 inc famsize) neighbor(3)
 drop _*
+
+
+// Nearest neighbor matches using propensity scores
+teffects psmatch (health) (treat age educrec1 inc famsize)
+
+
+// Nearest neighbor matches using propensity scores--keep obs # of matches and
+// use predict command to get propensity scores
+teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
+
+// predicted propensity score
+predict pscore, ps
+
+// predicted potential outcome
+predict pohealth, po
+
+// predicted treatment effect (individual)
+predict tehealth, te
+
+// distance to nearest neighbor(s)
+predict distscore* , distance 
+
+drop nn* pscore pohealth tehealth distscore*
+
+// Alternative command: psmatch2
+psmatch2 treat age educrec1 inc famsize, outcome(health) ate
+
+// Back to teffects nnmatch--and check for balance
+teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5)
+tebalance summarize age educrec1 inc famsize
+
+tebalance box age
+
+// Back to teffets psmatch--and check for balance on pscores
+teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
+teffects overlap
+
+// Inverse probability weighting (IPW)
+teffects ipw (health) (treat age educrec1 inc famsize), atet
