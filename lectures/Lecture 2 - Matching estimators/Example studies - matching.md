@@ -23,5 +23,5 @@ Swain, W. A., Rodriguez, L. A., & Springer, M. G. (2019). Selective retention bo
 
 Iacus, S. M., King, G., & Porro, G. (2012). Causal Inference without Balance Checking: Coarsened Exact Matching. *Political Analysis*, 20(1), 1-24. https://doi.org/10.1093/pan/mpr013 
 
-King, G., & Nielsen, R. (2019). Why Propensity Scores Should Not Be Used for Matching. *Political Analysis*, 27(4), 435-454. doi:10.1017/pan.2019.11
+King, G., & Nielsen, R. (2019). Why Propensity Scores Should Not Be Used for Matching. *Political Analysis*, 27(4), 435-454. https://www.cambridge.org/core/article/why-propensity-scores-should-not-be-used-for-matching/94DDE7ED8E2A796B693096EB714BE68B
 
