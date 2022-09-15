@@ -1,6 +1,8 @@
 
-// Lecture 2 - exmaples of matching and weighting syntax
-// Last updated: 9/13/22
+// ***************************************************************************
+// Lecture 2 - examples of matching and weighting syntax
+// Last updated: 9/15/22
+// ***************************************************************************
 
 // Source: subsample of National Household Interview Survey data used in 
 // Angrist & Pischke Mastering Metrics chapter 1
@@ -9,6 +11,7 @@
 // Data set up
 // ***************************************************************************
 clear all
+// change working directory as needed
 cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 2 - Matching estimators"
 
 program setup
@@ -42,22 +45,28 @@ program setup
 setup
 	
 // ***************************************************************************
-// Matching examples
+// Matching examples--exact matching
 // ***************************************************************************
 
 // Exact matching based on educnew
 teffects nnmatch (health) (treat), ematch(educnew) atet
 
-// Attempted exact matching based on age (doesn't work--some nonoverlap)
+// Attempted exact matching based on age (won't work--there is some nonoverlap)
 // The option osample() creates a variable flagging the cases w/o overlap
 teffects nnmatch (health) (treat), ematch(age) atet osample(unmatch)
 drop unmatch
 
-// Nearest neighbor distance matching based on age
+// ***************************************************************************
+// Matching examples--nearest neighbor (Mahalanobis)
+// ***************************************************************************
+
+// Nearest neighbor distance matching based on age (rather than exact match)
 teffects nnmatch (health age) (treat), atet
 
-// Obs# of nnmatches can depend on sort order. I'm going to fix the sort order
-// by sorting on the unique IDs and creating a "obsno" variable for my reference
+// teffects can save the observation number(s) of nearest neighbors. However,
+// the observation number can depend on sort order. I'm going to fix the sort 
+// order here by sorting on a unique ID and creating a "obsno" variable that 
+// will remain fixed even if sort order changes:
 duplicates report serial pernum
 sort serial pernum
 gen obsno=_n
@@ -68,6 +77,7 @@ teffects nnmatch (health age) (treat), atet nneighbor(5) gen(nn)
 
 
 // *************************************************************************
+// ASIDE (FYI):
 // I requested 5 neighbors, but gen() yields up to 86 neighbors. Why? Let's 
 // explore. But first, teffects nnmatch does not create a variable with the
 // # of matches, so we'll create one
@@ -101,13 +111,17 @@ drop nn* nofmatches
 
 // Nearest neighbor match--Mahalanobis with four matching variables. The matching
 // variables are all pretty discrete (even income) so there are still some ties
-// resulting in >5 matches
+// resulting in >5 matches in some cases
 teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5) gen(nn)
 drop nn*
 
-// teffects does not save the distance measure--what if we want it? mahapick
-// is one use-written command that will find k nearest neighbors using 
-// Mahalanobis and then save results (below example finds 3 nearest)
+// Using predict command after estimation to get distance to nearest neighbors
+teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5) gen(nn)
+predict dist*, distance
+drop nn* dist
+
+// Alternative for Mahalanobis matching: mahapick user-written command--finds
+// k nearest neighbors and then saves results (below example finds 3 nearest)
 ssc install mahapick
 mahapick age educrec1 inc famsize , idvar(obsno) treated(treat) ///
 	nummatches(3) genfile(matches.dta) replace score
@@ -118,6 +132,7 @@ sum _score if _matchnum~=0,detail
 // only matches for the treated
 unique _prime_id
 
+// Start over with clean data
 setup
 
 // Another alternative for Mahalanobis matching: psmatch2
@@ -126,40 +141,69 @@ psmatch2 treat , mahalanobis(age educrec1 inc famsize) neighbor(3)
 drop _*
 
 
+// ***************************************************************************
+// Matching examples--nearest neighbor (propensity scores)
+// ***************************************************************************
+
+// Start with clean data
+setup
+
 // Nearest neighbor matches using propensity scores
 teffects psmatch (health) (treat age educrec1 inc famsize)
 
-
 // Nearest neighbor matches using propensity scores--keep obs # of matches and
-// use predict command to get propensity scores
-teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
+// use predict commands to get propensity scores, potential outcomes, and more
+// NOTE: I am using quietly prefix to suppress the output of teffects. It is
+// good practice not to see TE estimates until after all decisions are made 
+// regarding matching
+quietly: teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
 
 // predicted propensity score
 predict pscore, ps
 
-// predicted potential outcome
-predict pohealth, po
+// predicted potential outcomes (two variables: untreated state, treated state)
+predict pohealthu pohealtht, po
 
-// predicted treatment effect (individual)
+// predicted treatment effect (individual)--based on potential outcomes
 predict tehealth, te
 
 // distance to nearest neighbor(s)
 predict distscore* , distance 
 
-drop nn* pscore pohealth tehealth distscore*
+drop nn* pscore pohealth* tehealth distscore*
 
 // Alternative command: psmatch2
 psmatch2 treat age educrec1 inc famsize, outcome(health) ate
 
+
+// ***************************************************************************
+// Checking for balance on matching variables, propensity scores
+// ***************************************************************************
+
+// Start with clean data
+setup
+
 // Back to teffects nnmatch--and check for balance
-teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5)
+quietly: teffects nnmatch (health age educrec1 inc famsize) (treat), atet nneighbor(5)
 tebalance summarize age educrec1 inc famsize
 
 tebalance box age
 
-// Back to teffets psmatch--and check for balance on pscores
+tebalance density age
+
+// Back to teffects psmatch--and check for balance on pscores
 teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
-teffects overlap
+
+// teffect overlap will show the distributions of estimated propensity scores
+// for the full sample. Need to tell Stata which value of the treatment variable
+// you're interested in see the propensity for (i.e., value of treat=1), else
+// it uses the first value (0 here)
+teffects overlap, ptlevel(1)
+
+
+// ***************************************************************************
+// Inverse probability weighting examples
+// ***************************************************************************
 
 // Inverse probability weighting (IPW)
 teffects ipw (health) (treat age educrec1 inc famsize), atet
