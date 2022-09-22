@@ -1,8 +1,8 @@
 
-// Lecture 5 in-class exercise
-// Last updated: September 30, 2021
+// Lecture 3 in-class exercise
+// Last updated: September 22, 2022
 
-cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 5 - diff in diff\In-class exercise"
+cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 3 - Difference-in-differences"
 * ssc install outreg2
 * ssc install statastates
 
@@ -20,7 +20,7 @@ tabulate yearsr offer
 tabulate yearsr fatherdec
 
 // #2
-// First difference
+// "First difference"
 reg coll offer if fatherdec==1 [weight=wt88]
 reg hgc23 offer if fatherdec==1 [weight=wt88]
 
@@ -126,6 +126,7 @@ keep if dtype==2 & (agegr==2 | agegr==3) & year<1984
 duplicates report state year
 
 reg mrate c.legal1820##ib3.agegr i.state#i.agegr i.year##i.agegr 
+
 
 // #BONUS
 // state-specific time trend
