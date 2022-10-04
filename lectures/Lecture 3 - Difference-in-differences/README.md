@@ -34,6 +34,7 @@
 ## Other references:
 
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
+* World Bank [post](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend?cid=SHR_BlogSiteShare_EN_EXT) on the new literature re: parallel trends testing
 
 ## Example studies:
 
