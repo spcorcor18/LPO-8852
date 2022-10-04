@@ -1,10 +1,14 @@
 # Example studies - difference-in-differences
 
+## Applications: simple event studies
+
+:star: Bacher-Hicks, A., Goodman, J., Green, J. G., & Holt, M. K. (2022). The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying. *American Economic Review: Insights*, 4(3), 353-370. https://www.aeaweb.org/articles?id=10.1257/aeri.20210456
+
+:star: Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
+
 ## Applications: difference-in-differences in education
 
 Bacher-Hicks, A., Goodman, J., & Mulhern, C. (2021). Inequality in household adaptation to schooling shocks: Covid-induced online learning engagement in real time. *Journal of Public Economics*, 193, 104345. https://doi.org/https://doi.org/10.1016/j.jpubeco.2020.104345 
-
-:star: Bacher-Hicks, A., Goodman, J., Green, J. G., & Holt, M. K. (2022). The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying. *American Economic Review: Insights*, 4(3), 353-370. https://www.aeaweb.org/articles?id=10.1257/aeri.20210456
 
 Bailey, M. J., Sun, S., & Timpe, B. (2021). Prep School for Poor Kids: The Long-Run Impacts of Head Start on Human Capital and Economic Self-Sufficiency. *American Economic Review*, 111(12), 3963-4001. https://doi.org/10.1257/aer.20181801 
 
@@ -24,10 +28,7 @@ Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or 
 
 Rothstein, J., & Schanzenbach, D. W. (2021). Does Money Still Matter? Attainment and Earnings Effects of Post-1990 School Finance Reforms. National Bureau of Economic Research Working Paper Series, No. 29177. doi:10.3386/w29177
 
-
 ## Applications: difference-in-differences in health policy
-
-:star: Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
 
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
