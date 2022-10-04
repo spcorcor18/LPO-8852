@@ -4,6 +4,8 @@
 
 Bacher-Hicks, A., Goodman, J., & Mulhern, C. (2021). Inequality in household adaptation to schooling shocks: Covid-induced online learning engagement in real time. *Journal of Public Economics*, 193, 104345. https://doi.org/https://doi.org/10.1016/j.jpubeco.2020.104345 
 
+:star: Bacher-Hicks, A., Goodman, J., Green, J. G., & Holt, M. K. (2022). The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying. American Economic Review: Insights, 4(3), 353-370. https://www.aeaweb.org/articles?id=10.1257/aeri.20210456
+
 Bailey, M. J., Sun, S., & Timpe, B. (2021). Prep School for Poor Kids: The Long-Run Impacts of Head Start on Human Capital and Economic Self-Sufficiency. *American Economic Review*, 111(12), 3963-4001. https://doi.org/10.1257/aer.20181801 
 
 Ballis, B., & Heath, K. (2021). The Long-Run Impacts of Special Education. *American Economic Journal: Economic Policy*, 13(4), 72-111. https://doi.org/10.1257/pol.20190603 
