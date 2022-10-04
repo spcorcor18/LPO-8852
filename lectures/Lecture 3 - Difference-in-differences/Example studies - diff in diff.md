@@ -25,7 +25,7 @@ Rothstein, J., & Schanzenbach, D. W. (2021). Does Money Still Matter? Attainment
 
 ## Applications: difference-in-differences in health policy
 
-Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
+:star: Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
 
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
@@ -35,19 +35,19 @@ Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Differ
 
 ## Applications: triple difference
 
-Bravata, D., Cantor, J. H., Sood, N., & Whaley, C. M. (2021). Back to School: The Effect of School Visits During COVID-19 on COVID-19 Transmission. National Bureau of Economic Research Working Paper Series, No. 28645. https://www.nber.org/system/files/working_papers/w28645/w28645.pdf
+:star: Bravata, D., Cantor, J. H., Sood, N., & Whaley, C. M. (2021). Back to School: The Effect of School Visits During COVID-19 on COVID-19 Transmission. National Bureau of Economic Research Working Paper Series, No. 28645. https://www.nber.org/system/files/working_papers/w28645/w28645.pdf
 
-Monarrez, T., Kisida, B., & Chingos, M. M. (forthcoming). The Effect of Charter Schools on School Segregation. American Economic Journal: Economic Policy. https://www.edworkingpapers.com/ai20-308
+:star: Monarrez, T., Kisida, B., & Chingos, M. M. (forthcoming). The Effect of Charter Schools on School Segregation. American Economic Journal: Economic Policy. https://www.edworkingpapers.com/ai20-308
 
 ## Difference-in-differences: methodological papers
 
 Athey, S., & Imbens, G. W. (2022). Design-based analysis in Difference-In-Differences settings with staggered adoption. *Journal of Econometrics*, 226(1), 62-79. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.10.012 
 
-Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-Differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.12.001 
+:star: Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-Differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.12.001 
 
 de Chaisemartin, C., & D'Haultfœuille, X. (2018). Fuzzy Differences-in-Differences. *The Review of Economic Studies*, 85(2), 999--1028. http://dx.doi.org/10.1093/restud/rdx049 
 
-de Chaisemartin, C., & D’Haultfœuille, X. (2022). Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey. *The Econometrics Journal*. https://doi.org/10.1093/ectj/utac017 
+:star: de Chaisemartin, C., & D’Haultfœuille, X. (2022). Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey. *The Econometrics Journal*. https://doi.org/10.1093/ectj/utac017 
 
 de Chaisemartin, C., D’Haultfœuille, X., & Guyonvarch, Y. (2019). Fuzzy differences-in-differences with Stata. *The Stata Journal*, 19(2), 435-458. https://doi.org/10.1177/1536867X19854019 
 
