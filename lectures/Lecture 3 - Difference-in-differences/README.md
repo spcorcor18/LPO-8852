@@ -35,6 +35,7 @@
 
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
 * Stata [user-created commands](https://asjadnaqvi.github.io/DiD/docs/01_stata/) for difference-in-difference methods
+* [Difference-in-differences repository](https://asjadnaqvi.github.io/DiD/) (Asjad Naqvi)
 * World Bank [post](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend?cid=SHR_BlogSiteShare_EN_EXT) on the new literature re: parallel trends testing
 
 ## Example studies:
