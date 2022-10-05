@@ -28,19 +28,21 @@ Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or 
 
 Rothstein, J., & Schanzenbach, D. W. (2021). Does Money Still Matter? Attainment and Earnings Effects of Post-1990 School Finance Reforms. National Bureau of Economic Research Working Paper Series, No. 29177. doi:10.3386/w29177
 
+
 ## Applications: difference-in-differences in health policy
 
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
-Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. Annual Review of Public Health, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
+Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
+
 
 ## Applications: triple difference
 
 :star: Bravata, D., Cantor, J. H., Sood, N., & Whaley, C. M. (2021). Back to School: The Effect of School Visits During COVID-19 on COVID-19 Transmission. National Bureau of Economic Research Working Paper Series, No. 28645. https://www.nber.org/system/files/working_papers/w28645/w28645.pdf
 
-:star: Monarrez, T., Kisida, B., & Chingos, M. M. (2022). The Effect of Charter Schools on School Segregation. American Economic Journal: Economic Policy. https://www.aeaweb.org/articles?id=10.1257/pol.20190682
+:star: Monarrez, T., Kisida, B., & Chingos, M. M. (2022). The Effect of Charter Schools on School Segregation. *American Economic Journal: Economic Policy*, 14(1), 301-340. https://www.aeaweb.org/articles?id=10.1257/pol.20190682
 * for a readable summary of this paper, see [EdNext 2021](https://www.educationnext.org/do-charter-schools-increase-segregation-first-national-analysis-reveals-modest-impact/)
 
 ## Difference-in-differences: methodological papers
