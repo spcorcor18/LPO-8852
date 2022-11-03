@@ -1,13 +1,13 @@
 
-// Lecture 9 in-class exercise
+// Lecture 5 in-class examples
 // Instrumental variables
 
-// Last updated: 11/3/21
+// Last updated: 11/3/22
 
-cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 9 - IV\In-class exercise"
+cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 9 - IV\In-class Example"
 
 // ************
-// Exercise 1
+// Example 1
 // ************
 
 // *****
@@ -105,7 +105,7 @@ ivregress liml lwage $covars (educ = nearc4 nearc2)
 
 
 // ************
-// Exercise 2
+// Example 2
 // ************
 // y depends on x and an omitted variable w
 // x depends on z and the omitted variable w
