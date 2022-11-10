@@ -64,6 +64,8 @@ Johnson, R. C., & Tanner, S. (2018). Money and Freedom: The Impact of California
 
 Andrews, I., Stock, J. H., & Sun, L. (2019, 2019/08/02). Weak Instruments in Instrumental Variables Regression: Theory and Practice. *Annual Review of Economics*, 11(1), 727-753. https://doi.org/10.1146/annurev-economics-080218-025643 
 
+Lee, David S., Justin McCrary, Marcelo J. Moreira, and Jack Porter. (2022). Valid t-Ratio Inference for IV. *American Economic Review*, 112 (10): 3260-90. https://www.aeaweb.org/articles?id=10.1257/aer.20211063
+
 Murray, M. P. (2006). Avoiding Invalid Instruments and Coping with Weak Instruments. *Journal of Economic Perspectives*, 20(4), 111--132. https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.20.4.111 
 
 ## Concerns with instrumental variables applications
