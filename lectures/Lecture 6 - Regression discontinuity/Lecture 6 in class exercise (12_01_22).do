@@ -1,5 +1,5 @@
 
-// Lecture 11 in-class exercise (RD)
+// Lecture 6 in-class exercise (RD)
 // Last updated: November 12, 2019
 
 
