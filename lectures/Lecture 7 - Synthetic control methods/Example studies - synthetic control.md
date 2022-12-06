@@ -4,6 +4,8 @@
 
 Akhtari, M., Bau, N., & Laliberté, J.-W. P. (2020). Affirmative Action and Pre-College Human Capital. National Bureau of Economic Research Working Paper Series, No. 27779. https://doi.org/10.3386/w27779 
 
+Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Evaluate the Effect of Unique Interventions: The Case of Say Yes to Education. *Evaluation Review*, 41(6), 593-619. https://journals.sagepub.com/doi/epub/10.1177/0193841X17742233
+
 Chan, M., Mabel, Z., & Mbekeani, P. P. (2020). Incentivizing Equity? The Effects of Performance-Based Funding on Race-Based Gaps in College Completion. EdWorkingPapers.com. https://doi.org/10.26300/g53d-5105 
 
 
