@@ -13,6 +13,7 @@
 
 ## Other references:
 
+* About the `synth_runner` package in Stata. https://journals.sagepub.com/doi/pdf/10.1177/1536867X1801700404
 * About the `allsynth` package in Stata: added functionality to `synth` command. https://www.stata.com/meeting/us21/slides/US21_Wiltshire.pdf
 
 ## Example studies:
