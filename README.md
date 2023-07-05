@@ -1,6 +1,7 @@
 # LPO-8852: Regression II (Corcoran)
 
 ## :star: Announcements (Fall 2023)
+[//]: # Note the star above is an emoji valid in markdown (not html)
 
 1. Class begins on *Thursday August 24 from 2:35-3:50 pm* in Room TBD. Check YES for the latest information on class location.
 2. The Fall 2022 syllabus is available in the "syllabi" folder. Fall 2023 revision will be coming soon.
