@@ -1,6 +1,6 @@
 # LPO-8852: Regression II (Corcoran)
 
-## :star: Announcements (Fall 2023)
+## :star: Announcements (Fall 2023) <span>&#11088;</span>
 [//]: # (Note the star above is an emoji valid in markdown not html)
 
 1. Class begins on *Thursday August 24 from 2:35-3:50 pm* in Room TBD. Check YES for the latest information on class location.
