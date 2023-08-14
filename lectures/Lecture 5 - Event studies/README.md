@@ -9,7 +9,7 @@
 ## Video resources:
 
 
-## Other references:
+## Other resources:
 
 
 ## Example studies:

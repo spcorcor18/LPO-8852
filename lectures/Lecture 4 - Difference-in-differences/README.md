@@ -5,7 +5,7 @@
 * :star: [MIX](https://mixtape.scunning.com/), *Difference-in-Differences*
 * :star: MM chapter 5, *Differences-in-Differences*
 * :star: Roth, J., Sant'Anna, P. H. C., Bilinski, A., & Poe, J. (2023). What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature. *Journal of Econometrics*, 235(2), 2218-2244. https://doi.org/10.1016/j.jeconom.2023.03.008
-* [HK](https://theeffectbook.net/) chapter 18, *Difference-in_Differences*
+* [HK](https://theeffectbook.net/) chapter 18, *Difference-in-Differences*
 * [G&T](https://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-1497-6?chapterTab=true) chapters 11-12
 * MHE chapter 5
 * MW chapter 12
@@ -23,7 +23,7 @@
 [Andrew Baker video on difference-in-differences, and recent developments](https://www.youtube.com/watch?v=mCOzQxJuvZk) - covers the recent work by Goodman-Bacon and others.
 
 
-## Other references:
+## Other resources:
 
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
 * Stata [user-created commands](https://asjadnaqvi.github.io/DiD/docs/01_stata/) for difference-in-difference methods (Asjad Naqvi)

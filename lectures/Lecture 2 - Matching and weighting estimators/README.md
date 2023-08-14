@@ -34,7 +34,7 @@
 [Logic of inverse probability weighting](https://www.youtube.com/watch?v=VJhLaOdpUv0) - from UPenn
 
 
-## Other references:
+## Other resources:
 
 * [U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
 

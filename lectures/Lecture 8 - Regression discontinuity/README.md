@@ -3,14 +3,6 @@
 
 ## Syllabus readings:
 
-* , *Matching and Subclassification*
-* :star: [HK](https://theeffectbook.net/) chapter 14, *Matching*
-* :star: MM chapter 2, *Regression* (especially pp. 47-59)
-* :star: Guo & Fraser (2015), *Propensity Score Analysis: Statistical Methods and Applications, 2e*
-* MW chapter 12
-
-
-
 * :star: MM chapter 4, *Regression Discontinuity Designs*
 * :star: [MIX](https://mixtape.scunning.com/), *Regression Discontinuity*
 * :star: Bloom, H. S. (2012). Modern Regression Discontinuity Analysis. *Journal Of Research on Educational Effectiveness*, 5(1), 43--82. https://doi.org/10.1080/19345747.2011.578707

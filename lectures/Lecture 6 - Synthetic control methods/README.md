@@ -10,7 +10,7 @@
 * Jens Hainmueller video introduction to synthetic control methods and the Stata `synth` command. https://web.stanford.edu/~jhain/Video/SynthDemo.mp4
 
 
-## Other references:
+## Other resources:
 
 * About the `synth_runner` package in Stata. https://journals.sagepub.com/doi/pdf/10.1177/1536867X1801700404
 * About the `allsynth` package in Stata: added functionality to `synth` command. https://www.stata.com/meeting/us21/slides/US21_Wiltshire.pdf
