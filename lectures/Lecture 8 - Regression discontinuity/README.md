@@ -20,7 +20,7 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 ## Video resources:
 
 
-## Other references:
+## Other resources:
 
 * [rd packages](https://rdpackages.github.io/): Calonico et al. RDD resources for Stata (w/replication files). Includes rdrobust, rdlocrand, rddensity, rdmulti, and rdpower.
 * [RD bandwidth app](https://mixtape.shinyapps.io/RD-Bandwidth/): Cool Shiny app showing effect of bandwidth, polynomial order, etc., by S. Cunningham.
