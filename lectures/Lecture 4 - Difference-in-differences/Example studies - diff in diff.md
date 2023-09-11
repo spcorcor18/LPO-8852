@@ -31,6 +31,8 @@ Rothstein, J., & Schanzenbach, D. W. (2021). Does Money Still Matter? Attainment
 
 ## Applications: difference-in-differences in health policy
 
+Churchill, B. F. (2023). State-mandated school-based BMI assessments and self-reported adolescent health behaviors. Journal of Policy Analysis and Management. https://doi.org/10.1002/pam.22523
+
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
