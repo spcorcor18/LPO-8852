@@ -193,12 +193,15 @@ tebalance density age
 
 // Back to teffects psmatch--and check for balance on pscores
 teffects psmatch (health) (treat age educrec1 inc famsize), gen(nn)
+predict pscore, ps tlevel(1)
 
 // teffect overlap will show the distributions of estimated propensity scores
 // for the full sample. Need to tell Stata which value of the treatment variable
 // you're interested in see the propensity for (i.e., value of treat=1), else
 // it uses the first value (0 here)
 teffects overlap, ptlevel(1)
+
+
 
 
 // ***************************************************************************
