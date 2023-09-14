@@ -1,5 +1,5 @@
 
-// Lecture 2 in-class example 1
+// Lecture 2 in-class example 2.1
 // Exact and nearest neighbor matching examples with simulated data and teffects
 
 // *************************************************************************
@@ -62,12 +62,13 @@
 	tebalance summarize
 
 	// Show how to store the observation number of exact matches on age. em* is
-	// the stub for the new variables containing the exact matches.
+	// the stub for the new variables that will contain the exact matches.
 	// Note: when exact matching, the default is to use ALL exact matches.
 	// Note: because sort order may change, when storing observation numbers
 	// it is useful to capture the current order of observations as a variable.
 	gen obsno = _n
-	teffects nnmatch (y age) (treat), ematch(age) ate dmvariables gen(em)
+	teffects nnmatch (y age educ) (treat), ematch(age educ) atet vce(iid) dmvariables gen(em)
+	desc em*	
 	drop em*
 	
 	// Before doing nearest neighbor examples, drop some observations so that
@@ -105,17 +106,20 @@
 	drop em* di*
 
 	// With and without bias adjustment (Abadie and Imbens, 2011)
+	// Note: the biasadj should be used if you use 2 or more continuous variables
+	// for matching. Here we are just using one (age).
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid)
 	tebalance summarize
-	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid) biasadj(age educ)
+	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid) biasadj(age)
 
 	// Predicting "potential outcomes" and individual "treatment effects"
-	// Note: requires store observation number of nearest neighbors.
+	// Note: requires storing observation number of nearest neighbors.
 	// First, after requesting ATET - no po1 or te for untreated cases
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid) gen(em*)
 	predict po0, po tlevel(0)
 	predict po1, po tlevel(1)
 	predict te, te
+	// After ATET, potential outcomes are only predicted for the treated cases.
 	list y treat po0 po1 te in 1/5
 	summ te
 	drop em* po* te
@@ -125,10 +129,13 @@
 	predict po0, po tlevel(0)
 	predict po1, po tlevel(1)
 	predict te, te
+	// After ATE, potential outcomes are predicted for both the treated and untreated
 	list y treat po0 po1 te in 1/5
 	summ te
 	drop em* po* te
 
+	
+	
 	// Example of using mahapick to identify nearest neighbor matches (using
 	// Mahalanobis measure) and output those matches to a file. Note: mahapick
 	// is a user-written command, so need to ssc install first
@@ -143,27 +150,3 @@
 	clear
 	use nnmatches
 	
-	
-	
-	// Propensity score matching example -- using earlier data (clear and 
-	// reload this data)
-	sample 150, count
-	
-	teffects psmatch (y) (treat age educ, logit), ate
-	// The following shows the distribution of estimated propensity scores for
-	// the treated and untreated groups. ptlevel(1) tells stata to plot the
-	// propensity to be treated (the default is propensity to be untreated, for
-	// some reason). Note this command will work once, but may give you an error
-	// message when run a second time. To get the command to work repeatedly, be
-	// sure to save the nearest neighbor ids (gen option)
-	teffects overlap, ptlevel(1)
-	
-	teffects psmatch (y) (treat age educ, logit), ate gen(ps)
-	teffects overlap, ptlevel(1)
-	teffects overlap, ptlevel(0)
-	
-	// Can check for balance on the covariates themselves
-	tebalance summarize age educ
-
-	// Using psmatch2 for propensity score matching
-	psmatch2 treat age educ, logit outcome(y)
