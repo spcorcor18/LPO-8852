@@ -1,10 +1,10 @@
 
-// Lecture 4 in-class example
+// Lecture 3 in-class examples
 // Panel data commands and fixed/random effects models
 
-// Last updated: 10/17/22
+// Last updated: 10/25/22
 
-cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 4 - Panel data"
+cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 3 - Panel data"
 
 // ************
 // Example 1
@@ -80,108 +80,109 @@ clear
 // Example 3
 // ************
 
-use https://github.com/spcorcor18/LPO-8852/raw/main/data/Texas_elementary_panel_2004_2007.dta, clear
+	use https://github.com/spcorcor18/LPO-8852/raw/main/data/Texas_elementary_panel_2004_2007.dta, clear
 
 // (a) Declare panel structure
 
-xtset campus year
-xtdescribe
-duplicates report campus year
+	xtset campus year
+	xtdescribe
+	duplicates report campus year
 
 // (b) Average passing rate across subjects, grades is called "ca311tar"
 
-rename ca311tar avgpassing
-xtsum avgpassing
+	rename ca311tar avgpassing
+	xtsum avgpassing
 
 // (c) Average class size across grades
 
-egen avgclass=rowmean(cpctg01a-cpctgmea)
+	egen avgclass=rowmean(cpctg01a-cpctgmea)
 
 // (d) Cross sectional OLS regression, 2007 only
 
-reg avgpassing avgclass if year==2007
+	reg avgpassing avgclass if year==2007
 
 // (e) First difference OLS regression, 2007 only
 
-reg d.avgpassing d.avgclass if year==2007, noconstant
-reg d.avgpassing d.avgclass if year==2007
-// re-run the cross sectional OLS limited to those observation used in the first diff
-reg avgpassing avgclass if e(sample) & year==2007
-table year if e(sample)
+	reg d.avgpassing d.avgclass if year==2007, noconstant
+	reg d.avgpassing d.avgclass if year==2007
+	// re-run the cross sectional OLS limited to those observation used in the first diff
+	reg avgpassing avgclass if e(sample) & year==2007
+	table year if e(sample)
 
 // (f) How much within-school variation is there in avgclass? avgpassing?
 
-gen davgpassing=d.avgpassing
-gen davgclass=d.avgclass
-twoway (histogram davgclass if year==2007)
-summ davgclass, detail
+	gen davgpassing=d.avgpassing
+	gen davgclass=d.avgclass
+	twoway (histogram davgclass if year==2007)
+	summ davgclass, detail
 
 // (g) First difference OLS regression, all years
 
-reg d.avgpassing d.avgclass, noconstant
-reg d.avgpassing d.avgclass
-table year if e(sample)
+	reg d.avgpassing d.avgclass, noconstant
+	reg d.avgpassing d.avgclass
+	table year if e(sample)
 
 // (h) LSDV regression
 // Limit to Houston from 2006 on given the large number of schools (campus)
 
-reg avgpassing avgclass i.campus if houston==1 & year>=2006
-areg avgpassing avgclass if houston==1 & year>=2006, absorb(campus)
-table year if e(sample)
+	reg avgpassing avgclass i.campus if houston==1 & year>=2006
+	areg avgpassing avgclass if houston==1 & year>=2006, absorb(campus)
+	table year if e(sample)
 
 // (i) LSDV regression with a tiny subset of schools--for interpretation of FEs
 
-// identify largest average enrollment schools in Houston to include
-egen meanenroll=mean(cpetallc) if houston==1 & year>=2006,by(campus)
-egen enrollrank=rank(meanenroll) if houston==1 & year>=2006, field
-reg avgpassing avgclass i.campus if enrollrank<=16
-predict avgpassinghat if e(sample), xb
-sort campus year
-browse campus year avgpassing avgpassinghat avgclass if e(sample)
-drop avgpassinghat
+	// identify largest average enrollment schools in Houston to include
+	egen meanenroll=mean(cpetallc) if houston==1 & year>=2006,by(campus)
+	egen enrollrank=rank(meanenroll) if houston==1 & year>=2006, field
+	reg avgpassing avgclass i.campus if enrollrank<=16
+	predict avgpassinghat if e(sample), xb
+	sort campus year
+	browse campus year avgpassing avgpassinghat avgclass if e(sample)
+	drop avgpassinghat
 
 // (j) Fixed effects (within) version
 
-// first Houston subsample
-xtreg avgpassing avgclass if houston==1 & year>=2006, fe
-// now all schools all years
-xtreg avgpassing avgclass , fe
+	// first Houston subsample
+	xtreg avgpassing avgclass if houston==1 & year>=2006, fe
+	// now all schools all years
+	xtreg avgpassing avgclass , fe
 
 // (k) Get predicted school effects from xtreg
-xtreg avgpassing avgclass, fe
-predict schlfe, u
-browse campus year schlfe if e(sample)
 
-// histogram of estimated school effects--keep only one per school
-preserve
-duplicates drop campus, force
-histogram schlfe
-restore
+	xtreg avgpassing avgclass, fe
+	predict schlfe, u
+	browse campus year schlfe if e(sample)
 
-// compare to mini dataset with largest districts in Houston
-xtreg avgpassing avgclass if enrollrank<=16
-predict schlfe2 if e(sample), u
-reg avgpassing avgclass i.campus if enrollrank<=16
-// the FE estimate is not the same as the dummy coefficient in reg. Re: different
-// reference category
-summ schlfe2 if campus==101912158
+	// histogram of estimated school effects--keep only one per school
+	preserve
+	duplicates drop campus, force
+	histogram schlfe
+	restore
+
+	// compare to mini dataset with largest districts in Houston
+	xtreg avgpassing avgclass if enrollrank<=16
+	predict schlfe2 if e(sample), u
+	reg avgpassing avgclass i.campus if enrollrank<=16
+	// the FE estimate is not the same as the dummy coefficient in reg. Re: different
+	// reference category
+	summ schlfe2 if campus==101912158
 
 // (l) Two-way fixed effects model with year effects
 
-xtreg avgpassing avgclass i.year , fe
-table year if e(sample)
+	xtreg avgpassing avgclass i.year , fe
+	table year if e(sample)
 
-// alternative command reghdfe
-reghdfe avgpassing avgclass, absorb(campus year)
+	// alternative command reghdfe
+	reghdfe avgpassing avgclass, absorb(campus year)
 
 
 // ********************************************
 // OTHER:
 // Compare results using FD, FE when T=2
 
-reg d.avgpassing d.avgclass if year==2007, noconstant
-xtreg avgpassing avgclass if year>=2006, fe
-areg avgpassing avgclass if year>=2006, absorb(campus)
+	reg d.avgpassing d.avgclass if year==2007, noconstant
+	xtreg avgpassing avgclass if year>=2006, fe
+	areg avgpassing avgclass if year>=2006, absorb(campus)
 
 // Heteroskedasticity test following xtreg, fe
 // Ho is homoskedasticity--equal variance for all i
