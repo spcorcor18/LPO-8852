@@ -36,7 +36,7 @@ Papay, J. P., Mantil, A., & Murnane, R. J. (2022). On the Threshold: Impacts of 
 
 Pop-Eleches, C., & Urquiola, M. (2013). Going to a Better School: Effects and Behavioral Responses. *American Economic Review*, 103(4), 1289–1324. http://www.aeaweb.org/articles.php?doi=10.1257/aer.103.4.1289
 
-Sorensen, L. C., Acosta, M. A., Engberg, J., & Bushway, S. D. (2021). The Thin Blue Line in Schools: New Evidence on School-Based Policing Across the U.S. EdWorkingPapers.com. http://www.edworkingpapers.com/ai21-476
+Sorensen, L. C., Avila-Acosta, M., Engberg, J. B., & Bushway, S. D. (2023). The thin blue line in schools: New evidence on school-based policing across the U.S. Journal of Policy Analysis and Management, 42, 941–970. https://doi.org/10.1002/pam.22498
 
 ## Applications - regression discontinuity in health policy
 
