@@ -18,8 +18,11 @@ Shi, Y., & Zhu, M. (2022). Equal time for equal crime? Racial bias in school dis
 
 ## Applications: panel data in health policy
 
-Abouk, R., Adams, S., Feng, B., Maclean, J. C., & Pesko, M. F. (2023) The effect of e-cigarette taxes on pre-pregnancy and prenatal smoking. Journal of Policy Analysis and Management, 42, 908–940. https://doi.org/10.1002/pam.22485
+Abouk, R., Adams, S., Feng, B., Maclean, J. C., & Pesko, M. F. (2023) The effect of e-cigarette taxes on pre-pregnancy and prenatal smoking. *Journal of Policy Analysis and Management*, 42, 908–940. https://doi.org/10.1002/pam.22485
 
 ## Panel data: methodological issues
 
 Feller, A., & Stuart, E. A. (2021). Challenges with Evaluating Education Policy Using Panel Data during and after the COVID-19 Pandemic. *Journal of Research on Educational Effectiveness*, 14(3), 668-675. https://doi.org/10.1080/19345747.2021.1938316 
+
+Miller, D. L., Shenhav, N. a., & Grosz, M. (2023). Selection into Identification in Fixed Effects Models, with Application to Head Start. *Journal of Human Resources*, 58(5), 1523-1566. https://doi.org/10.3368/jhr.58.5.0520-10930R1 
+
