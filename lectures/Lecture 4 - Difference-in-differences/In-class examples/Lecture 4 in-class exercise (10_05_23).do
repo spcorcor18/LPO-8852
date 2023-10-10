@@ -1,14 +1,15 @@
 
+
 // ****************************************************************************
-// Lecture 3 in-class exercises
-// Last updated: October 5, 2022
+// Lecture 4 in-class exercises
+// Last updated: October 5, 2023
 // ****************************************************************************
 
-cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 3 - Difference-in-differences"
-ssc install outreg2, replace
-ssc install statastates, replace
-ssc install reghdfe, replace
-ssc install ftools, replace
+	cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 4 - Difference-in-differences"
+	ssc install outreg2, replace
+	ssc install statastates, replace
+	ssc install reghdfe, replace
+	ssc install ftools, replace
 
 
 // ****************************************************************************
@@ -16,31 +17,32 @@ ssc install ftools, replace
 // Replication of Dynarski (2003) from Murnane & Willett chapter 8
 // ****************************************************************************
 
-set more off
-clear all
-use https://github.com/spcorcor18/LPO-8852/raw/main/data/dynarski.dta, clear
+	set more off
+	clear all
+	use https://github.com/spcorcor18/LPO-8852/raw/main/data/dynarski.dta, clear
 
-// #1
-tabulate yearsr offer
-tabulate yearsr fatherdec
+	// #1
+	tabulate yearsr offer
+	tabulate yearsr fatherdec
 
-// #2
-// "First difference"
-reg coll offer if fatherdec==1 [weight=wt88]
-reg hgc23 offer if fatherdec==1 [weight=wt88]
+	// #2
+	// "First difference"
+	reg coll offer if fatherdec==1 [weight=wt88]
+	reg hgc23 offer if fatherdec==1 [weight=wt88]
 
-// #3
-// Difference-in-differences
-reg coll i.offer##i.fatherdec [weight=wt88]
+	// #3
+	// Difference-in-differences
+	reg coll i.offer##i.fatherdec [weight=wt88]
 
-// #4
-// Graph of means
-preserve
-collapse (mean) coll [weight=wt88], by(fatherdec yearsr)
-twoway (connected coll yearsr if fatherdec==1) ///
-	   (connected coll yearsr if fatherdec==0), ///
-	   legend(order(1 "Eligible group" 2 "Non-eligible group"))
-restore
+	// #4
+	// Graph of means
+	preserve
+	collapse (mean) coll [weight=wt88], by(fatherdec yearsr)
+	twoway (connected coll yearsr if fatherdec==1) ///
+		   (connected coll yearsr if fatherdec==0), ///
+		   legend(order(1 "Eligible group" 2 "Non-eligible group")) ///
+		   xline(81.5)
+	restore
 
 
 // ****************************************************************************
@@ -56,7 +58,7 @@ restore
 	use https://github.com/spcorcor18/LPO-8852/raw/main/data/deaths.dta, clear
 
 	// Utility to look up state name using fips code (requires user-written
-	// ado file statastates)
+	// ado file statastates, installed above)
 
 	statastates, fips(state) nogen
 
@@ -207,7 +209,7 @@ restore
 
 // #11 
 // Event study--for this example create a crude 0-1 version of "legal"--
-// will be equal to 1 if anyone age 18-20 can legally drink within a state/year.
+// will be equal to 1 if ANYONE age 18-20 can legally drink within a state/year.
 // First reload data and keep MVAs, age group 2 (18-20), 1983 and before
 
 	use https://github.com/spcorcor18/LPO-8852/raw/main/data/deaths.dta, clear
@@ -316,6 +318,8 @@ restore
 	ddtiming mrate legal2, i(state) t(year)
 
 
+// *** Draft code below	
+	
 // #X 
 // Event study
 
