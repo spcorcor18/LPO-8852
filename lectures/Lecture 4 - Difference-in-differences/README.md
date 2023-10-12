@@ -26,6 +26,7 @@
 ## Other resources:
 
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
+   * Stata manual: [didintro](https://www.stata.com/manuals/tedidintro.pdf)
 * Stata [user-created commands](https://asjadnaqvi.github.io/DiD/docs/01_stata/) for difference-in-difference methods (Asjad Naqvi)
 * [Difference-in-differences repository](https://asjadnaqvi.github.io/DiD/) (Asjad Naqvi) - see Stata code section for great examples
 * [Difference-in-differences methods](https://diff.healthpolicydatascience.org/) - great tutorial (health policy and data science)
