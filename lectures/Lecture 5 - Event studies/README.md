@@ -8,7 +8,7 @@
 
 ## Video resources:
 
-* NBER Summer Institute 2023. Linear Panel Event Studies. https://www.nber.org/conferences/si-2023-methods-lectures-linear-panel-event-studies
+* NBER Summer Institute 2023. Linear Panel Event Studies (video and lecture notes). https://www.nber.org/conferences/si-2023-methods-lectures-linear-panel-event-studies
 
 ## Other resources:
 
