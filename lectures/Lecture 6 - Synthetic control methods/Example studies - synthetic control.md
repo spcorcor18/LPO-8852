@@ -13,6 +13,9 @@ Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the P
 
 ## Applications - synthetic control in health policy
 
+Bonander, C., Humphreys, D. & Esposti, M.D. (2021). Synthetic Control Methods for the Evaluation of Single-Unit Interventions in Epidemiology: A Tutorial. *American Journal of Epidemiology* 190(12): 2700–2711, https://doi.org/10.1093/aje/kwab211
+
+Bouttell J, Craig P, Lewsey J, et al. (2018). Synthetic control methodology as a tool for evaluating population-level health interventions. *J Epidemiol Community Health* 72: 673-678. https://jech.bmj.com/content/72/8/673
 
 ## Synthetic control: methodological papers
 
