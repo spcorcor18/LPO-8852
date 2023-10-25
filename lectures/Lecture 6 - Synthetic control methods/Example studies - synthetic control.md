@@ -8,6 +8,8 @@ Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Eval
 
 Chan, M., Mabel, Z., & Mbekeani, P. P. (2020). Incentivizing Equity? The Effects of Performance-Based Funding on Race-Based Gaps in College Completion. EdWorkingPapers.com. https://doi.org/10.26300/g53d-5105 
 
+Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the Poor? A Comprehensive Summary of State-Specific Responses to School Finance Reforms from 1990–2014. *Education Finance and Policy* 18(3): 395–422. https://doi.org/10.1162/edfp_a_00360
+* see especially their online Appendix F
 
 ## Applications - synthetic control in health policy
 
