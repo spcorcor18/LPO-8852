@@ -8,6 +8,8 @@ Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Eval
 
 Chan, M., Mabel, Z., & Mbekeani, P. P. (2020). Incentivizing Equity? The Effects of Performance-Based Funding on Race-Based Gaps in College Completion. EdWorkingPapers.com. https://doi.org/10.26300/g53d-5105 
 
+Gutierrez, I. A., Weinberger, G., & Engberg, J. (2016). *Improving Teaching Effectiveness: Impact on Student Outcomes: The Intensive Partnerships for Effective Teaching Through 2013-2014*. Santa Monica, CA: RAND Corporation. https://www.rand.org/pubs/research_reports/RR1295z3-1.html
+
 Hanushek, E. A., Luo, J., Morgan, A. J., Nguyen, M., Ost, B., Rivkin, S. G., & Shakeel, A. (2023). The Effects of Comprehensive Educator Evaluation and Pay Reform on Achievement. National Bureau of Economic Research Working Paper Series, No. 31073. http://www.nber.org/papers/w31073
 
 Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the Poor? A Comprehensive Summary of State-Specific Responses to School Finance Reforms from 1990–2014. *Education Finance and Policy* 18(3): 395–422. https://doi.org/10.1162/edfp_a_00360
