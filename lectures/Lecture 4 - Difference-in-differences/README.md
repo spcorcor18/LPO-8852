@@ -25,6 +25,7 @@
 
 ## Other resources:
 
+* Mark Chin [Github repository](https://github.com/MemeMedianMode/Staggered-Difference-in-Differences-Example) with staggered difference-in-differences code and examples
 * Stata 17's new [difference-in-differences commands](https://www.stata.com/new-in-stata/difference-in-differences-DID-DDD/)
    * Stata manual: [didintro](https://www.stata.com/manuals/tedidintro.pdf) - worth reading even if you don't use these commands
    * Stata manual: [didregress](https://www.stata.com/manuals/tedidregress.pdf) - same
