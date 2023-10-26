@@ -21,7 +21,7 @@ Bonander, C., Humphreys, D. & Esposti, M.D. (2021). Synthetic Control Methods fo
 
 Bouttell J, Craig P, Lewsey J, et al. (2018). Synthetic control methodology as a tool for evaluating population-level health interventions. *J Epidemiol Community Health* 72: 673-678. https://jech.bmj.com/content/72/8/673
 
-Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. http://www.nber.org/papers/w27522
+Dave, D., Friedson, A., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2021). Risk avoidance, offsetting community effects, and COVID-19: Evidence from an indoor political rally. *Journal of Risk and Uncertainty*, 63(2), 133-167. https://doi.org/10.1007/s11166-021-09359-4
 
 Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects of the Flint Water Crisis on School-Age Children. National Bureau of Economic Research Working Paper Series, No. 29341. http://www.nber.org/papers/w29341
 
