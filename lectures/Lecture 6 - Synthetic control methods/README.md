@@ -3,7 +3,7 @@
 ## Syllabus readings:
 
 * :star: [MIX](https://mixtape.scunning.com/), *Synthetic Control*
-* Abadie, A. (2021). Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects. *Journal of Economic Literature*, 59(2), 391-425. https://www.aeaweb.org/articles?id=10.1257/jel.20191450
+* :star: Abadie, A. (2021). Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects. *Journal of Economic Literature*, 59(2), 391-425. https://www.aeaweb.org/articles?id=10.1257/jel.20191450
 
 
 ## Video resources:
@@ -13,6 +13,7 @@
 
 ## Other resources:
 
+* Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
 * About the `synth_runner` package in Stata. https://journals.sagepub.com/doi/pdf/10.1177/1536867X1801700404
 * About the `allsynth` package in Stata: added functionality to `synth` command. https://www.stata.com/meeting/us21/slides/US21_Wiltshire.pdf
 
