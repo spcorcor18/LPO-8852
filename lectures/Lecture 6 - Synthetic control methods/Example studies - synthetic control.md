@@ -32,3 +32,6 @@ Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021)
 Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Control Method. *Journal of the American Statistical Association*, 116(536), 1789-1803. https://doi.org/10.1080/01621459.2021.1929245 
 
 Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Controls. *Journal of Policy Analysis and Management*, 39(2), 510-532. https://doi.org/10.1002/pam.22206 
+
+Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
+
