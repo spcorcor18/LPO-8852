@@ -33,5 +33,7 @@ Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Con
 
 Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Controls. *Journal of Policy Analysis and Management*, 39(2), 510-532. https://doi.org/10.1002/pam.22206 
 
+Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Automate Synthetic Control Estimation Using Synth. *The Stata Journal*, 17(4), 834-849. https://journals.sagepub.com/doi/abs/10.1177/1536867X1801700404
+
 Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
 
