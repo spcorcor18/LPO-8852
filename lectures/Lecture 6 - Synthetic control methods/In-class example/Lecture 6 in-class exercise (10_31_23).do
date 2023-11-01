@@ -2,7 +2,7 @@
 
 // **************************************************************************
 // Synthetic control example from The Mixtape
-// Last update: October 30, 2023
+// Last update: October 31, 2023
 // **************************************************************************
 
 // Location to store temporary files
@@ -14,12 +14,12 @@
 	set matsize 1000
 
 // synth package and necessary mat2txt:
-	ssc install synth, all 
-	ssc install mat2txt
+	*ssc install synth, all 
+	*ssc install mat2txt
 // synth_runner package:
-	net install st0500.pkg, from(http://www.stata-journal.com/software/sj17-4/)
+	*net install st0500.pkg, from(http://www.stata-journal.com/software/sj17-4/)
 // synth2:
-	ssc install synth2, all replace
+	*ssc install synth2, all replace
 	
 
 // *****
@@ -27,7 +27,7 @@
 // *****
 // **************************************************************************
 // Use synth command to obtain weights and construct a synthetic control.
-// Outcome: black male prisoners (per 100,000 population)
+// Outcome: Black male prisoners (per 100,000 population)
 // Treated state: Texas 
 // Year of treatment: 1993
 // **************************************************************************
@@ -46,19 +46,17 @@
 	labmask statefip, values(state)
 	label list
 
-// Note there is something wrong with the scale of bmprison (if this is 
-// supposed to be the number incarcerated per 100,000 population). According
-// to this graph https://mixtape.scunning.com/10-synthetic_control#fnref4 TX
-// was at about 100 in 1985. This also does not line up with reported data; 
-// for Texas, one report puts the number for the Black popluation (male and
-// female) at 3,862 per 100,000. I am going to assume the variable is off by
-// a scale of 10.
+// Note: the Mixtape chapter is unclear about which outcome variable should be
+// used. bmprison is the total number of incarcerated black males. bmprate is
+// the number of incarcerated per 100,000 population (bmprison/bmpop)*100000. 
+// The code in the book chapter uses the count (bmprison) but the rate makes
+// more sense. Cunningham recommends comparing the results when using rates
+// vs. levels. (One notable differences is in the states given weights).
 
-	list statefip state bmprison if statefip==48
-	replace bmprison=bmprison/10
+	list statefip state bmprison bmprate if statefip==48
 	
 // synth command syntax: 
-//   bmprison = Black male incarceration rate per 100,000 
+//   bmprate = Black male incarceration rate per 100,000 
 //   next 14 variables = pre-treatment outcomes and covariates
 //   truint(48) = Texas (state 48) is the treated unit
 //   trperiod(1993) = 1993 is the first treatment year
@@ -71,14 +69,15 @@
 //   keep( ) = name of file for the saved results (used later, below)
 //   fig = tells Stata to generate the figure
 
-	synth bmprison bmprison(1988) bmprison(1990) bmprison(1991) ///
-		bmprison(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
+	synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
+		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
 		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), ///
 		trunit(48) trperiod(1993) unitnames(state) /// 
 		mspeperiod(1985(1)1992) resultsperiod(1985(1)2000) ///
 		keep(synth_bmprate.dta) replace fig
 
 	graph save Graph synth_tx.gph, replace
+	graph export "TX-vs-synthetic.png", as(png) replace
 
 // See the v matrix of coefficient weights
 
@@ -95,8 +94,6 @@
 	
 	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
 
-	replace bmprison=bmprison/10
-	
 // synth_runner calls the synth package, so it uses many of the same options.
 // The code below will obtain the treatment effects, placebo effects, 
 // and p-vals. Notice I dropped the 'fig' and 'resultsperiod' options. The
@@ -105,8 +102,8 @@
 // gen_vars = saves the variables necessary to run effect_graphs and
 //    single_treatment_graphs commands
 
-	synth_runner bmprison bmprison(1988) bmprison(1990) bmprison(1991) ///
-		bmprison(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
+	synth_runner bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
+		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
 		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), /// 
 		trunit(48) trperiod(1993) unitnames(state)  /// 
 		mspeperiod(1985(1)1992) gen_vars
@@ -117,23 +114,33 @@
 		
 // get standard plot of means, as well as gap between TX and synthetic control
 
-	effect_graphs, trlinediff(0) treated_name(Texas) sc_name(Synthetic Texas)
-	// manually saved these as synth_tx2 and synth_tx2gap
+	effect_graphs, trlinediff(0) treated_name(Texas) sc_name(Synthetic Texas) ///
+		tc_gname(synth_tx2) effect_gname(synth_tx2gap) ///
+		tc_ytitle(Black male incarceration rate per 100,000) ///
+		effect_ytitle(Gap in Black male incarceration rate)
 
+	graph save synth_tx2 synth_tx2, replace
+	graph save synth_tx2gap synth_tx2gap, replace
+		
 // plot the gap for TX vs all of the placebos
 
-	single_treatment_graphs, trlinediff(0) do_color(gs12) treated_name(Texas) 
-	// manually saved these as synth_tx3 and synth_tx3gap
+	single_treatment_graphs, trlinediff(0) do_color(gs12) treated_name(Texas) ///
+		raw_gname(synth_tx3) effects_gname(synth_tx3gap)
 
+	graph save synth_tx3 synth_tx3, replace
+	graph save synth_tx3gap synth_tx3gap, replace
+		
 // plot pvalue by time period
 
 	pval_graphs
-	// manually saved standardized graph as pvals_std.gph
-/*
+	
+	graph save pvals pvals, replace
+	graph save pvals_std pvals_std, replace
+
 	graph combine "synth_tx2.gph" "synth_tx2gap.gph" ///
-		"synth_tx3.gph" "synth_tx3gap.gph" "pvals_std.gph" , ///
-		cols(2) 
-*/
+		"synth_tx3.gph" "synth_tx3gap.gph" "pvals.gph" ///
+		"pvals_std.gph" , cols(2) name(synth_runner, replace)
+	graph export synth_runner.png, as(png) replace
 
 	
 // *****
@@ -145,45 +152,45 @@
 // **************************************************************************
 	
 	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
-	replace bmprison=bmprison/10
 	
 	// Main synthetic control results (for comparison with part 1)
 	
-	synth2 bmprison bmprison(1988) bmprison(1991) bmprison(1992) ///
-		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
-		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
-		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
-		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt
-		
-	// "In-space" placebo test
-		
-	synth2 bmprison bmprison(1988) bmprison(1991) bmprison(1992) ///
+	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
 		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
 		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
 		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
-		placebo(unit)
+		savegraph(set1, replace)
+		
+	// "In-space" placebo test
+		
+	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
+		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
+		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
+		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
+		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
+		placebo(unit) savegraph(set2, replace)
 		
 	// "In-time" placebo test (setting the treatment year to a previous "fake"
 	// treatment year = 1989). Note had to remove predictors that were 1989 or
 	// later. Replaced some of these with earlier years.
 	
-	synth2 bmprison bmprison(1988) ///
+	synth2 bmprate bmprate(1988) ///
 		alcohol(1986) aidscapita(1986) aidscapita(1987) income ur ///
 		poverty black(1988) black(1987) black(1986) perc1519(1986), ///
 		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
 		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
-		placebo(period(1989))
+		placebo(period(1989)) savegraph(set3, replace)
 
 	// "Leave one out" (LOO) robustness test. 
 	
-	synth2 bmprison bmprison(1988) ///
-		alcohol(1986) aidscapita(1986) aidscapita(1987) income ur ///
-		poverty black(1988) black(1987) black(1986) perc1519(1986), ///
+	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
+		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
+		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
 		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
 		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
-		loo
-		
+		loo savegraph(set4, replace)
+			
 	
 // *****
 // (4)
@@ -191,6 +198,7 @@
 // **************************************************************************
 // Use saved results from part 1 to manually crete a figure showing the gap
 // between Texas vs. synthetic Texas. Note synth_runner does this for you.
+// This code preceded synth_runner.
 // **************************************************************************
 
 // NOTE: look at the results dataset first---contains both weights and the time
@@ -230,13 +238,12 @@
 	#delimit; 
 	set more off; 
 	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear;
-	replace bmprison=bmprison/10;
 	
 	local statelist  1 2 4 5 6 8 9 10 11 12 13 15 16 17 18 20 21 22 23 24 25 
 		26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 45 46 47 48 49 51 53 55; 
 
 	foreach i of local statelist {;
-	synth bmprison bmprison(1988) bmprison(1990) bmprison(1991) bmprison(1992) 
+	synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) bmprate(1992) 
 			alcohol(1990) aidscapita(1990) aidscapita(1991) income ur poverty
 			black(1990) black(1991) black(1992) perc1519(1990),        
 				trunit(`i') trperiod(1993) unitnames(state)  
@@ -278,7 +285,9 @@
 // (6)
 // *****
 // **************************************************************************
-// Placebo inference part 2: plot placebos on the same graph
+// Placebo inference part 2: plot placebos on the same graph. 
+// Note synth_runner will automate this for you. This is code that
+// preceded synth_runner.
 // **************************************************************************
 		
 	use placebo_bmprate.dta, replace
@@ -354,7 +363,6 @@
 	#delimit; 
 	set more off; 
 	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear;
-	replace bmprison=bmprison/10;
 	
 	local statelist  1 2 4 5 6 8 9 10 11 12 13 15 16 17 18 20 21 22 23 24
 		25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 45 46 47 48
@@ -405,6 +413,7 @@
 		histogram ratio, bin(20) frequency fcolor(gs13) lcolor(black) ylabel(0(2)6) ///
 		xtitle(Post/pre RMSPE ratio) xlabel(0(1)5)
 		graph save Graph rmspe_histogram.gph, replace
+		graph export rmspe_histogram.png, as(png) replace
 		* Show the post/pre RMSPE ratio for all states, generate the histogram.
 		list rank p if state==48
 	
@@ -430,10 +439,11 @@ capture erase placebo_bmprate.dta
 capture erase placebo_bmprate48.dta
 capture erase rmspe_bmprate.txt
 capture erase rmspe_bmprate.xls
-capture erase pvals_std.gph
 capture erase rmspe_histogram.gph
 
 foreach j in tx2 tx2gap tx3 tx3gap {
    capture erase synth_`j'.gph
    }
+capture erase pvals_std.gph
+capture erase pvals.gph   
    
