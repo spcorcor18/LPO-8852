@@ -15,4 +15,6 @@
 
 ## Example studies:
 
-[List of example studies and other event study references]()
+[List of example studies and other event study references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%205%20-%20Event%20studies/Example%20studies%20-%20event%20studies.md)
+
+
