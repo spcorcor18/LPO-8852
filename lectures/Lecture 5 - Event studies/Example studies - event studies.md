@@ -8,6 +8,9 @@ Note: also see [example studies - difference-in-differences](https://github.com/
 
 :star: Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
 
+Schueler, B. E., & Larned, K. E. Interscholastic Policy Debate Promotes Critical Thinking and College-Going: Evidence From Boston Public Schools. *Educational Evaluation and Policy Analysis*. https://journals.sagepub.com/doi/abs/10.3102/01623737231200234
+
+
 ## Applications: stacked event studies
 
 Schanzenbach, D. W., Turner, J. A., & Turner, S. (2023). Raising State Minimum Wages, Lowering Community College Enrollment. National Bureau of Economic Research Working Paper Series, No. 31540. http://www.nber.org/papers/w31540
