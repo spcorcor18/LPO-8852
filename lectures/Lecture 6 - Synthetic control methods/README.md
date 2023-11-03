@@ -17,7 +17,7 @@
 * About the `synth_runner` package in Stata. https://journals.sagepub.com/doi/pdf/10.1177/1536867X1801700404
 * About the `allsynth` package in Stata: added functionality to `synth` command. https://www.stata.com/meeting/us21/slides/US21_Wiltshire.pdf
 * Github repository for `augsynth` Stata package. https://github.com/ebenmichael/augsynth/tree/master
-* NOTE for Mac users: the `synth' command (used by all of the above packages) does not currently (11/2023) work on MacBooks with silicon chips. The Statalist pilot recommends using the Rosetta emulator as a workaround, which appears to work.
+* NOTE for Mac users: the `synth` command (used by all of the above packages) does not currently (11/2023) work on MacBooks with silicon chips. The Statalist pilot recommends using the Rosetta emulator as a workaround, which appears to work.
 
 
 ## Example studies:
