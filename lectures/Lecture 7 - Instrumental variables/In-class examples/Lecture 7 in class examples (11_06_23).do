@@ -1,5 +1,5 @@
 
-// Lecture 5 in-class examples
+// Lecture 7 in-class examples
 // Instrumental variables
 
 // Last updated: 11/3/22
