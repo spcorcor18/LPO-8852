@@ -26,6 +26,6 @@
 
 ## Example studies:
 
-[List of example studies and other IV references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%205%20-%20Instrumental%20variables/Example%20studies%20-%20IV.md)
+[List of example studies and other IV references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%207%20-%20Instrumental%20variables/Example%20studies%20-%20IV.md)
 
 
