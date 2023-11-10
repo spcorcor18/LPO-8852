@@ -52,6 +52,8 @@ Calonico, S., Cattaneo, M. D., & Titiunik, R. (2014). Robust Nonparametric Confi
 
 Calonico, S., Cattaneo, M. D., Farrell, M. H., & Titiunik, R. (2018). Regression Discontinuity Designs Using Covariates. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_00760
 
+Cattaneo, M. D., & Titiunik, R. (2022). Regression Discontinuity Designs. *Annual Review of Economics*, 14(1), 821-851. https://doi.org/10.1146/annurev-economics-051520-021409 
+
 Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2017). Comparing Inference Approaches for RD Designs: A Reexamination of the Effect of Head Start on Child Mortality. *Journal of Policy Analysis and Management*, 36(3), 643-681. https://doi.org/10.1002/pam.21985
 
 Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2020). Analysis of regression-discontinuity designs with multiple cutoffs or multiple scores. *The Stata Journal*, 20(4), 866-891. https://doi.org/10.1177/1536867X20976320 
