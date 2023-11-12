@@ -23,9 +23,10 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 ## Other resources:
 
 * [rd packages](https://rdpackages.github.io/): Calonico et al. RDD resources for Stata (w/replication files). Includes rdrobust, rdlocrand, rddensity, rdmulti, and rdpower.
+  * [replicate Myersson examples](https://github.com/rdpackages-replication/CIT_2020_CUP) in Volume 1 (Foundations) of Cattaneo et al.
 * [RD bandwidth app](https://mixtape.shinyapps.io/RD-Bandwidth/): Cool Shiny app showing effect of bandwidth, polynomial order, etc., by S. Cunningham.
 
 
 ## Example studies:
 
-[List of example studies and other RD references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%206%20-%20Regression%20discontinuity/Example%20studies%20-%20RDD.md)
+[List of example studies and other RD references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%208%20-%20Regression%20discontinuity/Example%20studies%20-%20RDD.md)
