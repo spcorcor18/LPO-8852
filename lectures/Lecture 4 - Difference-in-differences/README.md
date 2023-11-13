@@ -14,6 +14,7 @@
 * Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254-277. https://www.sciencedirect.com/science/article/pii/S0304407621001445
 * Jakiela, P. (2021). Simple Diagnostics for Two-Way Fixed Effects. Working paper available at https://arxiv.org/pdf/2103.13229.pdf
 * Olden, A., & Møen, J. (2022). The Triple Difference Estimator. The Econometrics Journal. https://doi.org/10.1093/ectj/utac010
+* Freedman, S. M., Hollingsworth, A., Simon, K. I., Wing, C., & Yozwiak, M. (2023). Designing Difference in Difference Studies With Staggered Treatment Adoption: Key Concepts and Practical Guidelines. National Bureau of Economic Research Working Paper Series, No. 31842. http://www.nber.org/papers/w31842 
 
 
 ## Video resources:
