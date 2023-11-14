@@ -35,9 +35,11 @@ Churchill, B. F. (2023). State-mandated school-based BMI assessments and self-re
 
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
+:star: Freedman, S. M., Hollingsworth, A., Simon, K. I., Wing, C., & Yozwiak, M. (2023). Designing Difference in Difference Studies With Staggered Treatment Adoption: Key Concepts and Practical Guidelines. National Bureau of Economic Research Working Paper Series, No. 31842. http://www.nber.org/papers/w31842
+
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
-Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
+:star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
 
 
 ## Applications: triple difference
