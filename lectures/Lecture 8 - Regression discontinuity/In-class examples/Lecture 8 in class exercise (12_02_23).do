@@ -37,16 +37,20 @@ ssc install rd, replace
 
 // (b) scatter and RD plots for all-causes mortality
 
-	scatter all age, xline(0)
+	scatter all age, xline(0) name(graph1, replace)
+	graph export graph1.png, name(graph1) as(png) replace
 
 	// RD plot - binmethod qsmv, 4th order polynomial (default)
-	rdplot all agecell, c(21) binmethod(qsmv) graph_options(legend(position(6)))
+	rdplot all agecell, c(21) binmethod(qsmv) graph_options(legend(position(6)) name(graph2, replace))
 	// RD plot - binmethod qsmv, 4th order polynomial (default)
-	rdplot all agecell, c(21) binmethod(esmv) graph_options(legend(position(6)))
+	rdplot all agecell, c(21) binmethod(esmv) graph_options(legend(position(6)) name(graph3, replace))
 	// RD plot - binmethod qsmv, 2nd order polynomial (default)
-	rdplot all agecell, c(21) p(2) binmethod(qsmv) graph_options(legend(position(6)))
+	rdplot all agecell, c(21) p(2) binmethod(qsmv) graph_options(legend(position(6)) name(graph4, replace))
 	// RD plot - binmethod qsmv, 1st order polynomial (default)
-	rdplot all agecell, c(21) p(1) binmethod(qsmv) graph_options(legend(position(6)))
+	rdplot all agecell, c(21) p(1) binmethod(qsmv) graph_options(legend(position(6)) name(graph5, replace))
+	
+	graph combine graph2 graph3 graph4 graph5, rows(2) xsize(8) ysize(6.5) title(RD plots)
+	graph export rdplots.png, as(png) replace
 	
 // (c) OLS regressions - linear and quadratic fits
 	
@@ -67,13 +71,13 @@ ssc install rd, replace
 		(line allfitlin agecell if age<0, lcolor(black) lwidth(medthick)) ///
 		(line allfitlin agecell if age>=0, lcolor(black red) lwidth(medthick medthick)), ///
 		legend(off) yline(91.84137, lpattern(dash)) yline(99.504079, lpattern(dash)) ///
-		text(92.5 21 "91.84") text(100 21 "99.50")
+		text(92.5 21 "91.84") text(100 21 "99.50") name(fit1, replace)
 
 	// Figure 4.2 using linear model with different slopes below/above c
 	twoway (scatter all agecell) ///
 		(line allfitlini agecell if age<0, lcolor(black) lwidth(medthick)) ///
 		(line allfitlini agecell if age>= 0, lcolor(black red) lwidth(medthick medthick)), ///
-		legend(off) 
+		legend(off) name(fit2, replace)
 
 	// quadratic model in age with intercept shift at over21
 	reg all c.age##c.age over21
@@ -89,9 +93,14 @@ ssc install rd, replace
 
 	// Figure overlaying scatter with linear and quadratic fits		 
 	twoway (scatter all agecell) ///
-		(line allfitlini allfitqi agecell if age<0, lcolor(red black) lwidth(medthick medthick) lpattern(dash)) ///
-		(line allfitlini allfitqi agecell if age>=0, lcolor(red black) lwidth(medthick medthick) lpattern(dash)), legend(off)
+		(line allfitlini allfitqi agecell if age<0, lcolor(red black) ///
+		lwidth(medthick medthick) lpattern(dash)) ///
+		(line allfitlini allfitqi agecell if age>=0, lcolor(red black) ///
+		lwidth(medthick medthick) lpattern(dash)), legend(off) name(fit3, replace)
 
+	graph combine fit1 fit2 fit3, rows(2) xsize(8) ysize(6.5) title(Scatter plots with fitted lines)
+	graph export fitted.png, as(png) replace
+		
 // (d) Repeat for motor vehicle accidents, internal causes
 
 	// linear model same slope on both sides (MVA)
@@ -119,7 +128,9 @@ ssc install rd, replace
 		(line exfitqi infitqi agecell if agecell < 21) ///
         (line exfitqi infitqi agecell if agecell >= 21), ///
 		legend(off) text(28 20.1 "Motor Vehicle Fatalities") ///
-		text(17 22 "Deaths from Internal Causes")
+		text(17 22 "Deaths from Internal Causes") name(placebo, replace)
+		
+	graph export placebo.png, as(png) replace 
 
 // (e) Try linear and quadratic fits using rdrobust, uniform kernel
 //     and use a bandwith of 2 for comparability with (c).
@@ -136,7 +147,7 @@ ssc install rd, replace
 	rdbwselect all age, c(0) bwselect(mserd) kernel(uniform) p(1)
 	rdbwselect all age, c(0) bwselect(mserd) kernel(uniform) p(2)
 	
-// (g) Pass through the optimal bandwidth to rdrobust and rdplot
+//     Pass through the optimal bandwidth to rdrobust and rdplot
 //     (just using the quadratic, triangular case)
 
 	rdrobust all age, c(0) bwselect(mserd) kernel(triangular) p(2)
@@ -210,8 +221,9 @@ ssc install rd, replace
 	// pass through bandwidth to get local RD plot
 
 	rdplot y xc if abs(xc) <= `bandwidth', c(0) p(1) h(`bandwidth') ///	
-		kernel(triangular) graph_options(legend(position(6)))
-
+		kernel(triangular) graph_options(legend(position(6)) name(ballou, replace))
+	graph export ballou.png, as(png) replace
+		
 	// example using older rd command with ad hoc bandwidth of 0.4
 	
 	rd y xc, z0(0) bwidth(0.4) graph
@@ -221,12 +233,15 @@ ssc install rd, replace
 
 	// first some histograms
 	histogram xc, fcolor(bluishgray%70) lcolor(bluishgray%70) ///
-		xline(0, lwidth(medium) lcolor(cranberry))
+		xline(0, lwidth(medium) lcolor(cranberry)) name(hist1, replace)
 	histogram xc if abs(xc)<=0.413, fcolor(bluishgray%70) lcolor(bluishgray%70) ///
-		xline(0, lwidth(medium) lcolor(cranberry))
+		xline(0, lwidth(medium) lcolor(cranberry)) name(hist2, replace)
 
 	// now rddensity
-	rddensity xc, c(0) plot
+	rddensity xc, c(0) plot graph_opt(name(denstest,replace) legend(off))
+	
+	graph combine hist1 hist2 denstest, rows(2) xsize(8) ysize(6)
+	graph export maniptest.png, as(png) replace
 	
 // (f) simulate manipulation
 
@@ -239,8 +254,20 @@ ssc install rd, replace
 	gen xmc = xm-1
 	
 	// try rddensity again
-	rddensity xmc, c(0) plot
+	rddensity xmc, c(0) plot graph_opt(name(denstest2,replace) legend(off))
+	graph export maniptest2.png, as(png) replace
 	
+// (g) try rdrobust in the presence of manipulation. For this step it is 
+//  worth thinking about how y should be changed, if at all. If we assume 
+//  that cases manipulated into the treatment group get the same effect from
+//  being exposed to the treatment, then we can add the 0.5 to these cases
+// (as below). One could also leave the original y intact, but this would 
+// be assuming no treatment effect for these manipulated cases.
+
+	gen y2=y
+	replace y2=y+0.5 if (x<1 & x>0.65 & e>0)
+
+	rdrobust y2 xmc, c(0) p(1) bwselect(mserd) kernel(triangular)	
 	
 	
 // *******
@@ -294,6 +321,12 @@ ssc install rd, replace
 	// rdrobust using default options
 	
 	rdrobust grade4test gap, c(0) p(1) kernel(triangular)
+
+	// Note: due to the rounding of test scores, rdrobust detects "mass points"
+	// (concentrations of observations with the same gap values). It accounts
+	// for the effect of these by default unless you turn this feature off:
+	
+	rdrobust grade4test gap, c(0) p(1) kernel(triangular) masspoints(off)
 	
 //	(f) introduce some fuzziness into treatment assignment
 
@@ -306,6 +339,7 @@ ssc install rd, replace
 	summ inGT if grade3test>=56
 	
 	binscatter inGT gap, rd(0)
+	graph export ingt.png, as(png) replace
 	
 //	(g) regress treatment (inGT) on gap and a treatment indcator, like (c)
 
@@ -347,5 +381,6 @@ ssc install rd, replace
 	
 //	(j) manipulation test
 
-	rddensity gap, c(0) plot
+	rddensity gap, c(0) plot graph_opt(name(fuzzy, replace) legend(off))
+	graph export fuzzy.png, as(png) replace
 	
