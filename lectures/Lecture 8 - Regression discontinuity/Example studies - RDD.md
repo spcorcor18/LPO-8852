@@ -46,19 +46,21 @@ Card, D., Dobkin, C., & Maestas, N. (2008). The Impact of Nearly Universal Insur
 
 ## Regression discontinuity: methodological issues
 
-Barreca, A. I., Lindo, J. M., & Waddell, G. R. (2016). Heaping-Induced Bias in Regression Discontinuity Designs. *Economic Inquiry*, 54(1), 268-293. https://doi.org/10.1111/ecin.12225
+⭐ Barreca, A. I., Lindo, J. M., & Waddell, G. R. (2016). Heaping-Induced Bias in Regression Discontinuity Designs. *Economic Inquiry*, 54(1), 268-293. https://doi.org/10.1111/ecin.12225
 
 Calonico, S., Cattaneo, M. D., & Titiunik, R. (2014). Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs. *Econometrica*, 82(6), 2295–2326. https://doi.org/10.3982/ECTA11757
 
 Calonico, S., Cattaneo, M. D., Farrell, M. H., & Titiunik, R. (2018). Regression Discontinuity Designs Using Covariates. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_00760
 
-Cattaneo, M. D., & Titiunik, R. (2022). Regression Discontinuity Designs. *Annual Review of Economics*, 14(1), 821-851. https://doi.org/10.1146/annurev-economics-051520-021409 
+⭐ Cattaneo, M. D., & Titiunik, R. (2022). Regression Discontinuity Designs. *Annual Review of Economics*, 14(1), 821-851. https://doi.org/10.1146/annurev-economics-051520-021409 
 
 Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2017). Comparing Inference Approaches for RD Designs: A Reexamination of the Effect of Head Start on Child Mortality. *Journal of Policy Analysis and Management*, 36(3), 643-681. https://doi.org/10.1002/pam.21985
 
-Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2020). Analysis of regression-discontinuity designs with multiple cutoffs or multiple scores. *The Stata Journal*, 20(4), 866-891. https://doi.org/10.1177/1536867X20976320 
+⭐ Cattaneo, M. D., Titiunik, R., & Vazquez-Bare, G. (2020). Analysis of regression-discontinuity designs with multiple cutoffs or multiple scores. *The Stata Journal*, 20(4), 866-891. https://doi.org/10.1177/1536867X20976320 
 
 Cook, Thomas D., John Deke, Lisa Dragoset, Sean F. Reardon, Rocio Titiunik, Petra Todd, Wilbert van der Klaauw, and Glenn Wadell. 2015. Preview of Regression Discontinuity Design Standards. What Works Clearinghouse.
+
+Deke, J., & Dragoset, L. (2012). Statistical Power for Regression Discontinuity Designs in Education: Empirical Estimates of Design Effects Relative to Randomized Controlled Trials. https://www.mathematica-mpr.com/download-media?MediaItemId=%7B4D453424-2DC7-4113-BF8F-F1FB98646D66%7D 
 
 DiNardo, J., & Lee, D. S. (2010). Program Evaluation and Research Designs. National Bureau of Economic Research Working Paper Series (Vol. No. 16016). http://www.nber.org/papers/w16016
 
@@ -70,17 +72,17 @@ Hausman, C., & Rapson, D. S. (2018). Regression Discontinuity in Time: Considera
 
 Imbens, G., & Kalyanaraman, K. (2012). Optimal Bandwidth Choice for the Regression Discontinuity Estimator. *The Review of Economic Studies*, 79(3), 933-959. https://doi.org/10.1093/restud/rdr043
 
-Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
+Jacob, R. T., Zhu, P., Somers, M.-A., & Bloom, H. (2012). A Practical Guide to Regression Discontinuity. https://www.mdrc.org/publication/practical-guide-regression-discontinuity
+
+⭐ Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
 
 Lipsey, M. W., Weiland, C., Yoshikawa, H., Wilson, S. J., & Hofer, K. G. (2015). The Prekindergarten Age-Cutoff Regression-Discontinuity Design: Methodological Issues and Implications for Application. *Educational Evaluation and Policy Analysis*, 37(3), 296–313. https://doi.org/10.3102/0162373714547266
 
-Papay, J. P., Willett, J. B., & Murnane, R. J. (2011). Extending the regression-discontinuity approach to multiple assignment variables. *Journal of Econometrics*, 161(2), 203–207. http://www.sciencedirect.com/science/article/pii/S0304407610002538
+⭐ Papay, J. P., Willett, J. B., & Murnane, R. J. (2011). Extending the regression-discontinuity approach to multiple assignment variables. *Journal of Econometrics*, 161(2), 203–207. http://www.sciencedirect.com/science/article/pii/S0304407610002538
+
+⭐ Reardon, S. F., & Robinson, J. P. (2012). Regression Discontinuity Designs With Multiple Rating-Score Variables. *Journal Of Research on Educational Effectiveness*, 5(1), 83-104. doi:10.1080/19345747.2011.609583
 
 Schochet, P. Z. (2009). Statistical Power for Regression Discontinuity Designs in Education Evaluations. *Journal of Educational and Behavioral Statistics*, 34(2), 238–266. http://www.jstor.org/stable/40263528
-
-Deke, J., & Dragoset, L. (2012). Statistical Power for Regression Discontinuity Designs in Education: Empirical Estimates of Design Effects Relative to Randomized Controlled Trials. https://www.mathematica-mpr.com/download-media?MediaItemId=%7B4D453424-2DC7-4113-BF8F-F1FB98646D66%7D 
-
-Jacob, R. T., Zhu, P., Somers, M.-A., & Bloom, H. (2012). A Practical Guide to Regression Discontinuity. https://www.mdrc.org/publication/practical-guide-regression-discontinuity
 
 WWC Standards for RD Analysis (2015) https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_rdd_standards_122315.pdf
 
