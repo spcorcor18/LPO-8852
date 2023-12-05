@@ -3,11 +3,11 @@
 
 ## Syllabus readings:
 
-* :star: MM chapter 4, *Regression Discontinuity Designs*
-* :star: [MIX](https://mixtape.scunning.com/), *Regression Discontinuity*
-* :star: Bloom, H. S. (2012). Modern Regression Discontinuity Analysis. *Journal Of Research on Educational Effectiveness*, 5(1), 43--82. https://doi.org/10.1080/19345747.2011.578707
-* :star: Cattaneo, Idrobo and Titiunik (2020): [*A Practical Introduction to Regression Discontinuity Designs: Foundations.*](https://rdpackages.github.io/references/Cattaneo-Idrobo-Titiunik_2020_CUP.pdf) Cambridge Elements: Quantitative and Computational Methods for Social Science, Cambridge University Press.
-* :star: Cattaneo, Idrobo and Titiunik (2021): [*A Practical Introduction to Regression Discontinuity Designs: Extensions.*](https://rdpackages.github.io/references/Cattaneo-Idrobo-Titiunik_2021_CUP.pdf)
+* ⭐ MM chapter 4, *Regression Discontinuity Designs*
+* ⭐ [MIX](https://mixtape.scunning.com/), *Regression Discontinuity*
+* ⭐ Bloom, H. S. (2012). Modern Regression Discontinuity Analysis. *Journal Of Research on Educational Effectiveness*, 5(1), 43--82. https://doi.org/10.1080/19345747.2011.578707
+* ⭐ Cattaneo, Idrobo and Titiunik (2020): [*A Practical Introduction to Regression Discontinuity Designs: Foundations.*](https://rdpackages.github.io/references/Cattaneo-Idrobo-Titiunik_2020_CUP.pdf) Cambridge Elements: Quantitative and Computational Methods for Social Science, Cambridge University Press.
+* ⭐ Cattaneo, Idrobo and Titiunik (2021): [*A Practical Introduction to Regression Discontinuity Designs: Extensions.*](https://rdpackages.github.io/references/Cattaneo-Idrobo-Titiunik_2021_CUP.pdf)
 Cambridge Elements: Quantitative and Computational Methods for Social Science, Cambridge University Press.
 * [G&T](https://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-1497-6?chapterTab=true) chapter 14
 * MHE chapter 6
