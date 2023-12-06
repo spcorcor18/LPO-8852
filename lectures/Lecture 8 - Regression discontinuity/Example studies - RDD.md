@@ -80,7 +80,7 @@ Lipsey, M. W., Weiland, C., Yoshikawa, H., Wilson, S. J., & Hofer, K. G. (2015).
 
 ⭐ Papay, J. P., Willett, J. B., & Murnane, R. J. (2011). Extending the regression-discontinuity approach to multiple assignment variables. *Journal of Econometrics*, 161(2), 203–207. http://www.sciencedirect.com/science/article/pii/S0304407610002538
 
-⭐ Reardon, S. F., & Robinson, J. P. (2012). Regression Discontinuity Designs With Multiple Rating-Score Variables. *Journal Of Research on Educational Effectiveness*, 5(1), 83-104. doi:10.1080/19345747.2011.609583
+⭐ Reardon, S. F., & Robinson, J. P. (2012). Regression Discontinuity Designs With Multiple Rating-Score Variables. *Journal Of Research on Educational Effectiveness*, 5(1), 83-104. https://doi.org/10.1080/19345747.2011.609583
 
 Schochet, P. Z. (2009). Statistical Power for Regression Discontinuity Designs in Education Evaluations. *Journal of Educational and Behavioral Statistics*, 34(2), 238–266. http://www.jstor.org/stable/40263528
 
