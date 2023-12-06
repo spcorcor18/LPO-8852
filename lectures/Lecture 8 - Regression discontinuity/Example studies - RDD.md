@@ -1,4 +1,4 @@
-# Example studies - regression discontinuity
+# Example studies and other references - RDD
 
 ## Applications: regression discontinuity in education
 
