@@ -1,0 +1,236 @@
+
+
+% *****************************************************************************
+% Regression II - Take-Home Final Exam
+% 
+% Last updated: December 6, 2023
+% *****************************************************************************
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[bookmarks=false]{hyperref}
+\usepackage{setspace}%
+\usepackage{booktabs}           % needed for professional tables
+\usepackage{enumerate}
+\usepackage{verbatim} % allows for comment environment
+\usepackage[pdftex]{graphicx}   % defines includegraphics command (for figs) 
+\usepackage{float}
+
+\newlength{\toppush}
+\setlength{\toppush}{2\headheight}
+\addtolength{\toppush}{\headsep}
+
+\newcommand{\handout}[3]{\thispagestyle{empty}
+\pagestyle{myheadings}\htitle{#1}{#2}{#3}}
+   % \thispagestyle{empty} indicates no page numbers for this (the first) page
+
+\newcommand{\simnot}{\mathord{\sim}}  % needed for correct spacing of ~
+
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+\begin{document}
+
+
+% *****************************************************************************
+\setlength{\parindent}{0pt}
+
+\begin{center}
+\fbox{ \large
+\parbox{\textwidth}{\centering
+\textbf{LPO 8852: Regression II}\\
+\textbf{Vanderbilt University}\\
+\textbf{Take-Home Final Exam}\\
+\textbf{December 7, 2023}
+}
+}
+\end{center}
+
+\vspace{1.0in}
+
+\begin{center}
+\parbox{4.5in}{
+	Name:\enspace\hrulefill
+	
+	\vspace{0.5in}
+	
+	By signing below, I agree to the terms of Vanderbilt University's honor code. I attest that I have not collaborated with, or received any external assistance from other individuals on this at-home exam.
+	
+	\vspace{.5in}
+	
+	Signature:\enspace\hrulefill
+}
+\end{center}
+
+\vspace{0.75in}
+
+\textbf{Instructions:} Read each question carefully and provide clear, concise responses in your own document. Be sure to complete \underline{every} part of \underline{every} question. Partial credit will be given where appropriate. If you make any assumptions to answer a question, please state those assumptions explicitly. Email your completed exam to sean.corcoran@vanderbilt.edu before 9:00 a.m.\ on \textbf{Saturday December 9}. Good luck!
+
+\pagebreak
+
+
+% *****************************************************************************
+% Question 1
+% *****************************************************************************
+
+\textbf{Question 1.} Proponents of school choice argue that public schools will improve with greater competition from charter and private schools. The theory is that, in the absence of competition, traditional public schools have weak incentives to perform at their highest levels. Competition raises the risk of losing students (and funding), and public schools respond by increasing effort, using resources more efficiently, or prioritizing different outcomes. Empirically estimating the causal effects of competition on student outcomes and school performance is challenging, however. ({\bf 30 points})
+\bigskip
+
+\begin{enumerate}[(a)]
+\setlength\itemsep{1em}
+\item Author 1 approached this problem by using a cross-sectional regression model of the following type: 
+
+$$y_{is} = \beta_0 + \beta_1 CharterComp_{s} + \gamma' X_i + \delta' W_s + u_{is}$$
+
+in which $y_{is}$ is an outcome for student \textit{i} in traditional public school \textit{s}, $X_i$ is a vector of student-level covariates, and $W_s$ is a vector of school-level characteristics. $CharterComp_s$ is a measure of charter school competition in the vicinity of school \textit{s}; for example, this measure could be the number of charter schools within 1 mile of school \textit{s}, or the percent of all same-grade-level students within 1 mile of school \textit{s} enrolled in charter schools. The student outcomes $(y_{is})$ may include, for example, test scores, attendance, on-time graduation, or behavioral infractions. The coefficient of interest is $\beta_1$, the relationship between student outcomes at traditional schools and the extent of local charter school competition. Note there are multiple student observations per school, and the schools in the data are located within the same large urban district.
+\medskip
+
+What key assumption(s) must hold in order to interpret $\beta_1$ as the causal effect of charter competition in Author 1's model? If there is suspected bias, in what direction do you believe it goes? Carefully explain. ({\bf 5 points})
+
+\medskip
+
+\item Author 2 modified the approach of Author 1 by incorporating multiple years of data and estimating the following model with school fixed effects: 
+
+$$y_{ist} = \beta_0 + \beta_1 CharterComp_{st} + \gamma' X_{it} + \delta' W_{st} + \theta_s + \eta_t + u_{ist}$$
+
+In addition to the terms listed in part (a), this model includes a school fixed effect $(\theta_s)$ and year dummies $(\eta_t)$. Note the $CharterComp_{st}$ measure is now time varying---it increases as charter schools open near school \textit{s} and/or gain market share. How does this approach improve upon that of Author 1, if at all? ({\bf 5 points})
+\medskip
+
+\item What key assumption(s) must hold in order to interpret $\beta_1$ as the causal effect of charter competition in Author 2's model? What do you think the biggest threat(s) to these assumptions are in this context? ({\bf 5 points})
+\medskip
+
+\item In this school district, charter schools are responsible for finding their own space, and are more likely to locate in neighborhoods where space can be found. These spaces often include former schools, churches, strip malls, or industrial space. Author 3 uses an instrumental variable for $CharterComp_{st}$: the number of nearby buildings that are large enough to house a charter school. For example, if $CharterComp_{st}$ is the number of charter schools within a 1 mile radius of school \textit{s}, the instrument $z_{st}$ is the number of large buildings suitable for housing a charter school (say 30,000-60,000 square feet) within a 1 mile radius of school \textit{s}. The estimating equation is otherwise the same as part (b), with the exception of the instrumental variable. How does this approach improve upon that of Authors 1-2, if at all? ({\bf 5 points})
+\medskip
+
+\item What are the assumptions necessary for $z_{st}$ to be a valid instrument for $CharterComp_{st}$ in this application? Do you think these assumptions are likely to hold in this context? Carefully explain why or why not. ({\bf 5 points})
+\medskip
+
+\item Suppose that \underline{both} Author 2 and Author 3's approaches are valid. That is, the necessary assumptions hold in both cases for interpreting $\beta_1$ as causal. At the same time, Authors 2 and 3 get substantively different estimates for $\beta_1$ using the same data. How could both approaches be valid causal inferences yet yield different conclusions about $\beta_1$? ({\bf 5 points})
+\end{enumerate}
+
+\bigskip
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{control-variables} 
+\end{center}
+\end{figure}
+
+\pagebreak
+
+% *****************************************************************************
+% Question 2
+% *****************************************************************************
+
+\textbf{Question 2.} After Hurricane Katrina, the State of Louisiana took over the New Orleans public school district and enacted a wide set of school reforms, including converting most schools to privately-operated charter schools. One question of interest is how these reforms affected overall spending in New Orleans and spending on certain inputs, such as instructional and administrator salaries. Note these outcomes (e.g., total, instructional, and administrative spending per pupil) are all reported at the district level. ({\bf 23 points})
+\bigskip
+
+\begin{enumerate}[(a)]
+\setlength\itemsep{1em}
+\item One approach to this research question might be a difference-in-differences design. Briefly describe the data requirements, estimating equation, and assumptions necessary for this approach. ({\bf 5 points})
+
+\item An alternative approach would be a synthetic control design. When and why might this be preferable to the study you described in part (a)? ({\bf 3 points})
+
+\item Briefly describe how you would carry out a synthetic control study of post-Katrina public education spending, and any assumption(s) that must hold in order to interpret its findings as causal. ({\bf 5 points})
+
+\item Suppose that your approach in (c) found that spending in New Orleans \textit{increased} in post-Katrina years, relative to other districts. How would you determine whether this differences was statistically significant or not? Briefly explain. ({\bf 5 points})
+
+\item State whether the following statement is \underline{true} or \underline{false}, and briefly justify your answer. ({\bf 5 points})
+
+\textit{When conducting a synthetic control analysis with multiple outcomes (e.g., total expenditure per pupil and administrative salaries per pupil), it is important to use the same synthetic control for each outcome.}
+
+\end{enumerate}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{twins} 
+\end{center}
+\end{figure}
+\pagebreak
+
+% *****************************************************************************
+% Question 3
+% *****************************************************************************
+
+\textbf{Question 3.} In many public colleges, incoming students are required to take a placement exam to assess whether they must enroll in a remedial education course in the subject (often math or English). Your local college administers such an exam and requires students below a certain threshold score to enroll in the remedial course. You are interested in whether these courses---which typically delay students' entry into non-remedial courses---make it less likely that students graduate in four years. You have collected data on recent placement test scores and remedial course enrollment (on the \textit{y}-axis) and produced the following graph:
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.5]{remedial} 
+\end{center}
+\end{figure}
+
+You have also collected subsequent graduation outcomes and other ``pre-treatment'' student variables (such as high school GPA and demographics) for the same students used in the graph above. ({\bf 36 points})
+
+\begin{enumerate}[(a)]
+\setlength\itemsep{1em}
+\item The fitted line above is a cubic function that is allowed to vary on either side of ``0''. Write down the regression equation that was used, and be sure to define the variables you include. ({\bf 4 points})
+
+\item Does it appear that the college strictly adhered to its rule requiring all students scoring below the threshold to enroll in remedial courses? Briefly explain. ({\bf 3 points})
+
+\item Carefully explain how you would use a regression discontinuity design to estimate the impact of mandated remedial education courses on students' graduation rates. For this part, write down the approach you would use, and explain how it would be estimated and interpreted. ({\bf 8 points})
+
+\item What are the key assumptions required for a causal interpretation of your modeling approach described in part (c)? What might you do, if anything, to evaluate the plausibility of these assumptions? Carefully explain. ({\bf 8 points})
+
+\item Define and apply the following terms to this problem: \textit{average treatment effect, local average treatment effect (LATE), average treatment effect for the treated (ATT), and intent-to-treat (ITT).} That is, explain what each refers to in this specific case. Does your modeling approach in part (c) estimate the average treatment effect of remedial courses? Explain why or why not. ({\bf 8 points})
+
+\item State whether the following statement is \underline{true} or \underline{false}. If false, explain \underline{why}. ({\bf 5 points})
+
+\textit{If there is evidence of manipulation in the running variable in a regression discontinuity design, the treatment effect estimator must be biased.} 
+
+\end{enumerate}
+
+\bigskip
+\bigskip
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{sharpie.png} 
+\end{center}
+\end{figure}
+
+\pagebreak
+
+
+% *****************************************************************************
+% Question 4
+% *****************************************************************************
+
+\textbf{Question 4.} Consider the following regression discontinuity model constructed to estimate the impact of greater health care spending on the mortality of at-risk infants. The design exploits the fact that many hospitals have rules requiring greater care for newborns with especially low birthweight. For example, in some hospitals, newborns with very low weight (those $<1500g$) are sent directly to the neonatal intensive care units (NICU) or to hospital wards with greater nurse supervision. The design here hopes to leverage the difference in health care at 1500$g$ to estimate the benefits of greater health care spending on newborn outcomes. ({\bf 11 points})
+
+\bigskip
+You have data on a large sample of children with low birth weights (1350 to 1650 $g$). The outcome of interest is 28-day mortality ($y=1$ if the child dies within 28 days of birth). The key explanatory variable is hospital spending in dollars on the newborn $(x)$. The two figures below show the relationship between birthweight and hospital spending (Figure A) and between birthweight and 28-day mortality (Figure B).
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.60]{bweight.png} 
+\end{center}
+\end{figure}
+
+The table below reports coefficient estimates (and standard errors) for the following two regressions, where $D_i=1$ if $BW_i<1500$: 
+
+$$ x_i = \alpha_0 + \alpha_1 BW_i + \alpha_2 D_i + u_i $$
+$$ y_i = \gamma_0 + \gamma_1 BW_i + \gamma_2 D_i + v_i $$
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.75]{bweight2.png} 
+\end{center}
+\end{figure}
+
+\begin{enumerate}[(a)]
+\setlength\itemsep{1em}
+\item Using the results reported in the table above, calculate the fuzzy RD estimate of the effect of increased hospital spending on 28-day infant mortality. Interpret this coefficient: what is your predicted change in 28-day mortality rate if spending on low birthweight newborns increases by \$10,000? \textbf{(5 points)}
+
+\item What assumptions must be correct in order for the estimate in part (b) to be a consistent estimate of the causal impact of greater health care spending on newborn mortality? \textbf{(4 points)}
+
+\item Suppose a public health advocate uses the results in part (b) to argue for more health care spending for newborns in general. Given what you know of RD, what word of caution would you have for this person? \textbf{(2 points)}
+\end{enumerate}
+
+
+%See Bills UG PS8 Q8
+
+\end{document}
