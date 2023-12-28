@@ -8,6 +8,8 @@
 
 ## Applications: difference-in-differences in education
 
+Akhtari, M., Bau, N., & Laliberté, J.-W. (2024). Affirmative Action and Precollege Human Capital. *American Economic Journal: Applied Economics*, 16(1), 1-32. https://doi.org/10.1257/app.20210807 
+
 Bacher-Hicks, A., Goodman, J., & Mulhern, C. (2021). Inequality in household adaptation to schooling shocks: Covid-induced online learning engagement in real time. *Journal of Public Economics*, 193, 104345. https://doi.org/https://doi.org/10.1016/j.jpubeco.2020.104345 
 
 Bailey, M. J., Sun, S., & Timpe, B. (2021). Prep School for Poor Kids: The Long-Run Impacts of Head Start on Human Capital and Economic Self-Sufficiency. *American Economic Review*, 111(12), 3963-4001. https://doi.org/10.1257/aer.20181801 
