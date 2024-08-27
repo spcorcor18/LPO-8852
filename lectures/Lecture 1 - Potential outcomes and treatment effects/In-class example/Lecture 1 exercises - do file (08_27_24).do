@@ -8,7 +8,7 @@
 // ***************************************************************
 
 // *********************************
-// Example 1.1
+// Exercise 1.1
 // Based on Mixtape independence.do
 // *********************************
 
@@ -55,6 +55,7 @@
 
 	// Individual treatment effect
 	gen te=y1 - y0
+	histogram te, discrete
 	
 	// Observed y
 	gen y=(d*y1) + (1-d)*y0
@@ -67,16 +68,16 @@
 	summ te if d==0
 
 	// Simple difference in means--yields neither ATE, ATT, nor ATU
-	ttest y, by(d)
-	scalar sdo=r(mu_2)-r(mu_1)
+	ttest y, by(d) rev
+	scalar sdo=r(mu_1)-r(mu_2)
 	
 	// Selection bias
-	ttest y0, by(d)
-	scalar bias=r(mu_2)-r(mu_1)
+	ttest y0, by(d) rev
+	scalar bias=r(mu_1)-r(mu_2)
 	
 	// Heterogeneous treatment effects bias
-	ttest te, by(d)
-	scalar hteb=(1-0.5)*(r(mu_2) - r(mu_1))
+	ttest te, by(d) rev
+	scalar hteb=(1-0.5)*(r(mu_1) - r(mu_2))
 	
 	// Simple difference in means less selection bias and het treatment 
 	// effect bias equals ATE
@@ -87,7 +88,7 @@
 
 	
 // *********************************
-// Example 1.2
+// Exercise 1.2
 // Based on Mixtape independence.do
 // *********************************
 
@@ -143,7 +144,7 @@
 		gen mean = r(mean)
 		end
 
-	simulate mean, reps(10000): gap
+	simulate mean, reps(1000): gap
 	su _sim_1 
 	
 	// See the distribution of point estimates
@@ -153,7 +154,7 @@
 	
 
 // *******************************************
-// Example 1.3
+// Exercise 1.3
 // Based on lecture notes (potential outcomes
 // depend on X and selection into treatment)
 // *******************************************
@@ -186,17 +187,20 @@
 	// observed y
 	gen y = (d*y1)+(1-d)*y0
 	
+	// scatter of y vs x, separate for d=1 and d=0 groups
+	twoway (scatter y x if d==1) (scatter y x if d==0)
+	
 	// simple difference in means
-	ttest y, by(d)
-	scalar sdo=r(mu_2) - r(mu_1)
+	ttest y, by(d) rev
+	scalar sdo=r(mu_1) - r(mu_2)
 	
 	// Selection bias
-	ttest y0, by(d)
-	scalar bias=r(mu_2)-r(mu_1)
+	ttest y0, by(d) rev
+	scalar bias=r(mu_1)-r(mu_2)
 	
 	// Heterogeneous treatment effects bias (none in this case)
-	ttest te, by(d)
-	scalar hteb=(1-0.5)*(r(mu_2) - r(mu_1))
+	ttest te, by(d) rev
+	scalar hteb=(1-0.5)*(r(mu_1) - r(mu_2))
 	
 	// Simple difference in means less selection bias equals ATT
 	display sdo - bias
@@ -218,7 +222,7 @@
 
 
 // *******************************************
-// Example 1.4
+// Exercise 1.4
 // RCT of private school vouchers in NYC
 // (Howell and Peterson, 2006)
 // *******************************************
@@ -229,7 +233,7 @@
 
 	// t-test for difference in student achievement (composite reading and math
 	// achievement expressed as a percentile in national distribution)
-	ttest post_ach, by(voucher)
+	ttest post_ach, by(voucher) rev
 	
 	// same using regression
 	reg post_ach voucher
@@ -241,7 +245,7 @@
 	display b/r(sd)
 	
 	// check for balance in baseline achievement
-	ttest pre_ach, by(voucher)
+	ttest pre_ach, by(voucher) rev
 	
 	// compare the whole distribution of baseline achievement
 	twoway (kdensity pre_ach if voucher==1) (kdensity pre_ach if voucher==0), ///
