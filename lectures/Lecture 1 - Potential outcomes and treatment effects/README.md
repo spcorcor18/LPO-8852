@@ -22,4 +22,4 @@
 
 ## Other resources:
 
-Glennerster, Rachel, and Kudzai Takavarasha. 2013. Running Randomized Evaluations: A Practical Guide. Princeton University Press. See http://runningres.com/
+Glennerster, Rachel, and Kudzai Takavarasha. 2013. *Running Randomized Evaluations: A Practical Guide*. Princeton University Press. See http://runningres.com/
