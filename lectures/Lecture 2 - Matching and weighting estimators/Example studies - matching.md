@@ -28,6 +28,8 @@ Analysis and Management*, 26(3), 455–477. https://doi.org/10.1002/pam.20262
 
 Bennett, C. T. (2021). Untested Admissions: Examining Changes in Application Behaviors and Student Demographics Under Test-Optional Policies. American Educational Research Journal, 59(1), 180-216. https://doi.org/10.3102/00028312211003526
 
+Bross, W., Harris, D. N., & Liu, L. (2023). The effects of performance-based school closure and restart on student performance. *Economics of Education Review*, 94, 102368. https://doi.org/10.1016/j.econedurev.2023.102368
+
 Swain, W. A., Rodriguez, L. A., & Springer, M. G. (2019). Selective retention bonuses for highly effective teachers in high poverty schools: Evidence from Tennessee. *Economics of Education Review*, 68, 148--160. https://doi.org/https://doi.org/10.1016/j.econedurev.2018.12.008 
 
 ## Matching: methodological papers
