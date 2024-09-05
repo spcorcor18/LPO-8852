@@ -4,6 +4,8 @@ Note: also see [example studies - difference-in-differences](https://github.com/
 
 ## Applications: simple event studies in education
 
+Bacher-Hicks, A., Goodman, J., & Mulhern, C. (2021). Inequality in household adaptation to schooling shocks: Covid-induced online learning engagement in real time. *Journal of Public Economics*, 193, 104345. https://doi.org/10.1016/j.jpubeco.2020.104345
+
 :star: Bacher-Hicks, A., Goodman, J., Green, J. G., & Holt, M. K. (2022). The COVID-19 Pandemic Disrupted Both School Bullying and Cyberbullying. *American Economic Review: Insights*, 4(3), 353-370. https://www.aeaweb.org/articles?id=10.1257/aeri.20210456
 
 :star: Courtemanche, C. J., Le, A. H., Yelowitz, A., & Zimmer, R. (2021). School Reopenings, Mobility, and COVID-19 Spread: Evidence from Texas. National Bureau of Economic Research Working Paper Series, No. 28753. https://doi.org/10.3386/w28753 
