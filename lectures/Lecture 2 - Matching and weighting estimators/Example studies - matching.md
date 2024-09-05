@@ -1,6 +1,6 @@
 # Example studies - matching and re-weighting
 
-## Applications: matching methods
+## Applications: matching methods in education
 
 Attewell, P., & Domina, T. (2008). Raising the Bar: Curricular Intensity and Academic Performance. *Educational Evaluation and Policy Analysis*, 30(1), 51-71. https://journals.sagepub.com/doi/abs/10.3102/0162373707313409
 * straightforward propensity score matching example
@@ -12,6 +12,10 @@ Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-
 ## Applications: inverse probability weighting
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
+
+## Applications: other weighting methods
+
+Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
 
 ## Applying matching to experimental data
 
