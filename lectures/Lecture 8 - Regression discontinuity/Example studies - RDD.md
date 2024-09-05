@@ -26,6 +26,8 @@ Dee, T. S., & Wyckoff, J. (2015). Incentives, Selection, and Teacher Performance
 
 Eren, O., Lovenheim, M. F., & Mocan, H. N. (2021). The Effect of Grade Retention on Adult Crime: Evidence from a Test-Based Promotion Policy. *Journal of Labor Economics*. https://doi.org/10.1086/715836
 
+Figlio, D., & Ozek, U. (2024). The Unintended Consequences of Test-Based Remediation. *American Economic Journal: Applied Economics*, 16(1), 60-89. https://www.aeaweb.org/articles?id=10.1257/app.20210037
+
 Hoekstra, M. (2009). The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach. *Review of Economics and Statistics,* 91(4), 717--724. https://doi.org/10.1162/rest.91.4.717 
 
 Jacob, B. A., & Lefgren, L. (2004). Remedial Education and Student Achievement: A Regression-Discontinuity Analysis. *Review of Economics and Statistics*, 86(1), 226–244. https://doi.org/10.1162/003465304323023778
