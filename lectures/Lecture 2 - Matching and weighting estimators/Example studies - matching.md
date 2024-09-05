@@ -5,13 +5,16 @@
 Attewell, P., & Domina, T. (2008). Raising the Bar: Curricular Intensity and Academic Performance. *Educational Evaluation and Policy Analysis*, 30(1), 51-71. https://journals.sagepub.com/doi/abs/10.3102/0162373707313409
 * straightforward propensity score matching example
 
+Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy.* https://doi.org/10.1162/edfp_a_00414 
+
 Gurantz, O., & Tsai, Y.-Y. (2023). The impact of federal administrative burdens on college enrollment. Economics of Education Review, 97, 102461. https://doi.org/10.1016/j.econedurev.2023.102461
 * matchine learning and entropy balancing
 
 Hill, C. J., Gormley, W. T., & Adelstein, S. (2015). Do the short-term effects of a high-quality preschool program persist? *Early Childhood Research Quarterly*, 32, 60-79. https://doi.org/10.1016/j.ecresq.2014.12.005
 * boosted regression and propensity score matching
  
-Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy.* https://doi.org/10.1162/edfp_a_00414 
+Kearns, C., Lauen, D. L., & Fuller, B. (2020). Competing With Charter Schools: Selection, Retention, and Achievement in Los Angeles Pilot Schools. *Evaluation Review*, 44(2-3), 111-144. 
+* propensity score matching
 
 ## Applications: inverse probability weighting
 
