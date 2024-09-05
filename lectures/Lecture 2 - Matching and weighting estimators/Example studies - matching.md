@@ -13,6 +13,8 @@ Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
 
+Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy*, 1-40. https://doi.org/10.1162/edfp_a_00414
+
 ## Applications: other weighting methods
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
