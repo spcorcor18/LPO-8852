@@ -23,7 +23,7 @@
 
 	// Assign a binary treatment based on probability of treatment
 	gen treat=rbinomial(1,prtreat)
-	tabulate age treat
+	binscatter treat age
 	tabulate educ treat, row
 	corr age educ treat
 
@@ -33,8 +33,8 @@
 	summ y,detail
 	drop preduc
 
-	// Simple regression with OVB. Controlling for age and education would
-	// suffice in this example, but we want to illustrate matching below.
+	// Simple regression with OVB. Controlling linearly for age and education 
+	// would suffice in this example, but we want to illustrate matching below.
 	reg y treat
 	
 
@@ -54,6 +54,12 @@
 	// Quietly matching on age so that ate is suppressed from view
 	quietly: teffects nnmatch (y age) (treat), ematch(age) ate
 	tebalance summarize
+	
+	// Demonstration of how standardized difference is calculated:
+	// shown for "raw" gap (before matching)--compare to tebalance summarize
+	ttest age,by(treat) rev
+	return list
+	display (r(mu_1) - r(mu_2)) / sqrt(((r(sd_1)^2 + r(sd_2)^2)/2))
 
 	// Exact matching on age and education
 	// Note: default std error calculation requires 2+ matches so using vce(iid)
@@ -88,6 +94,8 @@
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) ate vce(iid) dmvariables
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid) dmvariables
 	tebalance summarize
+	tebalance box age
+	tebalance density age
 	
 	// Example combining nearest neighbor and exact match (on educ)
 	teffects nnmatch (y age ) (treat) , ematch(educ) nneighbor(5) atet vce(iid) dmv
@@ -111,7 +119,8 @@
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid)
 	tebalance summarize
 	teffects nnmatch (y age educ) (treat) , nneighbor(5) atet vce(iid) biasadj(age)
-
+	tebalance summarize
+	
 	// Predicting "potential outcomes" and individual "treatment effects"
 	// Note: requires storing observation number of nearest neighbors.
 	// First, after requesting ATET - no po1 or te for untreated cases
@@ -135,7 +144,7 @@
 	drop em* po* te
 
 	
-	
+	// BONUS:
 	// Example of using mahapick to identify nearest neighbor matches (using
 	// Mahalanobis measure) and output those matches to a file. Note: mahapick
 	// is a user-written command, so need to ssc install first
