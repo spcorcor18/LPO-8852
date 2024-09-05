@@ -17,5 +17,5 @@
 
 ## Example studies:
 
-[List of example studies and other panel data references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%204%20-%20Panel%20data/Example%20studies%20-%20panel%20data.md)
+[List of example studies and other panel data references]([https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%204%20-%20Panel%20data/Example%20studies%20-%20panel%20data.md])
 
