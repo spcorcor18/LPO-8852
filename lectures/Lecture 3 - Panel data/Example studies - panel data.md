@@ -6,6 +6,8 @@
 
 Atteberry, A. C., & McEachin, A. J. (2020). Not Where You Start, but How Much You Grow: An Addendum to the Coleman Report. *Educational Researcher*, 0013189X20940304. https://doi.org/10.3102/0013189X20940304 
 
+## Applications: fixed effects in education
+
 Kearney, M. S., & Levine, P. B. (2019). Early Childhood Education by Television: Lessons from Sesame Street. *American Economic Journal: Applied Economics*, 11(1), 318--350. http://www.aeaweb.org/articles?id=10.1257/app.20170300 
 
 Park, R. J., Goodman, J., Hurwitz, M., & Smith, J. (2020). Heat and Learning. *American Economic Journal: Economic Policy*, 12(2), 306-339. https://doi.org/10.1257/pol.20180612 
@@ -16,9 +18,11 @@ Ronfeldt, M., Loeb, S., & Wyckoff, J. (2013). How Teacher Turnover Harms Student
 
 Shi, Y., & Zhu, M. (2022). Equal time for equal crime? Racial bias in school discipline. *Economics of Education Review*, 88, 102256. https://doi.org/https://doi.org/10.1016/j.econedurev.2022.102256 
 
-## Applications: panel data in health policy
+## Applications: fixed effects in health policy
 
 Abouk, R., Adams, S., Feng, B., Maclean, J. C., & Pesko, M. F. (2023) The effect of e-cigarette taxes on pre-pregnancy and prenatal smoking. *Journal of Policy Analysis and Management*, 42, 908–940. https://doi.org/10.1002/pam.22485
+
+Bond, T. N., Carr, J. B., Packham, A., & Smith, J. (2022). Hungry for Success? SNAP Timing, High-Stakes Exam Performance, and College Attendance. *American Economic Journal: Economic Policy*, 14(4), 51-79. https://www.aeaweb.org/articles?id=10.1257/pol.20210026
 
 ## Panel data: methodological issues
 
