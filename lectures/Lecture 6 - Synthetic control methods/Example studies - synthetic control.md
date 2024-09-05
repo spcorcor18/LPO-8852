@@ -27,6 +27,9 @@ Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects o
 
 ## Synthetic control: methodological papers
 
+Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
+* classic synthetic control paper
+
 Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Control Method. *Journal of the American Statistical Association*, 116(536), 1789-1803. https://doi.org/10.1080/01621459.2021.1929245 
