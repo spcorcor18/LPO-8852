@@ -10,6 +10,8 @@ Atteberry, A. C., & McEachin, A. J. (2020). Not Where You Start, but How Much Yo
 
 Carrell, S. E., & Hoekstra, M. (2014). Are school counselors an effective education input? *Economics Letters*, 125(1), 66-69. http://dx.doi.org/10.1016/j.econlet.2014.07.020
 
+Figlio, D. N., Hart, C. M. D., & Karbownik, K. (2023). Effects of Maturing Private School Choice Programs on Public School Students. *American Economic Journal: Economic Policy*, 15(4), 255–294. https://www.aeaweb.org/articles?id=10.1257/pol.20210710
+
 Kearney, M. S., & Levine, P. B. (2019). Early Childhood Education by Television: Lessons from Sesame Street. *American Economic Journal: Applied Economics*, 11(1), 318--350. http://www.aeaweb.org/articles?id=10.1257/app.20170300 
 
 Park, R. J., Goodman, J., Hurwitz, M., & Smith, J. (2020). Heat and Learning. *American Economic Journal: Economic Policy*, 12(2), 306-339. https://doi.org/10.1257/pol.20180612 
