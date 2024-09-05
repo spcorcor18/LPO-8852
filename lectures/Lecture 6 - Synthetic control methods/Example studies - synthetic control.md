@@ -38,5 +38,7 @@ Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Cont
 
 Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Automate Synthetic Control Estimation Using Synth. *The Stata Journal*, 17(4), 834-849. https://journals.sagepub.com/doi/abs/10.1177/1536867X1801700404
 
+Kaul, A., Klößner, S., Pfeifer, G., & Schieler, M. (2022). Standard Synthetic Control Methods: The Case of Using All Preintervention Outcomes Together With Covariates. *Journal of Business & Economic Statistics*, 40(3), 1362-1376. https://doi.org/10.1080/07350015.2021.1930012
+
 Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
 
