@@ -55,6 +55,8 @@ Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal 
 
 Athey, S., & Imbens, G. W. (2022). Design-based analysis in Difference-In-Differences settings with staggered adoption. *Journal of Econometrics*, 226(1), 62-79. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.10.012 
 
+Baker, A. C., Larcker, D. F., & Wang, C. C. Y. (2022). How much should we trust staggered difference-in-differences estimates? Journal of Financial Economics, 144(2), 370-395. https://doi.org/10.1016/j.jfineco.2022.01.004
+
 :star: Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-Differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.12.001 
 
 de Chaisemartin, C., & D'Haultfœuille, X. (2018). Fuzzy Differences-in-Differences. *The Review of Economic Studies*, 85(2), 999--1028. http://dx.doi.org/10.1093/restud/rdx049 
