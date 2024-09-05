@@ -6,6 +6,8 @@ Abdulkadiroğlu, A., Angrist, J., & Pathak, P. (2014). The Elite Illusion: Achie
 
 Angrist, J. D., & Lavy, V. (1999). Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement. *The Quarterly Journal of Economics,* 114(2), 533--575. https://www.jstor.org/stable/2587016
 
+Baron, E. J., Hyman, J., & Vasquez, B. (2024). Public School Funding, School Quality, and Adult Crime. The Review of Economics and Statistics, 1-46. https://doi.org/10.1162/rest_a_01452
+
 Brunner, E. J., Dougherty, S. M., & Ross, S. L. (2021). The Effects of Career and Technical Education: Evidence from the Connecticut Technical High School System. *The Review of Economics and Statistics*, 1-46. https://doi.org/10.1162/rest_a_01098 
 
 Card, D., & Giuliano, L. (2016). Can Tracking Raise the Test Scores of High-Ability Minority Students? *American Economic Review*, 106(10), 2783–2816. https://www.aeaweb.org/articles?id=10.1257/aer.20150484
