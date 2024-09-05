@@ -20,6 +20,8 @@ Connolly, M., & Haeck, C. (2022). Nonlinear Class Size Effects on Cognitive and 
 
 Cook, P. J., & Kang, S. (2016). Birthdays, Schooling, and Crime: Regression-Discontinuity Analysis of School Performance, Delinquency, Dropout, and Crime Initiation. *American Economic Journal: Applied Economics,* 8(1), 33–57. http://www.aeaweb.org/articles.php?doi=10.1257/app.20140323
 
+Dahl, G. B., Rooth, D.-O., & Stenberg, A. (2023). High School Majors and Future Earnings. *American Economic Journal: Applied Economics*, 15(1), 351-382. https://www.aeaweb.org/articles?id=10.1257/app.20210292
+
 Dee, T. S., & Wyckoff, J. (2015). Incentives, Selection, and Teacher Performance: Evidence from IMPACT. *Journal of Policy Analysis and Management*, 34(2), 267–297. https://doi.org/10.1002/pam.21818
 
 Eren, O., Lovenheim, M. F., & Mocan, H. N. (2021). The Effect of Grade Retention on Adult Crime: Evidence from a Test-Based Promotion Policy. *Journal of Labor Economics*. https://doi.org/10.1086/715836
