@@ -73,6 +73,8 @@ Rambachan, A., & Roth, J. (2023). A More Credible Approach to Parallel Trends. T
 
 Roth, J. (2022). Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends. *American Economic Review: Insights*, 4(3), 305-322. https://doi.org/10.1257/aeri.20210236 
 
+Sun, L., & Shapiro, J. M. (2022). A Linear Panel Model with Heterogeneous Coefficients and Variation in Exposure. *Journal of Economic Perspectives*, 36(4), 193-204. https://www.aeaweb.org/articles?id=10.1257/jep.36.4.193 
+
 ## Related methods
 
 Baicker, K., & Svoronos, T. (2019). Testing the Validity of the Single Interrupted Time Series Design. National Bureau of Economic Research Working Paper Series, No. 26080. https://doi.org/10.3386/w26080 
