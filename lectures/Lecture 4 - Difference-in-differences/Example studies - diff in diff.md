@@ -43,6 +43,8 @@ Gupta, S., Salcedo, D., & Simon, K. I. (2024). School Closures and Parental Ment
 
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
+Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-differences Methods for Policy Evaluation Research. Epidemiology, 35(5), 628-637. https://journals.lww.com/epidem/fulltext/2024/09000/advances_in_difference_in_differences_methods_for.6.aspx
+
 :star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
 
 :star: Wing, C., Yozwiak, M., Hollingsworth, A., Freedman, S., & Simon, K. (2024). Designing Difference-in-Difference Studies with Staggered Treatment Adoption: Key Concepts and Practical Guidelines. *Annual Review of Public Health*, 45(Volume 45, 2024), 485-505. https://doi.org/10.1146/annurev-publhealth-061022-050825
