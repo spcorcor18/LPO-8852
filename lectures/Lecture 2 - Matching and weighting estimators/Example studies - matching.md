@@ -31,6 +31,9 @@ Swiderski, T. (2024). The Effect of Early College High Schools on STEM Bachelor'
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
 
+Yoo, P., Domina, T., McEachin, A., Clark, L., Hertenstein, H., & Penner, A. M. (2023). Virtual Charter Students Have Worse Labor Market Outcomes as Young Adults. Retrieved from http://www.edworkingpapers.com/ai23-773
+* uses TWANG and inverse probability weighting
+
 ## Applying matching to experimental data
 
 Fortson, K., Gleason, P., Kopa, E., & Verbitsky-Savitz, N. (2015). Horseshoes, hand grenades, and treatment effects? Reassessing whether nonexperimental estimators are biased. *Economics of Education Review*, 44(0), 100--113. http://dx.doi.org/10.1016/j.econedurev.2014.11.001
