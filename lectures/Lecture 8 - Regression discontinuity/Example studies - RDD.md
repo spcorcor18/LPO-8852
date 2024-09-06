@@ -52,6 +52,8 @@ Almond, D., Doyle, J. J., Jr., Kowalski, A. E., & Williams, H. (2010). Estimatin
 
 Card, D., Dobkin, C., & Maestas, N. (2008). The Impact of Nearly Universal Insurance Coverage on Health Care Utilization: Evidence from Medicare. *American Economic Review,* 98(5), 2242-2258. https://doi.org/10.1257/aer.98.5.2242 
 
+Hansen, N.-J. H., & Mano, R. C. (2023). Mask mandates save lives. *Journal of Health Economics*, 88, 102721. https://doi.org/10.1016/j.jhealeco.2022.102721
+
 ## Regression discontinuity: methodological issues
 
 ⭐ Barreca, A. I., Lindo, J. M., & Waddell, G. R. (2016). Heaping-Induced Bias in Regression Discontinuity Designs. *Economic Inquiry*, 54(1), 268-293. https://doi.org/10.1111/ecin.12225
