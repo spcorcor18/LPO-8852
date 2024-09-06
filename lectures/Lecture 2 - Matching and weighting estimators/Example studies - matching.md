@@ -25,6 +25,8 @@ Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs
 
 Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy*, 1-40. https://doi.org/10.1162/edfp_a_00414
 
+Swiderski, T. (2024). The Effect of Early College High Schools on STEM Bachelor's Degree Attainment: Evidence from North Carolina. *Education Finance and Policy*, 19(3), 437-460. https://doi.org/10.1162/edfp_a_00404
+
 ## Applications: other weighting methods
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
