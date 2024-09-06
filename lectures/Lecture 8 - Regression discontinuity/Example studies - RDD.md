@@ -38,6 +38,8 @@ Ost, B., Pan, W., & Webber, D. (2018). The Returns to College Persistence for Ma
 
 Malamud, O., & Pop-Eleches, C. (2011). Home Computer Use and the Development of Human Capital. *The Quarterly Journal of Economics*, 126(2), 987–1027. https://doi.org/10.1093/qje/qjr008
 
+Mariano, L. T., Martorell, P., & Berglund, T. (2024). The Effects of Grade Retention on High School Outcomes: Evidence from New York City Schools. *Journal Of Research on Educational Effectiveness*, 1-31. https://doi.org/10.1080/19345747.2023.2287607
+
 Papay, J. P., Mantil, A., & Murnane, R. J. (2022). On the Threshold: Impacts of Barely Passing High-School Exit Exams on Post-Secondary Enrollment and Completion. *Educational Evaluation and Policy Analysis*, 01623737221090258. https://doi.org/10.3102/01623737221090258 
 
 Pop-Eleches, C., & Urquiola, M. (2013). Going to a Better School: Effects and Behavioral Responses. *American Economic Review*, 103(4), 1289–1324. http://www.aeaweb.org/articles.php?doi=10.1257/aer.103.4.1289
