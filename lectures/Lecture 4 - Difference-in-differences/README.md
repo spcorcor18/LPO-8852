@@ -23,6 +23,7 @@
 
 [Andrew Baker video on difference-in-differences, and recent developments](https://www.youtube.com/watch?v=mCOzQxJuvZk) - covers the recent work by Goodman-Bacon and others.
 
+[Wooldridge lecture on difference-in-differences](https://econ4ua.org/panel-data-workshops/) - viewable with a donation to Ukraine
 
 ## Other resources:
 
