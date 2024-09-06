@@ -80,7 +80,7 @@ Deaton, A. (2010). Instruments, Randomization, and Learning about Development. *
 
 Fan, E., Liu, J.-T., & Chen, Y.-C. (2017). Is the Quarter of Birth Endogenous? New Evidence from Taiwan, the US, and Indonesia. *Oxford Bulletin of Economics and Statistics*, 79(6), 1087-1124. doi:https://doi.org/10.1111/obes.12175
 
-Mellon, J. (2020). Rain, Rain, Go away: 137 potential exclusion-restriction violations for studies using weather as an instrumental variable. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610
+Mellon, J. (In press) Rain, rain, go away: 194 potential exclusion-restriction violations for studies using weather as an instrumental variable. *American Journal of Political Science*. https://doi.org/10.1111/ajps.12894
 
 ## Instrumental variables: other methodological papers
 
