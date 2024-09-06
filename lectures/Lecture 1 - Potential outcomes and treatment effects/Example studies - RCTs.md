@@ -6,6 +6,8 @@ Angrist, J., Autor, D., & Pallais, A. (2021). Marginal Effects of Merit Aid for 
 
 Burland, Elizabeth, Susan Dynarski, Katherine Michelmore, Stephanie Owen, and Shwetha Raghuraman. 2023. The Power of Certainty: Experimental Evidence on the Effective Design of Free Tuition Programs. *American Economic Review: Insights*, 5 (3): 293-310. https://www.aeaweb.org/articles?id=10.1257/aeri.20220094
 
+Kofoed, M. S., Gebhart, L., Gilmore, D., & Moschitto, R. (2024). Zooming to Class? Experimental Evidence on College Students' Online Learning during COVID-19. *American Economic Review: Insights*, 6(3), 324–340. https://www.aeaweb.org/articles?id=10.1257/aeri.20230077
+
 ## RCTs in early childhood education
 
 Algan, Y., Beasley, E., Côté, S., Park, J., Tremblay, R. E., & Vitaro, F. (2022). The Impact of Childhood Social Skills and Self-Control Training on Economic and Noneconomic Outcomes: Evidence from a Randomized Experiment Using Administrative Data. *American Economic Review*, 112(8), 2553-2579. https://www.aeaweb.org/articles?id=10.1257/aer.20200224 
