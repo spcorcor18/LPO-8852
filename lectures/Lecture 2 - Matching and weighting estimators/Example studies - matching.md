@@ -19,6 +19,9 @@ Kearns, C., Lauen, D. L., & Fuller, B. (2020). Competing With Charter Schools: S
 Long, M. C., Conger, D., & Iatarola, P. (2012). Effects of High School Course-Taking on Secondary and Postsecondary Success. *American Educational Research Journal*, 49(2), 285-322. https://journals.sagepub.com/doi/abs/10.3102/0002831211431952
 * propensity score matching
 
+Zhao, T., Perez-Felkner, L., & Hu, S. (In Press). The Impact of Merit Aid on STEM Major Choices: A Propensity Score Approach. *Educational Evaluation and Policy Analysis* https://journals.sagepub.com/doi/abs/10.3102/01623737241254842
+
+
 ## Applications: inverse probability weighting
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
