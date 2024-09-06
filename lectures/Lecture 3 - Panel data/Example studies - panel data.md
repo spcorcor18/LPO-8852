@@ -34,5 +34,6 @@ Bond, T. N., Carr, J. B., Packham, A., & Smith, J. (2022). Hungry for Success? S
 
 Feller, A., & Stuart, E. A. (2021). Challenges with Evaluating Education Policy Using Panel Data during and after the COVID-19 Pandemic. *Journal of Research on Educational Effectiveness*, 14(3), 668-675. https://doi.org/10.1080/19345747.2021.1938316 
 
-Miller, D. L., Shenhav, N. a., & Grosz, M. (2023). Selection into Identification in Fixed Effects Models, with Application to Head Start. *Journal of Human Resources*, 58(5), 1523-1566. https://doi.org/10.3368/jhr.58.5.0520-10930R1 
+:star: Miller, D. L., Shenhav, N. a., & Grosz, M. (2023). Selection into Identification in Fixed Effects Models, with Application to Head Start. *Journal of Human Resources*, 58(5), 1523-1566. https://doi.org/10.3368/jhr.58.5.0520-10930R1 
+* Fixed effects models rely on variation within groups. When some groups lack variation, the estimated treatment effect is not an ATE. This paper introduces a re-weighting procedure that attempts to recover the ATE for specific populations.
 
