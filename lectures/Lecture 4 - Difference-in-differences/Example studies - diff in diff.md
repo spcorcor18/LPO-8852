@@ -69,6 +69,8 @@ de Chaisemartin, C., D’Haultfœuille, X., & Guyonvarch, Y. (2019). Fuzzy diffe
 
 Lechner, M. (2011). The Estimation of Causal Effects by Difference-in-Difference Methods. *Foundations and Trends in Econometrics*, 4(3), 165--224. https://doi.org/10.1561/0800000014 
 
+Rambachan, A., & Roth, J. (2023). A More Credible Approach to Parallel Trends. The Review of Economic Studies, 90(5), 2555-2591. https://doi.org/10.1093/restud/rdad018
+
 Roth, J. (2022). Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends. *American Economic Review: Insights*, 4(3), 305-322. https://doi.org/10.1257/aeri.20210236 
 
 ## Related methods
