@@ -16,6 +16,9 @@ Hill, C. J., Gormley, W. T., & Adelstein, S. (2015). Do the short-term effects o
 Kearns, C., Lauen, D. L., & Fuller, B. (2020). Competing With Charter Schools: Selection, Retention, and Achievement in Los Angeles Pilot Schools. *Evaluation Review*, 44(2-3), 111-144. https://journals.sagepub.com/doi/abs/10.1177/0193841X20946221
 * propensity score matching
 
+Long, M. C., Conger, D., & Iatarola, P. (2012). Effects of High School Course-Taking on Secondary and Postsecondary Success. *American Educational Research Journal*, 49(2), 285-322. https://journals.sagepub.com/doi/abs/10.3102/0002831211431952
+* propensity score matching
+
 ## Applications: inverse probability weighting
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
