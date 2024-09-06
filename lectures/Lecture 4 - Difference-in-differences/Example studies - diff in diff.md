@@ -77,5 +77,7 @@ Roth, J. (2022). Pretest with Caution: Event-Study Estimates after Testing for P
 
 Baicker, K., & Svoronos, T. (2019). Testing the Validity of the Single Interrupted Time Series Design. National Bureau of Economic Research Working Paper Series, No. 26080. https://doi.org/10.3386/w26080 
 
+Sims, S., Anders, J., & Zieger, L. (2022). The Internal Validity of the School-Level Comparative Interrupted Time Series Design: Evidence From Four New Within-Study Comparisons. *Journal Of Research on Educational Effectiveness*, 1-22. https://doi.org/10.1080/19345747.2022.2051652
+
 Somers, M.A., Zhu, P., Jacob, R., & Bloom, H. (2013). The Validity and Precision of the Comparative Interrupted Time Series Design and the Difference-in-Difference Design in Educational Evaluation. Retrieved from https://www.mdrc.org/sites/default/files/validity_precision_comparative_interrupted_time_series_design.pdf
 
