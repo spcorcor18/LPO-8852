@@ -45,6 +45,8 @@ Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal 
 
 :star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
 
+:star: Wing, C., Yozwiak, M., Hollingsworth, A., Freedman, S., & Simon, K. (2024). Designing Difference-in-Difference Studies with Staggered Treatment Adoption: Key Concepts and Practical Guidelines. *Annual Review of Public Health*, 45(Volume 45, 2024), 485-505. https://doi.org/10.1146/annurev-publhealth-061022-050825
+
 
 ## Applications: triple difference
 
