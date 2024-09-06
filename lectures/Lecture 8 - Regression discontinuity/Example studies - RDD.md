@@ -82,8 +82,7 @@ Jacob, R. T., Zhu, P., Somers, M.-A., & Bloom, H. (2012). A Practical Guide to R
 
 ⭐ Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
 
-:star: Korting, C., Lieberman, C., Matsudaira, J., Pei, Z., & Shen, Y. (2023). Visual Inference and Graphical Representation in Regression Discontinuity Designs*. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjad011
-
+:star: Korting, C., Lieberman, C., Matsudaira, J., Pei, Z., & Shen, Y. (2023). Visual Inference and Graphical Representation in Regression Discontinuity Designs. *The Quarterly Journal of Economics*. https://doi.org/10.1093/qje/qjad011
 
 Lipsey, M. W., Weiland, C., Yoshikawa, H., Wilson, S. J., & Hofer, K. G. (2015). The Prekindergarten Age-Cutoff Regression-Discontinuity Design: Methodological Issues and Implications for Application. *Educational Evaluation and Policy Analysis*, 37(3), 296–313. https://doi.org/10.3102/0162373714547266
 
