@@ -40,6 +40,8 @@ Kearney, M. S., & Levine, P. B. (2015). Media Influences on Social Outcomes: The
 
 Mountjoy, J. (2022). Community Colleges and Upward Mobility. *American Economic Review*, 112(8), 2580-2630. https://doi.org/10.1257/aer.20181756  
 
+Setren, E. (2024). Busing to Opportunity? The Impacts of the METCO Voluntary School Desegregation Program on Urban Students of Color. National Bureau of Economic Research Working Paper Series, No. 32864. http://www.nber.org/papers/w32864
+
 Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Expansion on Teacher and Student Composition at Traditional Public Schools. *Economics of Education Review*, 82, 102095. https://doi.org/https://doi.org/10.1016/j.econedurev.2021.102095 
 
 ## Applications: shift-share designs
