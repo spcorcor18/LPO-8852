@@ -16,6 +16,8 @@ Angrist, J. D., & Lang, K. (2004). Does School Integration Generate Peer Effects
 
 Angrist, J. D., & Lavy, V. (1999). Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement. *The Quarterly Journal of Economics*, 114(2), 533--575. http://links.jstor.org/sici?sici=0033-5533(199905)114:2%3C533:UMRTET%3E2.0.CO;2-3 
 
+Ash, E., & Galletta, S. (2023). How Cable News Reshaped Local Government. *American Economic Journal: Applied Economics*, 15(4), 292-320. https://www.aeaweb.org/articles?id=10.1257/app.20210501
+
 Ballis, B., & Heath, K. (2021). The Long-Run Impacts of Special Education. *American Economic Journal: Economic Policy*, 13(4), 72-111. https://doi.org/10.1257/pol.20190603
 
 Barrow, L., Schanzenbach, D. W., & Claessens, A. (2015). The impact of Chicago's small high school initiative. *Journal of Urban Economics*, 87(0), 100--113. https://doi.org/http://dx.doi.org/10.1016/j.jue.2015.02.002 
@@ -37,6 +39,8 @@ Jackson, C. K., Wigger, C., & Xiong, H. (2021). Do School Spending Cuts Matter? 
 Kearney, M. S., & Levine, P. B. (2015). Media Influences on Social Outcomes: The Impact of MTV's 16 and Pregnant on Teen Childbearing. *American Economic Review*, 105(12), 3597--3632. http://www.aeaweb.org/articles.php?doi=10.1257/aer.20140012 
 
 Mountjoy, J. (2022). Community Colleges and Upward Mobility. *American Economic Review*, 112(8), 2580-2630. https://doi.org/10.1257/aer.20181756  
+
+Setren, E. (2024). Busing to Opportunity? The Impacts of the METCO Voluntary School Desegregation Program on Urban Students of Color. National Bureau of Economic Research Working Paper Series, No. 32864. http://www.nber.org/papers/w32864
 
 Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Expansion on Teacher and Student Composition at Traditional Public Schools. *Economics of Education Review*, 82, 102095. https://doi.org/https://doi.org/10.1016/j.econedurev.2021.102095 
 
@@ -76,7 +80,7 @@ Deaton, A. (2010). Instruments, Randomization, and Learning about Development. *
 
 Fan, E., Liu, J.-T., & Chen, Y.-C. (2017). Is the Quarter of Birth Endogenous? New Evidence from Taiwan, the US, and Indonesia. *Oxford Bulletin of Economics and Statistics*, 79(6), 1087-1124. doi:https://doi.org/10.1111/obes.12175
 
-Mellon, J. (2020). Rain, Rain, Go away: 137 potential exclusion-restriction violations for studies using weather as an instrumental variable. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610
+Mellon, J. (In press) Rain, rain, go away: 194 potential exclusion-restriction violations for studies using weather as an instrumental variable. *American Journal of Political Science*. https://doi.org/10.1111/ajps.12894
 
 ## Instrumental variables: other methodological papers
 

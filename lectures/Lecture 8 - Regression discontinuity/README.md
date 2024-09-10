@@ -14,7 +14,7 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 * MW chapter 9 
 * Imbens, G. W., & Lemieux, T. (2008). Regression Discontinuity Designs: A Guide to Practice. *Journal of Econometrics*, 142(2), 615--635. http://dx.doi.org/10.1016/j.jeconom.2007.05.001
 * Lee, D. S., & Lemieux, T. (2010). Regression Discontinuity Designs in Economics. *Journal of Economic Literature*, 48(2), 281-355. https://doi.org/10.1257/jel.48.2.281 
-* What Works Clearinghouse Standards Handbook Version 4.1. (2020), https://ies.ed.gov/ncee/wwc/Docs/referenceresources/WWC-Standards-Handbook-v4-1-508.pdf (section III on RD)
+* :star: What Works Clearinghouse Standards Handbook Version 5 (2022), https://ies.ed.gov/ncee/wwc/Handbooks (see chapter on RD)
 
 
 ## Video resources:

@@ -39,9 +39,15 @@ Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia
 
 :star: Freedman, S. M., Hollingsworth, A., Simon, K. I., Wing, C., & Yozwiak, M. (2023). Designing Difference in Difference Studies With Staggered Treatment Adoption: Key Concepts and Practical Guidelines. National Bureau of Economic Research Working Paper Series, No. 31842. http://www.nber.org/papers/w31842
 
+Gupta, S., Salcedo, D., & Simon, K. I. (2024). School Closures and Parental Mental Health. National Bureau of Economic Research Working Paper Series, No. 32516. http://www.nber.org/papers/w32516
+
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
+Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-differences Methods for Policy Evaluation Research. Epidemiology, 35(5), 628-637. https://journals.lww.com/epidem/fulltext/2024/09000/advances_in_difference_in_differences_methods_for.6.aspx
+
 :star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
+
+:star: Wing, C., Yozwiak, M., Hollingsworth, A., Freedman, S., & Simon, K. (2024). Designing Difference-in-Difference Studies with Staggered Treatment Adoption: Key Concepts and Practical Guidelines. *Annual Review of Public Health*, 45(Volume 45, 2024), 485-505. https://doi.org/10.1146/annurev-publhealth-061022-050825
 
 
 ## Applications: triple difference
@@ -55,6 +61,8 @@ Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal 
 
 Athey, S., & Imbens, G. W. (2022). Design-based analysis in Difference-In-Differences settings with staggered adoption. *Journal of Econometrics*, 226(1), 62-79. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.10.012 
 
+Baker, A. C., Larcker, D. F., & Wang, C. C. Y. (2022). How much should we trust staggered difference-in-differences estimates? Journal of Financial Economics, 144(2), 370-395. https://doi.org/10.1016/j.jfineco.2022.01.004
+
 :star: Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-Differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.12.001 
 
 de Chaisemartin, C., & D'Haultfœuille, X. (2018). Fuzzy Differences-in-Differences. *The Review of Economic Studies*, 85(2), 999--1028. http://dx.doi.org/10.1093/restud/rdx049 
@@ -65,11 +73,17 @@ de Chaisemartin, C., D’Haultfœuille, X., & Guyonvarch, Y. (2019). Fuzzy diffe
 
 Lechner, M. (2011). The Estimation of Causal Effects by Difference-in-Difference Methods. *Foundations and Trends in Econometrics*, 4(3), 165--224. https://doi.org/10.1561/0800000014 
 
+Rambachan, A., & Roth, J. (2023). A More Credible Approach to Parallel Trends. The Review of Economic Studies, 90(5), 2555-2591. https://doi.org/10.1093/restud/rdad018
+
 Roth, J. (2022). Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends. *American Economic Review: Insights*, 4(3), 305-322. https://doi.org/10.1257/aeri.20210236 
+
+Sun, L., & Shapiro, J. M. (2022). A Linear Panel Model with Heterogeneous Coefficients and Variation in Exposure. *Journal of Economic Perspectives*, 36(4), 193-204. https://www.aeaweb.org/articles?id=10.1257/jep.36.4.193 
 
 ## Related methods
 
 Baicker, K., & Svoronos, T. (2019). Testing the Validity of the Single Interrupted Time Series Design. National Bureau of Economic Research Working Paper Series, No. 26080. https://doi.org/10.3386/w26080 
+
+Sims, S., Anders, J., & Zieger, L. (2022). The Internal Validity of the School-Level Comparative Interrupted Time Series Design: Evidence From Four New Within-Study Comparisons. *Journal Of Research on Educational Effectiveness*, 1-22. https://doi.org/10.1080/19345747.2022.2051652
 
 Somers, M.A., Zhu, P., Jacob, R., & Bloom, H. (2013). The Validity and Precision of the Comparative Interrupted Time Series Design and the Difference-in-Difference Design in Educational Evaluation. Retrieved from https://www.mdrc.org/sites/default/files/validity_precision_comparative_interrupted_time_series_design.pdf
 

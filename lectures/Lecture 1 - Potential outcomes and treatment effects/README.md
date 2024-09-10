@@ -21,3 +21,8 @@
 
 
 ## Other resources:
+
+:star: Glennerster, Rachel, and Kudzai Takavarasha. 2013. *Running Randomized Evaluations: A Practical Guide*. Princeton University Press. See http://runningres.com/
+
+Słoczyński, T. (2022). Interpreting OLS Estimands When Treatment Effects Are Heterogeneous: Smaller Groups Get Larger Weights. *The Review of Economics and Statistics*, 104(3), 501-509. https://direct.mit.edu/rest/article/104/3/501/97692/Interpreting-OLS-Estimands-When-Treatment-Effects
+

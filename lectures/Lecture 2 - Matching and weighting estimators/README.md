@@ -36,6 +36,7 @@
 
 ## Other resources:
 
+* :star: StataCorp. (2023). *Stata 18 Causal Inference and Treatment-Effect Estimation Reference Manual.* College Station, TX: Stata Press. [Link](https://www.stata.com/manuals/causal.pdf)
 * [U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
 
 

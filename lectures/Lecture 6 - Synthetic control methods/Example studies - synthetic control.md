@@ -27,6 +27,9 @@ Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects o
 
 ## Synthetic control: methodological papers
 
+Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
+* classic synthetic control paper
+
 Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Control Method. *Journal of the American Statistical Association*, 116(536), 1789-1803. https://doi.org/10.1080/01621459.2021.1929245 
@@ -34,6 +37,8 @@ Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Con
 Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Controls. *Journal of Policy Analysis and Management*, 39(2), 510-532. https://doi.org/10.1002/pam.22206 
 
 Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Automate Synthetic Control Estimation Using Synth. *The Stata Journal*, 17(4), 834-849. https://journals.sagepub.com/doi/abs/10.1177/1536867X1801700404
+
+Kaul, A., Klößner, S., Pfeifer, G., & Schieler, M. (2022). Standard Synthetic Control Methods: The Case of Using All Preintervention Outcomes Together With Covariates. *Journal of Business & Economic Statistics*, 40(3), 1362-1376. https://doi.org/10.1080/07350015.2021.1930012
 
 Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
 
