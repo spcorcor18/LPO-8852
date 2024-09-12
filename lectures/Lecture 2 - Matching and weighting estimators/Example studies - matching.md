@@ -5,8 +5,6 @@
 Attewell, P., & Domina, T. (2008). Raising the Bar: Curricular Intensity and Academic Performance. *Educational Evaluation and Policy Analysis*, 30(1), 51-71. https://journals.sagepub.com/doi/abs/10.3102/0162373707313409
 * straightforward propensity score matching example: logistic regression and nearest neighbor matching within a caliper
 
-Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy.* https://doi.org/10.1162/edfp_a_00414 
-
 Gurantz, O., & Tsai, Y.-Y. (2023). The impact of federal administrative burdens on college enrollment. *Economics of Education Review*, 97, 102461. https://doi.org/10.1016/j.econedurev.2023.102461
 * uses machine learning (regression trees) to identify matching variables and entropy balancing for matching
 
@@ -21,18 +19,16 @@ Long, M. C., Conger, D., & Iatarola, P. (2012). Effects of High School Course-Ta
 
 Zhao, T., Perez-Felkner, L., & Hu, S. (In Press). The Impact of Merit Aid on STEM Major Choices: A Propensity Score Approach. *Educational Evaluation and Policy Analysis* https://journals.sagepub.com/doi/abs/10.3102/01623737241254842
 
-
 ## Applications: inverse probability weighting
+
+Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
 
 Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs. National Bureau of Economic Research Working Paper Series, No. 28552. http://www.nber.org/papers/w28552
 
 Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy*, 1-40. https://doi.org/10.1162/edfp_a_00414
+* uses TWANG (generalized boosted modeling) to estimate propensity score weights
 
 Swiderski, T. (2024). The Effect of Early College High Schools on STEM Bachelor's Degree Attainment: Evidence from North Carolina. *Education Finance and Policy*, 19(3), 437-460. https://doi.org/10.1162/edfp_a_00404
-
-## Applications: other weighting methods
-
-Ben-Michael, E., Feller, A., & Rothstein, J. (2023). Varying Impacts of Letters of Recommendation on College Admissions. National Bureau of Economic Research Working Paper Series, No. 30940. http://www.nber.org/papers/w30940
 
 Yoo, P., Domina, T., McEachin, A., Clark, L., Hertenstein, H., & Penner, A. M. (2023). Virtual Charter Students Have Worse Labor Market Outcomes as Young Adults. Retrieved from http://www.edworkingpapers.com/ai23-773
 * uses TWANG and inverse probability weighting
@@ -46,7 +42,7 @@ Analysis and Management*, 26(3), 455–477. https://doi.org/10.1002/pam.20262
 
 ## Applications: matching with difference-in-differences
 
-Bennett, C. T. (2021). Untested Admissions: Examining Changes in Application Behaviors and Student Demographics Under Test-Optional Policies. American Educational Research Journal, 59(1), 180-216. https://doi.org/10.3102/00028312211003526
+Bennett, C. T. (2021). Untested Admissions: Examining Changes in Application Behaviors and Student Demographics Under Test-Optional Policies. *American Educational Research Journal*, 59(1), 180-216. https://doi.org/10.3102/00028312211003526
 
 Bross, W., Harris, D. N., & Liu, L. (2023). The effects of performance-based school closure and restart on student performance. *Economics of Education Review*, 94, 102368. https://doi.org/10.1016/j.econedurev.2023.102368
 
@@ -54,7 +50,7 @@ Kim, J. (2024). The Long Shadow of School Closures: Impacts on Students' Educati
 
 Swain, W. A., Rodriguez, L. A., & Springer, M. G. (2019). Selective retention bonuses for highly effective teachers in high poverty schools: Evidence from Tennessee. *Economics of Education Review*, 68, 148--160. https://doi.org/https://doi.org/10.1016/j.econedurev.2018.12.008 
 
-## Matching: methodological papers
+## Matching and weighting: methodological papers
 
 Iacus, S. M., King, G., & Porro, G. (2012). Causal Inference without Balance Checking: Coarsened Exact Matching. *Political Analysis*, 20(1), 1-24. https://doi.org/10.1093/pan/mpr013 
 
