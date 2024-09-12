@@ -37,6 +37,7 @@
 ## Other resources:
 
 * :star: StataCorp. (2023). *Stata 18 Causal Inference and Treatment-Effect Estimation Reference Manual.* College Station, TX: Stata Press. [Link](https://www.stata.com/manuals/causal.pdf)
+* :star: Słoczyński, T. (2022). Interpreting OLS Estimands When Treatment Effects Are Heterogeneous: Smaller Groups Get Larger Weights. *The Review of Economics and Statistics*, 104(3), 501-509. https://www.mitpressjournals.org/doi/abs/10.1162/rest_a_00953
 * [U of Wisconsin article on propensity score matching in Stata using teffects](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm)
 
 
