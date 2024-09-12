@@ -3,7 +3,7 @@
 ## Applications: matching methods in education
 
 Attewell, P., & Domina, T. (2008). Raising the Bar: Curricular Intensity and Academic Performance. *Educational Evaluation and Policy Analysis*, 30(1), 51-71. https://journals.sagepub.com/doi/abs/10.3102/0162373707313409
-* straightforward propensity score matching example
+* straightforward propensity score matching example: logistic regression and nearest neighbor matching within a caliper
 
 Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy.* https://doi.org/10.1162/edfp_a_00414 
 
