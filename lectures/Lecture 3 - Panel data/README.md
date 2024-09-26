@@ -11,8 +11,8 @@
 * MW chapter 7, *Experimental Research When Participants Are Clustered within Intact Groups*
 
 
-## Video resources:
-
+## Other resources:
+* [How to simulate longitudinal data in Stata](https://blog.stata.com/2014/07/18/how-to-simulate-multilevellongitudinal-data/)
 
 
 ## Example studies:
