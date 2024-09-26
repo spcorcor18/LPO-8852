@@ -12,7 +12,7 @@
 
 
 ## Other resources:
-* (How to simulate longitudinal data in Stata)[https://blog.stata.com/2014/07/18/how-to-simulate-multilevellongitudinal-data/]
+* [How to simulate longitudinal data in Stata](https://blog.stata.com/2014/07/18/how-to-simulate-multilevellongitudinal-data/)
 
 
 ## Example studies:
