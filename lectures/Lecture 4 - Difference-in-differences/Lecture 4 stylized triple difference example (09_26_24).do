@@ -2,7 +2,7 @@
 
 // ****************************************************************************
 // Lecture 4 stylized triple difference example
-// Last updated: October 5, 2023
+// Last updated: September 26, 2024
 // ****************************************************************************
 
 	cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 4 - Difference-in-differences"
@@ -47,15 +47,15 @@
 	// Interpretation:
 	// constant (+9): the mean outcome in the "pre" period for the never treated
 	// post (+4): the change in mean outcome pre-post for the never treated
-	// evertreatedgroup (+8): the difference between the ever treated and never
+	// evertreatgroup (+8): the difference between the ever treated and never
 	//   treated in the "pre" period
-	// evertreatedgroup*post (+10): the *differential* change pre-post for the
+	// evertreatgroup*post (+10): the *differential* change pre-post for the
 	//   ever treated vs. never treated. This is the difference in difference.
 	
 	// Below: time trends are clearly not the same for the two groups, pre-
 	// treatment. The DID estimator would be biased since it uses the post
 	// time trend of the untreated as what would have happened to the treated
-	// had treatment not occurred.
+	// had treatment not occurred. This may not
 	
 	xtset id time
 	xtline y if primary==1, overlay xline(2.5) legend(label(1 "Never treated") ///
@@ -90,8 +90,8 @@
 
    // Triple diff regression:
    
-   reg y i.post i.evertreatgroup i.post#i.evertreatgroup i.primary i.post#i.primary ///
-      i.evertreatgroup#i.primary i.post#i.evertreatgroup#i.primary
+   reg y i.evertreatgroup i.primary i.evertreatgroup#i.primary i.post ///
+   i.evertreatgroup#i.post i.primary#i.post i.evertreatgroup#i.primary#i.post
 		
    // Interpretation:
    // constant (34): the mean outcome in the "pre" period for the never treated 
@@ -100,32 +100,32 @@
    // evertreatedgroup (+10): the difference between the ever treated (secondary)
    //   and never treated (secondary) in the "pre" period
    //
+   // primary (-25): the difference in the "pre" period between the never treated
+   //   (primary) and never treated (secondary).
+   //
+   // evertreatedgroup*primary (-2): if -25 was the difference in the pre period
+   //   between the never treated (primary) and never treated (secondary), this
+   //   is how *different* the difference is in the pre period betwen the ever
+   //   treated (primary) and ever treated (secondary).
+   //
    // post (+4): the change from pre to post for the never treated (secondary)
    //
    // post*evertreatedgroup (+4): the *differential* change from pre to post for
    //   the ever treated, secondary (vis a vis the never treated, secondary).
    //   Think of this as the diff-in-diff for the secondary group.
    //
-   // primary (-25): the difference in the "pre" period between the never treated
-   //   (primary) and never treated (secondary).
-   //
    // post*primary (0): the *differential* change from pre to post for the never
    //   treated (primary) and never treated (secondary). This is zero since
    //   these groups have the same time trend (by design for this example).
-   //
-   // evertreatedgroup*primary (-2): if -25 was the difference in the pre period
-   //   between the never treated (primary) and never treated (secondary), this
-   //   is how *different* the difference is in the pre period betwen the ever
-   //   treated (primary) and ever treated (secondary).
    //   
    // post*evertreatgroup*primary (6): THIS IS THE TRIPLE DIFFERENCE. If post*
-   //   evertreatedgroup is the diff-in-diff for the secondary group, then this
+   //   evertreatgroup is the diff-in-diff for the secondary group, then this
    //   is how *different* the diff-in-diff is for the primary group.
    
    
    // Note the syntax below will produce the same results
 
-      reg y i.evertreatgroup##i.post##i.primary
+      reg y i.evertreatgroup##i.primary##i.post
 		
 		
 // ****************************************************************************
@@ -150,3 +150,24 @@ Untreated | 34  | 38   | 4
 Diff      | 10  | 14   | 4
 
 */
+
+
+// ****************************************************************************
+// Try Stata's did commands
+// ****************************************************************************
+
+	// create time-varying treatment variable
+	gen treat=evertreatgroup*post 
+
+	// 2x2 diff in diff 
+
+	didregress (y i.evertreatgroup i.post) (treat) if primary==1, ///
+		group(evertreatgroup) time(time) nogteffects
+
+		// Triple difference-in-difference
+	
+	gen treat2=evertreatgroup*post*primary
+	didregress (y) (treat2), group(evertreatgroup primary) time(time) 	
+	
+	
+	
