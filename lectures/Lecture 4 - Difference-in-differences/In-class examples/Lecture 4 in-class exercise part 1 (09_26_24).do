@@ -2,7 +2,7 @@
 
 // ****************************************************************************
 // Lecture 4 in-class exercises (part 1)
-// Last updated: September 24, 2024
+// Last updated: September 26, 2024
 // ****************************************************************************
 
 	cd "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 4 - Difference-in-differences"
@@ -131,6 +131,72 @@
 		[weight=pop], cluster(state)
 
 
+// #7
+// Reload original data to get back other causes of mortality and age groups. 
+// Estimate TWFE model for four categories of mortality, age 18-20, before 1984.
+// Mortality causes: 1=all, 2=MVA, 3=suicide, 6=internal
+
+	use https://github.com/spcorcor18/LPO-8852/raw/main/data/deaths.dta, clear
+	statastates, fips(state) nogen
+
+	foreach i in 1 2 3 6 {
+	   _eststo q5type`i': xtreg mrate legal i.year if year < 1984 & agegr == 2 ///
+			& dtype == `i', fe i(state) cluster(state)
+	   }
+
+  
+// #8 
+// Estimate TWFE model using age 21-24 group (agegr==3) instead of 18-20.
+// NOTE: the variable "legal" refers to the specific age group. The variable
+// "legal1820" contains the percent age 18-20 who can legally drink in that 
+// state and year. "legal" is always =1 for the age 21+ groups. Here we are 
+// looking for an effect of changes in the MLDA (age 18-20) on mortality
+// among age 21-24--a placebo test
+
+	foreach i in 1 2 3 6 {
+	   _eststo q6age2024type`i': xtreg mrate legal1820 i.year if year < 1984 & ///
+			agegr == 3 & dtype == `i', fe i(state) cluster(state)
+	   }
 
 	
+// #9
+// Original TWFE model but with state specific time trends
+
+	_eststo q9b: reg mrate legal i.state##c.year i.year if year < 1984 & ///
+		agegr == 2 & dtype ==2, cluster(state)
+
+	// understanding the list of coefficients (parameters estimated by the 
+	// triple difference)
+	//    state intercepts (age 18-20)
+	//    state specific linear time trend (age 18-20)
+	//    yearly intercept shift common to all states (age 18-20)
+	//    additional change associated with legal (age 18-20)
+
+	// same using reghdfe
+
+	reghdfe mrate legal i.year if year<1984 & agegr==2 & dtype==2, ///
+		absorb(i.state##c.year) cluster(state)
+		
+
+// #10
+// Triple difference including another unaffected age group (21-24). First
+// reload data and keep only MVAs (dtype==2) and age 18-20, 21-24 (agegr==3 or 4)
+
+	use https://github.com/spcorcor18/LPO-8852/raw/main/data/deaths.dta, clear
+	keep if dtype==2 & (agegr==2 | agegr==3) & year<1984
+	duplicates report state year
 	
+	reg mrate c.legal1820##ib3.agegr i.state##ib3.agegr i.year##ib3.agegr 
+	
+	// understanding the list of coefficients (parameters estimated by the
+	// triple difference)
+	//    state intercepts (pertain to age 20-24)
+	//    state intercepts * age18-20 (differential vs. age 20-24)
+	//    yearly time trend (pertain to age 20-24)
+	//    yearly time trend * age18-20 (differential vs. age 20-24)
+	//    legal1820 (additional change associated with legal18-20, pertains to age 20-24)
+	//    legal1820 * age18-20 (differential vs. age 20-24) **the TD
+
+	// same using reghdfe--absorbs multiple fixed effects + interactions
+
+	reghdfe mrate c.legal1820##ib3.agegr, absorb(i.state##ib3.agegr i.year##ib3.agegr)
