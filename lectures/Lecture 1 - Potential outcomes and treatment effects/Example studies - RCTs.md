@@ -2,7 +2,7 @@
 
 ## RCTs in higher education
 
-Angrist, J., Autor, D., & Pallais, A. (2021). Marginal Effects of Merit Aid for Low-Income Students. *The Quarterly Journal of Economics*, qjab050. https://doi.org/10.1093/qje/qjab050
+Angrist, J., Autor, D., & Pallais, A. (2022). Marginal Effects of Merit Aid for Low-Income Students. *The Quarterly Journal of Economics*, 137(2), 1039-1090. https://doi.org/10.1093/qje/qjab050
 
 Burland, Elizabeth, Susan Dynarski, Katherine Michelmore, Stephanie Owen, and Shwetha Raghuraman. 2023. The Power of Certainty: Experimental Evidence on the Effective Design of Free Tuition Programs. *American Economic Review: Insights*, 5 (3): 293-310. https://www.aeaweb.org/articles?id=10.1257/aeri.20220094
 
