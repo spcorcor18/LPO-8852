@@ -18,4 +18,4 @@ Algan, Y., Beasley, E., Côté, S., Park, J., Tremblay, R. E., & Vitaro, F. (202
 
 ## RCT methodology in education research
 
-:star: Raudenbush, S. W., & Schwartz, D. (2020). Randomized Experiments in Education, with Implications for Multilevel Causal Inference. Annual Review of Statistics and Its Application, 7(1), 177-208. https://doi.org/10.1146/annurev-statistics-031219-041205
+:star: Raudenbush, S. W., & Schwartz, D. (2020). Randomized Experiments in Education, with Implications for Multilevel Causal Inference. *Annual Review of Statistics and Its Application*, 7(1), 177-208. https://doi.org/10.1146/annurev-statistics-031219-041205
