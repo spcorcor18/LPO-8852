@@ -34,6 +34,7 @@
    * Stata manual: [didregresspostestimation](https://www.stata.com/manuals/tedidregresspostestimation.pdf) - same
 * Stata [user-created commands](https://asjadnaqvi.github.io/DiD/docs/01_stata/) for difference-in-difference methods (Asjad Naqvi)
 * [Difference-in-differences repository](https://asjadnaqvi.github.io/DiD/) (Asjad Naqvi) - see Stata code section for great examples
+* [D-in-D handbook](https://github.com/IanHo2019/DID_Handbook) (Ian Ho) - nice guide to DD models and recent literature
 * [Difference-in-differences methods](https://diff.healthpolicydatascience.org/) - great tutorial (health policy and data science)
 * World Bank [post](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend?cid=SHR_BlogSiteShare_EN_EXT) on the new literature re: parallel trends testing
 
