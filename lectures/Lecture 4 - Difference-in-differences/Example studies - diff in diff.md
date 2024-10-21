@@ -63,6 +63,8 @@ Baker, A. C., Larcker, D. F., & Wang, C. C. Y. (2022). How much should we trust 
 
 :star: Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-Differences with multiple time periods. *Journal of Econometrics*, 225(2), 200-230. https://doi.org/https://doi.org/10.1016/j.jeconom.2020.12.001 
 
+Deb, P., Norton, E. C., Wooldridge, J. M., & Zabel, J. E. (2024). A Flexible, Heterogeneous Treatment Effects Difference-in-Differences Estimator for Repeated Cross-Sections. National Bureau of Economic Research Working Paper Series, No. 33026. https://www.nber.org/papers/w33026
+
 de Chaisemartin, C., & D'Haultfœuille, X. (2018). Fuzzy Differences-in-Differences. *The Review of Economic Studies*, 85(2), 999--1028. http://dx.doi.org/10.1093/restud/rdx049 
 
 :star: de Chaisemartin, C., & D’Haultfœuille, X. (2022). Two-way fixed effects and differences-in-differences with heterogeneous treatment effects: a survey. *The Econometrics Journal*. https://doi.org/10.1093/ectj/utac017 
