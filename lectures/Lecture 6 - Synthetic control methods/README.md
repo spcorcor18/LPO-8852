@@ -9,6 +9,7 @@
 ## Video resources:
 * Alberto Abadie NBER lecture on synthetic control methods. https://www.nber.org/lecture/2021-methods-lecture-alberto-abadie-synthetic-controls-methods-and-practice
 * Jens Hainmueller video introduction to synthetic control methods and the Stata `synth` command. https://web.stanford.edu/~jhain/Video/SynthDemo.mp4
+* intuitive explanation of the dual optimziation problem behind synthetic control. https://www.youtube.com/watch?v=wpUXJbWnfo8
 
 
 ## Other resources:
