@@ -2,13 +2,16 @@
 
 // **************************************************************************
 // Synthetic control example from The Mixtape
-// Last update: October 31, 2023
+// Last update: October 24, 2024
 // **************************************************************************
 
 // Location to store temporary files
 
+	clear all
 	global temp "C:\Users\corcorsp\Dropbox\_TEACHING\Regression II\Lectures\Lecture 6 - Synthetic control methods\In-class exercise"
 	cd "$temp"
+	capture log close
+	log using "Inclass-exercise-6-log.txt", text replace
 
 	set more off
 	set matsize 1000
@@ -40,9 +43,12 @@
 // and year as time period
 
 	xtset
-
+	desc
+	
 // Attach labels to state FIPS codes. Texas is state 48.
+// Note: labmask is a user-created command (part of labutil)
 
+	// ssc install labutil
 	labmask statefip, values(state)
 	label list
 
@@ -53,7 +59,7 @@
 // more sense. Cunningham recommends comparing the results when using rates
 // vs. levels. (One notable differences is in the states given weights).
 
-	list statefip state bmprison bmprate if statefip==48
+	list statefip state year bmprison bmprate if statefip==48, noobs
 	
 // synth command syntax: 
 //   bmprate = Black male incarceration rate per 100,000 
@@ -83,6 +89,11 @@
 
 	ereturn list
 	mat list e(V_matrix)
+	
+// Look at saved results
+
+	use synth_bmprate, clear
+	list, noobs
 	
 
 // *****
@@ -139,7 +150,7 @@
 
 	graph combine "synth_tx2.gph" "synth_tx2gap.gph" ///
 		"synth_tx3.gph" "synth_tx3gap.gph" "pvals.gph" ///
-		"pvals_std.gph" , cols(2) name(synth_runner, replace)
+		"pvals_std.gph" , cols(2) name(synth_runner, replace) altshrink
 	graph export synth_runner.png, as(png) replace
 
 	
@@ -148,49 +159,131 @@
 // *****
 // **************************************************************************
 // Use synth2 package to constuct a synthetic control and perform placebo
-// tests. Works only with Stata 16+
+// tests. Works in Stata 16+
 // **************************************************************************
 	
 	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
 	
 	// Main synthetic control results (for comparison with part 1)
+	// "postperiod" = similar to resultsperiod for synth but begins with
+	//    treatment period
+	// "preperiod" = similar to resultsperiod for synth but refers to the
+	//    pre treatment periods only
+	// "mspeperiod" = period used for finding synthetic control (may or
+	//    may not differ from preperiod)
+	// "xperiod" = periods over which covariates are averaged, where
+	//    relevant (could be same or different from mspeperiod)
+	// "nested" = fully nested optimization procedure that searches among
+	//    all (diagonal) positive semidefinite V-matrics and sets of W-
+	//    weights. NOTE: better accuracy but takes much longer to run
+	// "allopt" = gaining fully robust results if nested is specified
+	//    (runs nested optimization 3 times using 3 different starting
+	//    points)
 	
 	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
 		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
-		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
-		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
+		trunit(48) trperiod(1993) mspeperiod(1985(1)1992) ///
+		preperiod(1985(1)1992) postperiod(1993(1)2000) ///
+		xperiod(1985(1)1992) /*nested allopt*/ ///
 		savegraph(set1, replace)
+	
+	// 5 graphs produced from the above
+	graph combine "set1_bias.gph" "set1_pred.gph" "set1_weight_vars.gph" ///
+		"set1_eff.gph" "set1_weight_unit.gph" , cols(2) ysize(12) xsize(15) ///
+		name(synth2_set1, replace) altshrink
+	graph export synth2_set1.png, as(png) replace
 		
-	// "In-space" placebo test
 		
+	// ******************************
+	// "In-space" placebo test (unit)
+	// ******************************		
+	
 	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
 		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
-		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
-		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
+		trunit(48) trperiod(1993) mspeperiod(1985(1)1992) ///
+		preperiod(1985(1)1992) postperiod(1993(1)2000) ///
+		xperiod(1985(1)1992) /*nested allopt*/ ///
 		placebo(unit) savegraph(set2, replace)
 		
-	// "In-time" placebo test (setting the treatment year to a previous "fake"
-	// treatment year = 1989). Note had to remove predictors that were 1989 or
-	// later. Replaced some of these with earlier years.
-	
-	synth2 bmprate bmprate(1988) ///
-		alcohol(1986) aidscapita(1986) aidscapita(1987) income ur ///
-		poverty black(1988) black(1987) black(1986) perc1519(1986), ///
-		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
-		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
-		placebo(period(1989)) savegraph(set3, replace)
+	// 5 added graphs related to the placebo test
 
-	// "Leave one out" (LOO) robustness test. 
+	graph combine "set2_eff_pboUnit.gph" "set2_ratio_pboUnit.gph" ///
+		, rows(1) ysize(4) xsize(8) ///
+		name(synth2_set2a, replace) altshrink 
+	graph export synth2_set2a.png, as(png) replace
+
+	graph combine "set2_pvalTwo_pboUnit.gph" "set2_pvalRight_pboUnit.gph" ///
+		"set2_pvalLeft_pboUnit", cols(2) ysize(6) xsize(5) ///
+		name(synth2_set2b, replace) altshrink
+	graph export synth2_set2b.png, as(png) replace
+
+	
+	// **************************************************
+	// "In-space" placebo test (unit)--excluding bad fits
+	// **************************************************
+	// NOTE: can include cutoff(#c) in the placebo(unit) option to toss
+	// out fake treatment units with pre-treatment MSPE #c times larger
+	// than that of the treated unit
 	
 	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
 		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
-		trunit(48) trperiod(1993) unitnames(state) mspeperiod(1985(1)1992) ///
-		xperiod(1985(1)1992) resultsperiod(1985(1)2000) nested allopt ///
+		trunit(48) trperiod(1993) mspeperiod(1985(1)1992) ///
+		preperiod(1985(1)1992) postperiod(1993(1)2000) ///
+		xperiod(1985(1)1992) /*nested allopt*/ ///
+		placebo(unit cutoff(3)) savegraph(set2alt, replace)
+		
+	// see relevant graphs (imposes cutoff(3))
+
+	graph combine "set2alt_eff_pboUnit.gph" "set2alt_ratio_pboUnit.gph" ///
+		, rows(1) ysize(4) xsize(8) ///
+		name(synth2_set2alt, replace) altshrink 
+	graph export synth2_set2alt.png, as(png) replace
+	
+	
+	// *******************************************************************	
+	// "In-time" placebo test (setting the treatment year to a previous
+	// "fake" treatment year = 1989). Note had to remove predictors that
+	// were 1989 or later. Replaced some of these with earlier years.
+	// Keep trperiod() the same but put placebo year in placebo() option.
+	// *******************************************************************
+	
+	synth2 bmprate bmprate(1985) bmprate(1987) bmprate(1988) ///
+		alcohol(1986) aidscapita(1986) aidscapita(1987) income ur ///
+		poverty black(1986) black(1987) black(1988) perc1519(1986), ///
+		trunit(48) trperiod(1993) ///
+		xperiod(1985(1)1988) /*nested allopt*/ ///
+		placebo(period(1989)) savegraph(set3, replace)
+
+	// see relevant graphs
+
+	graph combine "set3_pred_pboTime1989.gph" "set3_eff_pboTime1989.gph" ///
+		, rows(1) ysize(4) xsize(8) ///
+		name(synth2_set3, replace) altshrink 
+	graph export synth2_set3.png, as(png) replace		
+		
+		
+	// **************************************************		
+	// "Leave one out" (LOO) robustness test. 
+	// **************************************************
+	
+	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
+		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
+		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
+		trunit(48) trperiod(1993) mspeperiod(1985(1)1992) ///
+		preperiod(1985(1)1992) postperiod(1993(1)2000) ///		
+		xperiod(1985(1)1992) /* nested allopt*/ ///
 		loo savegraph(set4, replace)
 			
+	// see relevant graphs (LOO)
+
+	graph combine "set4_pred_loo.gph" "set4_eff_loo.gph" ///
+		, rows(1) ysize(4) xsize(8) ///
+		name(synth2_set4, replace) altshrink 
+	graph export synth2_set4.png, as(png) replace	
+	
 	
 // *****
 // (4)
@@ -198,11 +291,12 @@
 // **************************************************************************
 // Use saved results from part 1 to manually crete a figure showing the gap
 // between Texas vs. synthetic Texas. Note synth_runner does this for you.
-// This code preceded synth_runner.
+// This code (from Mixtape) preceded synth_runner. This is just shown for
+// illustration. Better to use synth_runner or synth2
 // **************************************************************************
 
-// NOTE: look at the results dataset first---contains both weights and the time
-// series. Just keep the time series for this part.
+// NOTE: look at the results dataset created earlier---contains both
+// weights and the time series. Just keep the time series for this part.
 		
 	use synth_bmprate.dta, clear
 	keep _Y_treated _Y_synthetic _time
@@ -230,9 +324,10 @@
 // (5)
 // *****
 // **************************************************************************
-// Placebo inference part 1. Run synth for ALL states in the datasets using
-// the same treatment year (1993), save the results. Note the newer synth2
-// command can automate this for you (requires Stata 16+) 
+// Placebo inference part 1. Run synth for ALL states in the dataset using
+// the same treatment year (1993), save the results. Note synth_runner and
+// synth2 automate this for you. This code (from Mixtape) preceded these.
+// This is just shown for illustration. Better to use synth2. 
 // **************************************************************************
 
 	#delimit; 
@@ -243,7 +338,7 @@
 		26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 45 46 47 48 49 51 53 55; 
 
 	foreach i of local statelist {;
-	synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) bmprate(1992) 
+	quietly synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) bmprate(1992) 
 			alcohol(1990) aidscapita(1990) aidscapita(1991) income ur poverty
 			black(1990) black(1991) black(1992) perc1519(1990),        
 				trunit(`i') trperiod(1993) unitnames(state)  
@@ -408,7 +503,7 @@
 		gen rank=_n
 		gen p=rank/46
 		export excel using rmspe_bmprate, firstrow(variables) replace
-		import excel rmspe_bmprate.xls, sheet("Sheet1") firstrow clear
+		import excel rmspe_bmprate.xlsx, sheet("Sheet1") firstrow clear
 		
 		histogram ratio, bin(20) frequency fcolor(gs13) lcolor(black) ylabel(0(2)6) ///
 		xtitle(Post/pre RMSPE ratio) xlabel(0(1)5)
@@ -425,25 +520,60 @@
 // Clean up files
 // **************************************************************************
 
-forvalues j=1/55 {
-   capture erase synth_bmprate_`j'.dta
-   capture erase synth_gap_bmprate`j'.dta
-   }
-   
-capture erase synth_tx.gph
-capture erase synth_bmprate.dta
-capture erase synth_tx_gap.gph
-capture erase synth_bmprate_48.dta
-capture erase placebo_overlay.gph
-capture erase placebo_bmprate.dta
-capture erase placebo_bmprate48.dta
-capture erase rmspe_bmprate.txt
-capture erase rmspe_bmprate.xls
-capture erase rmspe_histogram.gph
+		forvalues j=1/55 {
+		   capture erase synth_bmprate_`j'.dta
+		   capture erase synth_gap_bmprate`j'.dta
+		   }
+		forvalues j=1/4 {
+		   capture erase set`j'_bias.gph
+		   capture erase set`j'_eff.gph
+		   capture erase set`j'_pred.gph
+		   capture erase set`j'_weight_unit.gph
+		   capture erase set`j'_weight_vars.gph
+		   capture erase set`j'_eff_pboUnit.gph
+		   capture erase set`j'_pvalLeft_pboUnit.gph
+		   capture erase set`j'_pvalRight_pboUnit.gph
+		   capture erase set`j'_pvalTwo_pboUnit.gph
+		   capture erase set`j'_ratio_pboUnit.gph
+		   capture erase set`j'_eff_loo.gph
+		   capture erase set`j'_pred_loo.gph
+		   capture erase set`j'_eff_pboTime1989.gph
+		   capture erase set`j'_pred_pboTime1989.gph
+		}
+		forvalues j=2/2 {
+		   capture erase set`j'alt_bias.gph
+		   capture erase set`j'alt_eff.gph
+		   capture erase set`j'alt_pred.gph
+		   capture erase set`j'alt_weight_unit.gph
+		   capture erase set`j'alt_weight_vars.gph
+		   capture erase set`j'alt_eff_pboUnit.gph
+		   capture erase set`j'alt_pvalLeft_pboUnit.gph
+		   capture erase set`j'alt_pvalRight_pboUnit.gph
+		   capture erase set`j'alt_pvalTwo_pboUnit.gph
+		   capture erase set`j'alt_ratio_pboUnit.gph
+		}
+		capture erase synth_tx.gph
+		capture erase synth_bmprate.dta
+		capture erase synth_tx_gap.gph
+		capture erase synth_bmprate_48.dta
+		capture erase placebo_overlay.gph
+		capture erase placebo_bmprate.dta
+		capture erase placebo_bmprate48.dta
+		capture erase rmspe_bmprate.txt
+		capture erase rmspe_bmprate.xlsx
+		capture erase rmspe_histogram.gph
 
-foreach j in tx2 tx2gap tx3 tx3gap {
-   capture erase synth_`j'.gph
-   }
-capture erase pvals_std.gph
-capture erase pvals.gph   
-   
+		foreach j in tx2 tx2gap tx3 tx3gap {
+		   capture erase synth_`j'.gph
+		   }
+		capture erase pvals_std.gph
+		capture erase pvals.gph   
+	   
+	   
+	   
+// Close log and convert to PDF
+	capture log close
+	translate "Inclass-exercise-6-log.txt" "Inclass-exercise-6-log.pdf", translator(txt2pdf) ///
+		cmdnumber(off) logo(off) header(off) replace
+	
+	   
