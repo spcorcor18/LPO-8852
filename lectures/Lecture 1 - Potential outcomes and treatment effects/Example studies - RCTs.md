@@ -16,6 +16,18 @@ Algan, Y., Beasley, E., Côté, S., Park, J., Tremblay, R. E., & Vitaro, F. (202
 
 :star: Gennetian, L.A., Duncan, G.J., Fox, N.A. et al. Effects of a Monthly Unconditional Cash Transfer Starting at Birth on Family Investments Among US Families with Low Income. *Nat Hum Behav* 8, 1514–1529 (2024). https://doi.org/10.1038/s41562-024-01915-7
 
+## RCTs in K-12 education
+
+Kraft, M. A., & Bolves, A. J. (2022). Can Technology Transform Communication between Schools, Teachers, and Parents? Evidence from a Randomized Field Trial. *Education Finance and Policy*, 17(3), 479-510. https://doi.org/10.1162/edfp_a_00344
+
+Valant, J., & Weixler, L. H. (2022). Informing School-Choosing Families About Their Options: A Field Experiment From New Orleans. *Educational Evaluation and Policy Analysis*, 44(4), 608-637. https://doi.org/10.3102/01623737221086305
+
+## RCTs in international education and development
+
+Beg, S., Halim, W., Lucas, A. M., & Saif, U. (2022). Engaging Teachers with Technology Increased Achievement, Bypassing Teachers Did Not. *American Economic Journal: Economic Policy*, 14(2), 61-90. https://www.aeaweb.org/articles?id=10.1257/pol.20200713
+
+Dhar, D., Jain, T., & Jayachandran, S. (2022). Reshaping Adolescents' Gender Attitudes: Evidence from a School-Based Experiment in India. *American Economic Review*, 112(3), 899-927. https://www.aeaweb.org/articles?id=10.1257/aer.20201112
+
 ## RCT methodology in education research
 
 :star: Raudenbush, S. W., & Schwartz, D. (2020). Randomized Experiments in Education, with Implications for Multilevel Causal Inference. *Annual Review of Statistics and Its Application*, 7(1), 177-208. https://doi.org/10.1146/annurev-statistics-031219-041205
