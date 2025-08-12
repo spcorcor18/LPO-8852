@@ -15,6 +15,9 @@ Hanushek, E. A., Luo, J., Morgan, A. J., Nguyen, M., Ost, B., Rivkin, S. G., & S
 Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the Poor? A Comprehensive Summary of State-Specific Responses to School Finance Reforms from 1990–2014. *Education Finance and Policy* 18(3): 395–422. https://doi.org/10.1162/edfp_a_00360
 * see especially their online Appendix F
 
+Vargas Castaño, D., et al. (2025). Closing the Gaps: An Examination of Early Impacts of Dallas ISD's Opt-out Policy on Advanced Course Enrollment. EdWorkingPaper: 25-1184. Retrieved from Annenberg Institute at Brown University: https://doi.org/10.26300/s914-9n20
+
+
 ## Applications - synthetic control in health policy
 
 Bonander, C., Humphreys, D. & Esposti, M.D. (2021). Synthetic Control Methods for the Evaluation of Single-Unit Interventions in Epidemiology: A Tutorial. *American Journal of Epidemiology* 190(12): 2700–2711, https://doi.org/10.1093/aje/kwab211
