@@ -26,3 +26,7 @@
 
 :star: Słoczyński, T. (2022). Interpreting OLS Estimands When Treatment Effects Are Heterogeneous: Smaller Groups Get Larger Weights. *The Review of Economics and Statistics*, 104(3), 501-509. https://direct.mit.edu/rest/article/104/3/501/97692/Interpreting-OLS-Estimands-When-Treatment-Effects
 
+## Example studies:
+
+[List of example RCT studies](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%201%20-%20Potential%20outcomes%20and%20treatment%20effects/Example%20studies%20-%20RCTs.md)
+
