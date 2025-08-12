@@ -12,6 +12,8 @@ Bacher-Hicks, A., Goodman, J., & Mulhern, C. (2021). Inequality in household ada
 
 Lyon, M. A., Kraft, M. A., & Steinberg, M. P. (2024). The Causes and Consequences of U.S. Teacher Strikes. National Bureau of Economic Research Working Paper Series, No. 32862. http://www.nber.org/papers/w32862
 
+Nguyen, T. D. and C. Redding. (2025). The Effects of Race to the Top on Student Achievement: Evidence From National Data. *American Educational Research Journal* 62(4): 798-829. https://journals.sagepub.com/doi/abs/10.3102/00028312251347669
+
 Schueler, B. E., & Larned, K. E. Interscholastic Policy Debate Promotes Critical Thinking and College-Going: Evidence From Boston Public Schools. *Educational Evaluation and Policy Analysis*. https://journals.sagepub.com/doi/abs/10.3102/01623737231200234
 
 
