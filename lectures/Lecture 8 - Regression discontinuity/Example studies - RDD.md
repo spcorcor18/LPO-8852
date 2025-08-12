@@ -34,11 +34,11 @@ Jacob, B. A., & Lefgren, L. (2004). Remedial Education and Student Achievement: 
 
 Kane, T. J., Boatman, A., Kozakowski, W., Bennett, C., Hitch, R., & Weisenfeld, D. (2021). Is College Remediation a Barrier or a Boost? Evidence from the Tennessee SAILS Program. *Journal of Policy Analysis and Management*, 40(3), 883-913. https://doi.org/10.1002/pam.22306
 
-Ost, B., Pan, W., & Webber, D. (2018). The Returns to College Persistence for Marginal Students: Regression Discontinuity Evidence from University Dismissal Policies. *Journal of Labor Economics*, 36(3), 779–805. https://doi.org/10.1086/696204
-
 Malamud, O., & Pop-Eleches, C. (2011). Home Computer Use and the Development of Human Capital. *The Quarterly Journal of Economics*, 126(2), 987–1027. https://doi.org/10.1093/qje/qjr008
 
-Mariano, L. T., Martorell, P., & Berglund, T. (2024). The Effects of Grade Retention on High School Outcomes: Evidence from New York City Schools. *Journal Of Research on Educational Effectiveness*, 1-31. https://doi.org/10.1080/19345747.2023.2287607
+Mariano, L. T., Martorell, P., & Berglund, T. (2024). The Effects of Grade Retention on High School Outcomes: Evidence from New York City Schools. *Journal Of Research on Educational Effectiveness*, 18(1): 1-31. https://doi.org/10.1080/19345747.2023.2287607
+
+Ost, B., Pan, W., & Webber, D. (2018). The Returns to College Persistence for Marginal Students: Regression Discontinuity Evidence from University Dismissal Policies. *Journal of Labor Economics*, 36(3), 779–805. https://doi.org/10.1086/696204
 
 Papay, J. P., Mantil, A., & Murnane, R. J. (2022). On the Threshold: Impacts of Barely Passing High-School Exit Exams on Post-Secondary Enrollment and Completion. *Educational Evaluation and Policy Analysis*, 01623737221090258. https://doi.org/10.3102/01623737221090258 
 
