@@ -1,9 +1,11 @@
+
 # Lecture 4: Difference-in-differences
 
 ## Syllabus readings:
 
 * :star: [MIX](https://mixtape.scunning.com/), *Difference-in-Differences*
 * :star: MM chapter 5, *Differences-in-Differences*
+* :star: Baker, A., et al. (2025). Difference-in-Differences Designs: A Practitioner's Guide. arXiv: 2503.13323. https://arxiv.org/pdf/2503.13323
 * :star: Roth, J., Sant'Anna, P. H. C., Bilinski, A., & Poe, J. (2023). What's Trending in Difference-in-Differences? A Synthesis of the Recent Econometrics Literature. *Journal of Econometrics*, 235(2), 2218-2244. https://doi.org/10.1016/j.jeconom.2023.03.008
 * [HK](https://theeffectbook.net/) chapter 18, *Difference-in-Differences*
 * [G&T](https://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-1497-6?chapterTab=true) chapters 11-12
