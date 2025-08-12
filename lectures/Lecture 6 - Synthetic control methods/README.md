@@ -1,4 +1,4 @@
-# Lecture 6: Synthetic control methods
+# Lecture 6: Synthetic control
 
 ## Syllabus readings:
 
