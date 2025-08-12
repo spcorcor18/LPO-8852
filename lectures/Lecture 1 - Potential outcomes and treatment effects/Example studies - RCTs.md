@@ -18,6 +18,8 @@ Algan, Y., Beasley, E., Côté, S., Park, J., Tremblay, R. E., & Vitaro, F. (202
 
 ## RCTs in K-12 education
 
+Fuller, S., et al. (2023). Leveraging Experimental and Observational Evidence to Assess the Generalizability of the Effects of Early Colleges in North Carolina. *Education Finance and Policy* 18(4): 568–596. https://doi.org/10.1162/edfp_a_00379
+
 Kraft, M. A., & Bolves, A. J. (2022). Can Technology Transform Communication between Schools, Teachers, and Parents? Evidence from a Randomized Field Trial. *Education Finance and Policy*, 17(3), 479-510. https://doi.org/10.1162/edfp_a_00344
 
 Valant, J., & Weixler, L. H. (2022). Informing School-Choosing Families About Their Options: A Field Experiment From New Orleans. *Educational Evaluation and Policy Analysis*, 44(4), 608-637. https://doi.org/10.3102/01623737221086305
