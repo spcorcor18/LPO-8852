@@ -40,13 +40,15 @@ Fortson, K., Gleason, P., Kopa, E., & Verbitsky-Savitz, N. (2015). Horseshoes, h
 Wilde, E. T., & Hollister, R. (2007). How Close is Close Enough? Evaluating Propensity Score Matching Using Data from a Class Size Reduction Experiment. *Journal of Policy
 Analysis and Management*, 26(3), 455–477. https://doi.org/10.1002/pam.20262
 
-## Applications: matching with difference-in-differences
+## Applications: matching or weighting with difference-in-differences
 
 Bennett, C. T. (2021). Untested Admissions: Examining Changes in Application Behaviors and Student Demographics Under Test-Optional Policies. *American Educational Research Journal*, 59(1), 180-216. https://doi.org/10.3102/00028312211003526
 
 Bross, W., Harris, D. N., & Liu, L. (2023). The effects of performance-based school closure and restart on student performance. *Economics of Education Review*, 94, 102368. https://doi.org/10.1016/j.econedurev.2023.102368
 
 Kim, J. (2024). The Long Shadow of School Closures: Impacts on Students' Educational and Labor Market Outcomes. Retrieved from http://www.edworkingpapers.com/ai24-963
+
+Nomi, T., et al. Project Lead the Way: Impacts of a High School Applied STEM Program on Early Post-Secondary Outcomes. *Journal of Research on Educational Effectiveness*. https://doi.org/10.1080/19345747.2025.2518995
 
 Swain, W. A., Rodriguez, L. A., & Springer, M. G. (2019). Selective retention bonuses for highly effective teachers in high poverty schools: Evidence from Tennessee. *Economics of Education Review*, 68, 148--160. https://doi.org/https://doi.org/10.1016/j.econedurev.2018.12.008 
 
