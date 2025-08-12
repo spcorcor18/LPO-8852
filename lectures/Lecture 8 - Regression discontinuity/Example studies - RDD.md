@@ -84,6 +84,8 @@ Imbens, G., & Kalyanaraman, K. (2012). Optimal Bandwidth Choice for the Regressi
 
 Jacob, R. T., Zhu, P., Somers, M.-A., & Bloom, H. (2012). A Practical Guide to Regression Discontinuity. https://www.mdrc.org/publication/practical-guide-regression-discontinuity
 
+Kaliski, D., et al. (2025). The Power Asymmetry in Fuzzy Regression Discontinuity Designs. National Bureau of Economic Research Working Paper Series No. 33972. http://www.nber.org/papers/w33972
+
 ⭐ Kolesár, M., & Rothe, C. (2018). Inference in Regression Discontinuity Designs with a Discrete Running Variable. *American Economic Review*, 108(8), 2277–2304. http://www.aeaweb.org/articles?id=10.1257/aer.20160945
 
 :star: Korting, C., Lieberman, C., Matsudaira, J., Pei, Z., & Shen, Y. (2023). Visual Inference and Graphical Representation in Regression Discontinuity Designs. *The Quarterly Journal of Economics*. https://doi.org/10.1093/qje/qjad011
