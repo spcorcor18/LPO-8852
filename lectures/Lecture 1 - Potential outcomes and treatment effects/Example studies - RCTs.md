@@ -6,6 +6,8 @@ Angrist, J., Autor, D., & Pallais, A. (2022). Marginal Effects of Merit Aid for 
 
 Burland, Elizabeth, Susan Dynarski, Katherine Michelmore, Stephanie Owen, and Shwetha Raghuraman. 2023. The Power of Certainty: Experimental Evidence on the Effective Design of Free Tuition Programs. *American Economic Review: Insights*, 5 (3): 293-310. https://www.aeaweb.org/articles?id=10.1257/aeri.20220094
 
+Harris, D. N. and J. Mills (2025). Should College Be "Free"? Evidence on Free College, Early Commitment, and Merit Aid from an Eight-Year Randomized Trial. *American Economic Journal: Economic Policy* 17(3): 373–406. https://www.aeaweb.org/articles?id=10.1257/pol.20230100
+
 Kofoed, M. S., Gebhart, L., Gilmore, D., & Moschitto, R. (2024). Zooming to Class? Experimental Evidence on College Students' Online Learning during COVID-19. *American Economic Review: Insights*, 6(3), 324–340. https://www.aeaweb.org/articles?id=10.1257/aeri.20230077
 
 ## RCTs in early childhood education
