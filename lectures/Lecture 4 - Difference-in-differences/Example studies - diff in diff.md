@@ -24,6 +24,8 @@ Chin, M. J. (2021). JUE Insights: Desegregated but still separated? The impact o
 
 Davison, M., Penner, A. M., & Penner, E. K. (2021). Restorative for All? Racial Disproportionality and School Discipline Under Restorative Justice. *American Educational Research Journal*, https://doi.org/10.3102/00028312211062613 
 
+Jackson, C. K., et al. (2025). Universal Pre-K as Economic Stimulus: Evidence from Nine States and Large Cities in the U.S. National Bureau of Economic Research Working Paper Series No. 33767. http://www.nber.org/papers/w33767
+
 Kuka, E., N. a. Shenhav and K. Shih (2020). Do Human Capital Decisions Respond to the Returns to Education? Evidence from DACA. *American Economic Journal: Economic Policy* 12(1): 293-324. http://www.aeaweb.org/articles?id=10.1257/pol.20180352
 
 Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or Escalating Disciplinary Response: A Study of Police Officers in North Carolina Schools. *Educational Evaluation and Policy Analysis*, 43(3), 495-519. https://doi.org/10.3102/01623737211006409
