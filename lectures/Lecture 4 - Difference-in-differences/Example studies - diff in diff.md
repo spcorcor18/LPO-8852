@@ -44,6 +44,9 @@ Guzman, M. A., et al. (2025). Spillovers from Public Health Policies in Schools:
 
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
+Tello-Trillo, D. S. (2021). "Effects of losing public health insurance on preventative care, health, and emergency department use: Evidence from the TennCare disenrollment." Southern Economic Journal 88(1): 322-366. https://doi.org/10.1002/soej.12504
+> Analysis of the effects of the 2005 TennCare disenrollment using the BRFSS and NHIS and difference-in-differences.
+
 Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-differences Methods for Policy Evaluation Research. Epidemiology, 35(5), 628-637. https://journals.lww.com/epidem/fulltext/2024/09000/advances_in_difference_in_differences_methods_for.6.aspx
 
 :star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
