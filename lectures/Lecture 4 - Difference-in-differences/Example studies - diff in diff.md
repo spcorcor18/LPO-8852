@@ -47,7 +47,7 @@ Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal 
 Tello-Trillo, D. S. (2021). "Effects of losing public health insurance on preventative care, health, and emergency department use: Evidence from the TennCare disenrollment." Southern Economic Journal 88(1): 322-366. https://doi.org/10.1002/soej.12504
 > Analysis of the effects of the 2005 TennCare disenrollment using the BRFSS and NHIS and difference-in-differences.
 
-Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-differences Methods for Policy Evaluation Research. Epidemiology, 35(5), 628-637. https://journals.lww.com/epidem/fulltext/2024/09000/advances_in_difference_in_differences_methods_for.6.aspx
+Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-differences Methods for Policy Evaluation Research. *Epidemiology*, 35(5), 628-637. https://journals.lww.com/epidem/fulltext/2024/09000/advances_in_difference_in_differences_methods_for.6.aspx
 
 :star: Wing, C., Simon, K., & Bello-Gomez, R. A. (2018). Designing Difference in Difference Studies: Best Practices for Public Health Policy Research. *Annual Review of Public Health*, 39(1), 453-469. https://doi.org/10.1146/annurev-publhealth-040617-013507 
 
@@ -96,7 +96,7 @@ Wooldridge, J. (2021). Two-Way Fixed Effects, the Two-Way Mundlak Regression, an
 
 Baicker, K., & Svoronos, T. (2019). Testing the Validity of the Single Interrupted Time Series Design. National Bureau of Economic Research Working Paper Series, No. 26080. https://doi.org/10.3386/w26080 
 
-Dee, T. S., et al. (2023). "The Revealed Preferences for School Reopening: Evidence From Public-School Disenrollment." American Educational Research Journal 60(5): 916-940. https://journals.sagepub.com/doi/abs/10.3102/00028312221140029
+Dee, T. S., et al. (2023). "The Revealed Preferences for School Reopening: Evidence From Public-School Disenrollment." *American Educational Research Journal* 60(5): 916-940. https://journals.sagepub.com/doi/abs/10.3102/00028312221140029
 > Uses comparative interrupted time series (CITS).
 
 Sims, S., Anders, J., & Zieger, L. (2022). The Internal Validity of the School-Level Comparative Interrupted Time Series Design: Evidence From Four New Within-Study Comparisons. *Journal Of Research on Educational Effectiveness*, 1-22. https://doi.org/10.1080/19345747.2022.2051652
