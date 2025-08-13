@@ -4,8 +4,9 @@
 
 :star: Akhtari, M., Bau, N., & Laliberté, J.-W. (2024). Affirmative Action and Precollege Human Capital. *American Economic Journal: Applied Economics*, 16(1), 1-32. https://doi.org/10.1257/app.20210807 
 
-Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Evaluate the Effect of Unique Interventions: The Case of Say Yes to Education. *Evaluation Review*, 41(6), 593-619. https://journals.sagepub.com/doi/epub/10.1177/0193841X17742233
-
+:star: Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Evaluate the Effect of Unique Interventions: The Case of Say Yes to Education. *Evaluation Review*, 41(6), 593-619. https://journals.sagepub.com/doi/epub/10.1177/0193841X17742233
+* Very straightforward application of synthetic controls, with clear explanation of methods.
+  
 Chan, M., Mabel, Z., & Mbekeani, P. P. (2020). Incentivizing Equity? The Effects of Performance-Based Funding on Race-Based Gaps in College Completion. EdWorkingPapers.com. https://doi.org/10.26300/g53d-5105 
 
 Gutierrez, I. A., Weinberger, G., & Engberg, J. (2016). *Improving Teaching Effectiveness: Impact on Student Outcomes: The Intensive Partnerships for Effective Teaching Through 2013-2014*. Santa Monica, CA: RAND Corporation. https://www.rand.org/pubs/research_reports/RR1295z3-1.html
@@ -30,7 +31,7 @@ Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects o
 
 ## Synthetic control: methodological papers
 
-Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
+:star: Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
 * classic synthetic control paper
 
 Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
