@@ -50,6 +50,8 @@ Adão, R., Kolesár, M., & Morales, E. (2019). Shift-Share Designs: Theory and I
 
 Borusyak, K., Hull, P., & Jaravel, X. (2018). Quasi-Experimental Shift-Share Research Designs. National Bureau of Economic Research Working Paper Series, No. 24997. doi:10.3386/w24997
 
+:star: Borusyak, K., et al. (2025). A Practical Guide to Shift-Share Instruments. *Journal of Economic Perspectives* 39(1): 181–204. https://www.aeaweb.org/articles?id=10.1257/jep.20231370
+
 Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Policy Preferences: The Great Migration and Civil Rights. National Bureau of Economic Research Working Paper Series, No. 28965. doi:10.3386/w28965
 
 Goldsmith-Pinkham, P., Sorkin, I., & Swift, H. (2020). Bartik Instruments: What, When, Why, and How. *American Economic Review*, 110(8), 2586-2624. doi:10.1257/aer.20181047
