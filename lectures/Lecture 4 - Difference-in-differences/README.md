@@ -11,11 +11,8 @@
 * [G&T](https://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-1497-6?chapterTab=true) chapters 11-12
 * MHE chapter 5
 * MW chapter 12
-* WOOL chapter 13
 * Bertrand, M., Duflo, E., & Mullainathan, S. (2004). How Much Should We Trust Differences-in-Differences Estimates? *Quarterly Journal of Economics*, 119(1), 249–275. https://academic.oup.com/qje/article-abstract/119/1/249/1876068
-* Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254-277. https://www.sciencedirect.com/science/article/pii/S0304407621001445
-* Jakiela, P. (2021). Simple Diagnostics for Two-Way Fixed Effects. Working paper available at https://arxiv.org/pdf/2103.13229.pdf
-* Olden, A., & Møen, J. (2022). The Triple Difference Estimator. The Econometrics Journal. https://doi.org/10.1093/ectj/utac010
+* Olden, A., & Møen, J. (2022). The Triple Difference Estimator. *The Econometrics Journal*. https://doi.org/10.1093/ectj/utac010
 * Freedman, S. M., Hollingsworth, A., Simon, K. I., Wing, C., & Yozwiak, M. (2023). Designing Difference in Difference Studies With Staggered Treatment Adoption: Key Concepts and Practical Guidelines. National Bureau of Economic Research Working Paper Series, No. 31842. http://www.nber.org/papers/w31842 
 
 
