@@ -43,5 +43,8 @@ Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Auto
 
 Kaul, A., Klößner, S., Pfeifer, G., & Schieler, M. (2022). Standard Synthetic Control Methods: The Case of Using All Preintervention Outcomes Together With Covariates. *Journal of Business & Economic Statistics*, 40(3), 1362-1376. https://doi.org/10.1080/07350015.2021.1930012
 
+Sun, L., et al. (Forthcoming). Using Multiple Outcomes to Improve the Synthetic Control Method. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_01592
+* Introduces a method for estimating common weights when multiple outcomes are of interest. Illustrated using a re-analysis of the impact of the Flint water crisis.
+
 Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
 
