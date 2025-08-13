@@ -29,6 +29,9 @@ Cellini, S. R., & Grueso, H. (2021). Student Learning in Online College Programs
 Edmunds, J., Unlu, F., Phillips, B., Mulhern, C., & Hutchins, B. C. (2023). CTE-Focused Dual Enrollment: Participation and Outcomes. *Education Finance and Policy*, 1-40. https://doi.org/10.1162/edfp_a_00414
 > Uses TWANG (generalized boosted modeling) to estimate propensity score weights
 
+Frank, K. A., et al. (2008). Does NBPTS Certification Affect the Number of Colleagues a Teacher Helps With Instructional Matters? *Educational Evaluation and Policy Analysis* 30(1): 3-30. https://journals.sagepub.com/doi/abs/10.3102/0162373707313781
+> Straightforward examples of inverse propensity score weighting.
+
 Swiderski, T. (2024). The Effect of Early College High Schools on STEM Bachelor's Degree Attainment: Evidence from North Carolina. *Education Finance and Policy*, 19(3), 437-460. https://doi.org/10.1162/edfp_a_00404
 
 Yoo, P., Domina, T., McEachin, A., Clark, L., Hertenstein, H., & Penner, A. M. (2023). Virtual Charter Students Have Worse Labor Market Outcomes as Young Adults. Retrieved from http://www.edworkingpapers.com/ai23-773
