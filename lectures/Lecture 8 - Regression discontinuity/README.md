@@ -14,7 +14,7 @@ Cambridge Elements: Quantitative and Computational Methods for Social Science, C
 * Bloom, H. S. (2012). Modern Regression Discontinuity Analysis. *Journal Of Research on Educational Effectiveness*, 5(1), 43--82. https://doi.org/10.1080/19345747.2011.578707
 * Imbens, G. W., & Lemieux, T. (2008). Regression Discontinuity Designs: A Guide to Practice. *Journal of Econometrics*, 142(2), 615--635. http://dx.doi.org/10.1016/j.jeconom.2007.05.001
 * Lee, D. S., & Lemieux, T. (2010). Regression Discontinuity Designs in Economics. *Journal of Economic Literature*, 48(2), 281-355. https://doi.org/10.1257/jel.48.2.281 
-* :star: What Works Clearinghouse Standards Handbook Version 5 (2022), https://ies.ed.gov/ncee/wwc/Handbooks (see chapter on RD)
+* What Works Clearinghouse Standards Handbook Version 5 (2022), https://ies.ed.gov/ncee/wwc/Handbooks (see chapter on RD)
 
 
 ## Video resources:
