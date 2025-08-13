@@ -16,6 +16,9 @@ Nguyen, T. D. and C. Redding. (2025). The Effects of Race to the Top on Student 
 
 Schueler, B. E., & Larned, K. E. Interscholastic Policy Debate Promotes Critical Thinking and College-Going: Evidence From Boston Public Schools. *Educational Evaluation and Policy Analysis*. https://journals.sagepub.com/doi/abs/10.3102/01623737231200234
 
+## Applications: event studies in health policy
+
+Guzman, M. A., et al. (2025). Spillovers from Public Health Policies in Schools: Evidence from COVID Mask Mandates. National Bureau of Economic Research Working Paper Series No. 33849. http://www.nber.org/papers/w33849
 
 ## Applications: stacked event studies
 
