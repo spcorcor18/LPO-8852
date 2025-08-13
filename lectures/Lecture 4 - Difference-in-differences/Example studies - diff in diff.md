@@ -28,10 +28,9 @@ Jackson, C. K., et al. (2025). Universal Pre-K as Economic Stimulus: Evidence fr
 
 Kuka, E., N. a. Shenhav and K. Shih (2020). Do Human Capital Decisions Respond to the Returns to Education? Evidence from DACA. *American Economic Journal: Economic Policy* 12(1): 293-324. http://www.aeaweb.org/articles?id=10.1257/pol.20180352
 
-Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or Escalating Disciplinary Response: A Study of Police Officers in North Carolina Schools. *Educational Evaluation and Policy Analysis*, 43(3), 495-519. https://doi.org/10.3102/01623737211006409
-
 Rothstein, J., & Schanzenbach, D. W. (2021). Does Money Still Matter? Attainment and Earnings Effects of Post-1990 School Finance Reforms. National Bureau of Economic Research Working Paper Series, No. 29177. doi:10.3386/w29177
 
+Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or Escalating Disciplinary Response: A Study of Police Officers in North Carolina Schools. *Educational Evaluation and Policy Analysis*, 43(3), 495-519. https://doi.org/10.3102/01623737211006409
 
 ## Applications: difference-in-differences in health policy
 
@@ -51,13 +50,12 @@ Wang, G., Hamad, R., & White, J. S. (2024). Advances in Difference-in-difference
 
 :star: Wing, C., Yozwiak, M., Hollingsworth, A., Freedman, S., & Simon, K. (2024). Designing Difference-in-Difference Studies with Staggered Treatment Adoption: Key Concepts and Practical Guidelines. *Annual Review of Public Health*, 45(Volume 45, 2024), 485-505. https://doi.org/10.1146/annurev-publhealth-061022-050825 See also NBER version (Freedman et al.) [here](http://www.nber.org/papers/w31842)
 
-
 ## Applications: triple difference
 
 :star: Bravata, D., Cantor, J. H., Sood, N., & Whaley, C. M. (2021). Back to School: The Effect of School Visits During COVID-19 on COVID-19 Transmission. National Bureau of Economic Research Working Paper Series, No. 28645. https://www.nber.org/system/files/working_papers/w28645/w28645.pdf
 
 :star: Monarrez, T., Kisida, B., & Chingos, M. M. (2022). The Effect of Charter Schools on School Segregation. *American Economic Journal: Economic Policy*, 14(1), 301-340. https://www.aeaweb.org/articles?id=10.1257/pol.20190682
-* for a readable summary of this paper, see [EdNext 2021](https://www.educationnext.org/do-charter-schools-increase-segregation-first-national-analysis-reveals-modest-impact/)
+> For a readable summary of this paper, see [EdNext 2021](https://www.educationnext.org/do-charter-schools-increase-segregation-first-national-analysis-reveals-modest-impact/)
 
 ## Difference-in-differences: methodological papers
 
@@ -82,6 +80,8 @@ Rambachan, A., & Roth, J. (2023). A More Credible Approach to Parallel Trends. T
 Roth, J. (2022). Pretest with Caution: Event-Study Estimates after Testing for Parallel Trends. *American Economic Review: Insights*, 4(3), 305-322. https://doi.org/10.1257/aeri.20210236 
 
 Sun, L., & Shapiro, J. M. (2022). A Linear Panel Model with Heterogeneous Coefficients and Variation in Exposure. *Journal of Economic Perspectives*, 36(4), 193-204. https://www.aeaweb.org/articles?id=10.1257/jep.36.4.193 
+
+Wooldridge, J. (2021). Two-Way Fixed Effects, the Two-Way Mundlak Regression, and Difference-in-Differences Estimators, SSRN. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3906345
 
 ## Related methods
 
