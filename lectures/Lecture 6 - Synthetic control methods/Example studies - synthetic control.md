@@ -34,9 +34,12 @@ Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects o
 :star: Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
 > The classic synthetic control paper.
 
-Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
+:star: Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
 
 Ben-Michael, E., Feller, A., & Rothstein, J. (2021). The Augmented Synthetic Control Method. *Journal of the American Statistical Association*, 116(536), 1789-1803. https://doi.org/10.1080/01621459.2021.1929245 
+
+Clarke, D., et al. (2024). On Synthetic Difference-in-Differences and Related Estimation Methods in Stata. *The Stata Journal* 24(4): 557-598. https://journals.sagepub.com/doi/abs/10.1177/1536867X241297914
+> Introduces the **sdid** command in Stata which implements the synthetic difference-in-differences (SDID) estimator of Arkhangelsky et al. (2021).
 
 Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Controls. *Journal of Policy Analysis and Management*, 39(2), 510-532. https://doi.org/10.1002/pam.22206 
 
