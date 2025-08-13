@@ -18,7 +18,6 @@ Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the P
 
 Vargas Castaño, D., et al. (2025). Closing the Gaps: An Examination of Early Impacts of Dallas ISD's Opt-out Policy on Advanced Course Enrollment. EdWorkingPaper: 25-1184. Retrieved from Annenberg Institute at Brown University: https://doi.org/10.26300/s914-9n20
 
-
 ## Applications - synthetic control in health policy
 
 Bonander, C., Humphreys, D. & Esposti, M.D. (2021). Synthetic Control Methods for the Evaluation of Single-Unit Interventions in Epidemiology: A Tutorial. *American Journal of Epidemiology* 190(12): 2700–2711, https://doi.org/10.1093/aje/kwab211
@@ -44,6 +43,7 @@ Clarke, D., et al. (2024). On Synthetic Difference-in-Differences and Related Es
 Ferman, B., Pinto, C., & Possebom, V. (2020). Cherry Picking with Synthetic Controls. *Journal of Policy Analysis and Management*, 39(2), 510-532. https://doi.org/10.1002/pam.22206 
 
 Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Automate Synthetic Control Estimation Using Synth. *The Stata Journal*, 17(4), 834-849. https://journals.sagepub.com/doi/abs/10.1177/1536867X1801700404
+> Introduces the **synth_runner** command in Stata. (I recommend using the more recent **synth2**).
 
 Kaul, A., Klößner, S., Pfeifer, G., & Schieler, M. (2022). Standard Synthetic Control Methods: The Case of Using All Preintervention Outcomes Together With Covariates. *Journal of Business & Economic Statistics*, 40(3), 1362-1376. https://doi.org/10.1080/07350015.2021.1930012
 
@@ -51,4 +51,4 @@ Sun, L., et al. (Forthcoming). Using Multiple Outcomes to Improve the Synthetic 
 > Introduces a method for estimating common weights when multiple outcomes are of interest. Illustrated using a re-analysis of the impact of the Flint water crisis.
 
 :star: Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
-> Excellent guide to the **synth2** command in Stata
+> Excellent guide to the **synth2** command in Stata.
