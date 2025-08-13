@@ -73,6 +73,12 @@ de Chaisemartin, C., & D'Haultfœuille, X. (2018). Fuzzy Differences-in-Differen
 
 de Chaisemartin, C., D’Haultfœuille, X., & Guyonvarch, Y. (2019). Fuzzy differences-in-differences with Stata. *The Stata Journal*, 19(2), 435-458. https://doi.org/10.1177/1536867X19854019 
 
+:star: Goodman-Bacon, A. (2021). Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 225(2), 254-277. https://www.sciencedirect.com/science/article/pii/S0304407621001445
+> Significant and heavily cited paper on the problems with two-way fixed effects when there is variation in treatment timing.
+
+:star: Jakiela, P. (2021). Simple Diagnostics for Two-Way Fixed Effects. Working paper available at https://arxiv.org/pdf/2103.13229.pdf
+> Excellent paper on the issues with two-way fixed effects when there is variation in treatment timing (with examples).
+
 Lechner, M. (2011). The Estimation of Causal Effects by Difference-in-Difference Methods. *Foundations and Trends in Econometrics*, 4(3), 165--224. https://doi.org/10.1561/0800000014 
 
 Rambachan, A., & Roth, J. (2023). A More Credible Approach to Parallel Trends. The Review of Economic Studies, 90(5), 2555-2591. https://doi.org/10.1093/restud/rdad018
