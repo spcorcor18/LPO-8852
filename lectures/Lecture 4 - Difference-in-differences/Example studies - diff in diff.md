@@ -24,8 +24,6 @@ Chin, M. J. (2021). JUE Insights: Desegregated but still separated? The impact o
 
 Davison, M., Penner, A. M., & Penner, E. K. (2021). Restorative for All? Racial Disproportionality and School Discipline Under Restorative Justice. *American Educational Research Journal*, https://doi.org/10.3102/00028312211062613 
 
-Guzman, M. A., et al. (2025). Spillovers from Public Health Policies in Schools: Evidence from COVID Mask Mandates. National Bureau of Economic Research Working Paper Series No. 33849. http://www.nber.org/papers/w33849
-
 Kuka, E., N. a. Shenhav and K. Shih (2020). Do Human Capital Decisions Respond to the Returns to Education? Evidence from DACA. *American Economic Journal: Economic Policy* 12(1): 293-324. http://www.aeaweb.org/articles?id=10.1257/pol.20180352
 
 Sorensen, L. C., Shen, Y., & Bushway, S. D. (2021). Making Schools Safer and/or Escalating Disciplinary Response: A Study of Police Officers in North Carolina Schools. *Educational Evaluation and Policy Analysis*, 43(3), 495-519. https://doi.org/10.3102/01623737211006409
@@ -40,6 +38,8 @@ Churchill, B. F. (2023). State-mandated school-based BMI assessments and self-re
 Dave, D. M., Friedson, A. I., Matsuzawa, K., McNichols, D., Redpath, C., & Sabia, J. J. (2020). Did President Trump’s Tulsa Rally Reignite COVID-19? Indoor Events and Offsetting Community Effects. National Bureau of Economic Research Working Paper Series, No. 27522. https://doi.org/10.3386/w27522 
 
 Gupta, S., Salcedo, D., & Simon, K. I. (2024). School Closures and Parental Mental Health. National Bureau of Economic Research Working Paper Series, No. 32516. http://www.nber.org/papers/w32516
+
+Guzman, M. A., et al. (2025). Spillovers from Public Health Policies in Schools: Evidence from COVID Mask Mandates. National Bureau of Economic Research Working Paper Series No. 33849. http://www.nber.org/papers/w33849
 
 Rees, D. I., Sabia, J. J., & Kumpas, G. (2022). Anti-Bullying Laws and Suicidal Behaviors Among Teenagers. *Journal of Policy Analysis and Management*, 41(3), 787-823. https://doi.org/https://doi.org/10.1002/pam.22405 
 
