@@ -14,7 +14,7 @@ Gutierrez, I. A., Weinberger, G., & Engberg, J. (2016). *Improving Teaching Effe
 Hanushek, E. A., Luo, J., Morgan, A. J., Nguyen, M., Ost, B., Rivkin, S. G., & Shakeel, A. (2023). The Effects of Comprehensive Educator Evaluation and Pay Reform on Achievement. National Bureau of Economic Research Working Paper Series, No. 31073. http://www.nber.org/papers/w31073
 
 Shores, K.A., Candelaria, C.A., & Kabourek, S.E., (2023). Spending More on the Poor? A Comprehensive Summary of State-Specific Responses to School Finance Reforms from 1990–2014. *Education Finance and Policy* 18(3): 395–422. https://doi.org/10.1162/edfp_a_00360
-* see especially their online Appendix F
+> see especially their online Appendix F
 
 Vargas Castaño, D., et al. (2025). Closing the Gaps: An Examination of Early Impacts of Dallas ISD's Opt-out Policy on Advanced Course Enrollment. EdWorkingPaper: 25-1184. Retrieved from Annenberg Institute at Brown University: https://doi.org/10.26300/s914-9n20
 
@@ -32,7 +32,7 @@ Trejo, S., Yeomans-Maldonado, G., & Jacob, B. (2021). The Psychosocial Effects o
 ## Synthetic control: methodological papers
 
 :star: Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program. *Journal of the American Statistical Association*, 105(490), 493-505. https://doi.org/10.1198/jasa.2009.ap08746
-* classic synthetic control paper
+> The classic synthetic control paper.
 
 Arkhangelsky, D., Athey, S., Hirshberg, D. A., Imbens, G. W., & Wager, S. (2021). Synthetic Difference-in-Differences. *American Economic Review*, 111(12), 4088-4118. https://doi.org/10.1257/aer.20190159 
 
@@ -45,7 +45,7 @@ Galiani, S., & Quistorff, B. (2017). The Synth_Runner Package: Utilities to Auto
 Kaul, A., Klößner, S., Pfeifer, G., & Schieler, M. (2022). Standard Synthetic Control Methods: The Case of Using All Preintervention Outcomes Together With Covariates. *Journal of Business & Economic Statistics*, 40(3), 1362-1376. https://doi.org/10.1080/07350015.2021.1930012
 
 Sun, L., et al. (Forthcoming). Using Multiple Outcomes to Improve the Synthetic Control Method. *The Review of Economics and Statistics*. https://doi.org/10.1162/rest_a_01592
-* Introduces a method for estimating common weights when multiple outcomes are of interest. Illustrated using a re-analysis of the impact of the Flint water crisis.
+> Introduces a method for estimating common weights when multiple outcomes are of interest. Illustrated using a re-analysis of the impact of the Flint water crisis.
 
-Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
-
+:star: Yan, G., & Chen, Q. (2023). synth2: Synthetic control method with placebo tests, robustness test, and visualization. *The Stata Journal*, 23(3), 597-624. https://journals.sagepub.com/doi/abs/10.1177/1536867X231195278
+> Excellent guide to the **synth2** command in Stata
