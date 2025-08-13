@@ -5,7 +5,7 @@
 :star: Akhtari, M., Bau, N., & Laliberté, J.-W. (2024). Affirmative Action and Precollege Human Capital. *American Economic Journal: Applied Economics*, 16(1), 1-32. https://doi.org/10.1257/app.20210807 
 
 :star: Bifulco, R., Rubenstein, R., & Sohn, H. (2017). Using Synthetic Controls to Evaluate the Effect of Unique Interventions: The Case of Say Yes to Education. *Evaluation Review*, 41(6), 593-619. https://journals.sagepub.com/doi/epub/10.1177/0193841X17742233
-> Very straightforward application of synthetic controls, with clear explanation of methods.
+> > Very straightforward application of synthetic controls, with clear explanation of methods.
   
 Chan, M., Mabel, Z., & Mbekeani, P. P. (2020). Incentivizing Equity? The Effects of Performance-Based Funding on Race-Based Gaps in College Completion. EdWorkingPapers.com. https://doi.org/10.26300/g53d-5105 
 
