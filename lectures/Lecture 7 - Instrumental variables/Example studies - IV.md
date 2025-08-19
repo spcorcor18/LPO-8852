@@ -18,6 +18,9 @@ Angrist, J. D., & Lavy, V. (1999). Using Maimonides' Rule to Estimate the Effect
 
 Ash, E., & Galletta, S. (2023). How Cable News Reshaped Local Government. *American Economic Journal: Applied Economics*, 15(4), 292-320. https://www.aeaweb.org/articles?id=10.1257/app.20210501
 
+Ash, E., et al. (2024). From Viewers to Voters: Tracing Fox News' Impact on American Democracy. *Journal of Public Economics* 240: 105256. https://www.sciencedirect.com/science/article/pii/S0047272724001920
+> Fox News cable channel position used as an instrument for viewership to examine its effects on political ideology.
+
 Ballis, B., & Heath, K. (2021). The Long-Run Impacts of Special Education. *American Economic Journal: Economic Policy*, 13(4), 72-111. https://doi.org/10.1257/pol.20190603
 
 Barrow, L., Schanzenbach, D. W., & Claessens, A. (2015). The impact of Chicago's small high school initiative. *Journal of Urban Economics*, 87(0), 100--113. https://doi.org/http://dx.doi.org/10.1016/j.jue.2015.02.002 
@@ -49,6 +52,8 @@ Sorensen, L. C., & Holt, S. B. (2021). Sorting it Out: The Effects of Charter Ex
 Adão, R., Kolesár, M., & Morales, E. (2019). Shift-Share Designs: Theory and Inference. *The Quarterly Journal of Economics*, 134(4), 1949-2010. doi:10.1093/qje/qjz025
 
 Borusyak, K., Hull, P., & Jaravel, X. (2018). Quasi-Experimental Shift-Share Research Designs. National Bureau of Economic Research Working Paper Series, No. 24997. doi:10.3386/w24997
+
+:star: Borusyak, K., et al. (2025). A Practical Guide to Shift-Share Instruments. *Journal of Economic Perspectives* 39(1): 181–204. https://www.aeaweb.org/articles?id=10.1257/jep.20231370
 
 Calderon, A., Fouka, V., & Tabellini, M. (2021). Racial Diversity and Racial Policy Preferences: The Great Migration and Civil Rights. National Bureau of Economic Research Working Paper Series, No. 28965. doi:10.3386/w28965
 

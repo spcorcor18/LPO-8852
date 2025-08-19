@@ -43,4 +43,6 @@
 
 ## Example studies:
 
-[List of example studies and other matching references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%202%20-%20Matching%20estimators/Example%20studies%20-%20matching.md)
+[List of example studies and other matching references](https://github.com/spcorcor18/LPO-8852/blob/main/lectures/Lecture%202%20-%20Matching%20and%20weighting%20estimators/Example%20studies%20-%20matching.md)
+
+

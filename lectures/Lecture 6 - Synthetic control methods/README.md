@@ -1,9 +1,10 @@
-# Lecture 6: Synthetic control methods
+# Lecture 6: Synthetic control
 
 ## Syllabus readings:
 
 * :star: [MIX](https://mixtape.scunning.com/), *Synthetic Control*
 * :star: Abadie, A. (2021). Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects. *Journal of Economic Literature*, 59(2), 391-425. https://www.aeaweb.org/articles?id=10.1257/jel.20191450
+* Bonander, C., Humphreys, D. & Esposti, M.D. (2021). Synthetic Control Methods for the Evaluation of Single-Unit Interventions in Epidemiology: A Tutorial. *American Journal of Epidemiology* 190(12): 2700–2711, https://doi.org/10.1093/aje/kwab211
 
 
 ## Video resources:
