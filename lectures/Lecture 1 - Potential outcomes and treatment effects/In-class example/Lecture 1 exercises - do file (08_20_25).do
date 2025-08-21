@@ -3,7 +3,7 @@
 //
 // Lecture 1 - Potential outcomes and treatment effects
 // Stata Examples
-// August 26, 2023
+// August 20, 2025
 //
 // ***************************************************************
 
