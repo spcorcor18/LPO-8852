@@ -12,6 +12,7 @@
 * Caliendo, M., & Kopeinig, S. (2008). Some Practical Guidance for the Implementation of Propensity Score Matching. *Journal of Economic Surveys*, 22(1), 31–72. https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-6419.2007.00527.x
 * Imbens, G. W. (2015). Matching Methods in Practice: Three Examples. *Journal of Human Resources*, 50(2), 373–419. https://doi.org/10.3368/jhr.50.2.373 
 * Morgan, S. L., & Harding, D. J. (2006). Matching Estimators of Causal Effects: Prospects and Pitfalls in Theory and Practice. *Sociological Methods & Research*, 35(1), 3–60. https://doi.org/10.1177/0049124106289164
+* What Works Clearinghouse. (2022). [*What Works Clearinghouse procedures and standards handbook, version 5.0.*](https://ies.ed.gov/ncee/WWC/Docs/referenceresources/Final_WWC-HandbookVer5_0-0-508.pdf) U.S. Department of Education, Institute of Education Sciences, National Center for Education Evaluation and Regional Assistance (NCEE). See p. 53 and following pages related to baseline equivalence.
 
 
 ## Video resources
