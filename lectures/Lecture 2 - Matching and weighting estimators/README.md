@@ -5,7 +5,8 @@
 * :star: [MIX](https://mixtape.scunning.com/), *Matching and Subclassification*
 * :star: [HK](https://theeffectbook.net/) chapter 14, *Matching*
 * :star: MM chapter 2, *Regression* (especially pp. 47-59)
-* :star: Guo & Fraser (2015), *Propensity Score Analysis: Statistical Methods and Applications, 2e*
+* :star: Ho, D. E., et al. (2007). Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference. *Political Analysis* 15(3): 199-236.
+* Guo & Fraser (2015), *Propensity Score Analysis: Statistical Methods and Applications, 2e*
 * [G&T](https://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-1497-6?chapterTab=true) chapter 13, *Matching Methods*
 * MW chapter 12
 * Caliendo, M., & Kopeinig, S. (2008). Some Practical Guidance for the Implementation of Propensity Score Matching. *Journal of Economic Surveys*, 22(1), 31–72. https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-6419.2007.00527.x
