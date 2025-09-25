@@ -58,6 +58,9 @@ Swain, W. A., Rodriguez, L. A., & Springer, M. G. (2019). Selective retention bo
 
 ## Matching and weighting: methodological papers
 
+:star: Ho, D. E., et al. (2007). Matching as Nonparametric Preprocessing for Reducing Model Dependence in Parametric Causal Inference. *Political Analysis* 15(3): 199-236.
+> Excellent intuitive introduction to matching techniques and how they improve upon traditional parametric (regression-based) methods. Also includes a lot of practical guidance on testing for balance.
+
 Iacus, S. M., King, G., & Porro, G. (2012). Causal Inference without Balance Checking: Coarsened Exact Matching. *Political Analysis*, 20(1), 1-24. https://doi.org/10.1093/pan/mpr013 
 
 Keele, L., et al. (Forthcoming). Balancing Weights for Estimating Treatment Effects in Educational Studies. *Journal of Research on Educational Effectiveness*.
