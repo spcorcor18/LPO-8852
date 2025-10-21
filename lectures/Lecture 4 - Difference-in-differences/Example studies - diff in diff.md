@@ -24,6 +24,9 @@ Chin, M. J. (2021). JUE Insights: Desegregated but still separated? The impact o
 
 Davison, M., Penner, A. M., & Penner, E. K. (2021). Restorative for All? Racial Disproportionality and School Discipline Under Restorative Justice. *American Educational Research Journal*, https://doi.org/10.3102/00028312211062613 
 
+:star: Felegi, B. (2025). Examining Key Impacts of the Test-Optional Movement for Early Adopters. _AEA Papers and Proceedings_ 115: 682–88, https://www.aeaweb.org/articles?id=10.1257/pandp.20251057
+> Short paper with a straightforward application of the Callaway and Sant'Anna method. Uses IPEDS and DOE data on Pell Grant recipients.
+
 Jackson, C. K., et al. (2025). Universal Pre-K as Economic Stimulus: Evidence from Nine States and Large Cities in the U.S. National Bureau of Economic Research Working Paper Series No. 33767. http://www.nber.org/papers/w33767
 
 Kuka, E., N. a. Shenhav and K. Shih (2020). Do Human Capital Decisions Respond to the Returns to Education? Evidence from DACA. *American Economic Journal: Economic Policy* 12(1): 293-324. http://www.aeaweb.org/articles?id=10.1257/pol.20180352
