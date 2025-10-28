@@ -2,7 +2,7 @@
 
 // **************************************************************************
 // Synthetic control example from The Mixtape
-// Last update: October 24, 2024
+// Last update: October 27, 2025
 // **************************************************************************
 
 // Location to store temporary files
@@ -12,11 +12,9 @@
 	cd "$temp"
 	capture log close
 	log using "Inclass-exercise-6-log.txt", text replace
-
 	set more off
-	set matsize 1000
 
-// synth package and necessary mat2txt:
+// install synth package and necessary mat2txt:
 	*ssc install synth, all 
 	*ssc install mat2txt
 // synth_runner package:
@@ -29,11 +27,15 @@
 // (1)
 // *****
 // **************************************************************************
-// Use synth command to obtain weights and construct a synthetic control.
+// Use synth2 command to obtain weights, construct a synthetic control, and
+//    estimate treatment effects in each post-period year.
 // Outcome: Black male prisoners (per 100,000 population)
 // Treated state: Texas 
 // Year of treatment: 1993
 // **************************************************************************
+// NOTE: synth2 only works in Stata 16+. If this command doesn't work for you,
+// the earlier synth and synth_runner commands can accomplish the same things
+
 
 // Read source data - panel data from 1985 to 2000
 
@@ -56,129 +58,32 @@
 // used. bmprison is the total number of incarcerated black males. bmprate is
 // the number of incarcerated per 100,000 population (bmprison/bmpop)*100000. 
 // The code in the book chapter uses the count (bmprison) but the rate makes
-// more sense. Cunningham recommends comparing the results when using rates
-// vs. levels. (One notable differences is in the states given weights).
+// more sense to me. Cunningham recommends comparing the results when using
+// rates vs. levels. (One notable differences is in the states given weights).
 
 	list statefip state year bmprison bmprate if statefip==48, noobs
-	
-// synth command syntax: 
-//   bmprate = Black male incarceration rate per 100,000 
-//   next 14 variables = pre-treatment outcomes and covariates
+
+// synth2 command syntax: 
+//   bmprate = Black male incarceration rate per 100,000 (outcome)
+//   next 13 variables = pre-treatment outcomes and covariates
 //   truint(48) = Texas (state 48) is the treated unit
 //   trperiod(1993) = 1993 is the first treatment year
-//   unitnames( ) = tells Stata which variable contains the unit names
-//   mspeperiod( )= the pre-treatment period used to minimize the RMSPE
+//   mspeperiod( )= the pre-treatment period used to find the synthetic control
+//	    via minimizing the RMSPE. May or may not differ from preperiod.
 //	    NOTE: Cunningham's code used 1985(1)1993 for the pre-period--I 
 //	    think it should be 1985(1)1992. This is the default entire pre-
 //		period.
-//   resultsperiod( ) = the time period used in the resulting figure
-//   keep( ) = name of file for the saved results (used later, below)
-//   fig = tells Stata to generate the figure
-
-	synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
-		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
-		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), ///
-		trunit(48) trperiod(1993) unitnames(state) /// 
-		mspeperiod(1985(1)1992) resultsperiod(1985(1)2000) ///
-		keep(synth_bmprate.dta) replace fig
-
-	graph save Graph synth_tx.gph, replace
-	graph export "TX-vs-synthetic.png", as(png) replace
-
-// See the v matrix of coefficient weights
-
-	ereturn list
-	mat list e(V_matrix)
-	
-// Look at saved results
-
-	use synth_bmprate, clear
-	list, noobs
-	
-
-// *****
-// (2)
-// *****
-// **************************************************************************
-// Use synth_runner package to do placebo inference
-// **************************************************************************
-	
-	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
-
-// synth_runner calls the synth package, so it uses many of the same options.
-// The code below will obtain the treatment effects, placebo effects, 
-// and p-vals. Notice I dropped the 'fig' and 'resultsperiod' options. The
-// saved results option is also omitted.
-
-// gen_vars = saves the variables necessary to run effect_graphs and
-//    single_treatment_graphs commands
-
-	synth_runner bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
-		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
-		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), /// 
-		trunit(48) trperiod(1993) unitnames(state)  /// 
-		mspeperiod(1985(1)1992) gen_vars
-
-// see saved statistics
-		
-	ereturn list
-		
-// get standard plot of means, as well as gap between TX and synthetic control
-
-	effect_graphs, trlinediff(0) treated_name(Texas) sc_name(Synthetic Texas) ///
-		tc_gname(synth_tx2) effect_gname(synth_tx2gap) ///
-		tc_ytitle(Black male incarceration rate per 100,000) ///
-		effect_ytitle(Gap in Black male incarceration rate)
-
-	graph save synth_tx2 synth_tx2, replace
-	graph save synth_tx2gap synth_tx2gap, replace
-		
-// plot the gap for TX vs all of the placebos
-
-	single_treatment_graphs, trlinediff(0) do_color(gs12) treated_name(Texas) ///
-		raw_gname(synth_tx3) effects_gname(synth_tx3gap)
-
-	graph save synth_tx3 synth_tx3, replace
-	graph save synth_tx3gap synth_tx3gap, replace
-		
-// plot pvalue by time period
-
-	pval_graphs
-	
-	graph save pvals pvals, replace
-	graph save pvals_std pvals_std, replace
-
-	graph combine "synth_tx2.gph" "synth_tx2gap.gph" ///
-		"synth_tx3.gph" "synth_tx3gap.gph" "pvals.gph" ///
-		"pvals_std.gph" , cols(2) name(synth_runner, replace) altshrink
-	graph export synth_runner.png, as(png) replace
-
-	
-// *****
-// (3)
-// *****
-// **************************************************************************
-// Use synth2 package to constuct a synthetic control and perform placebo
-// tests. Works in Stata 16+
-// **************************************************************************
-	
-	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
-	
-	// Main synthetic control results (for comparison with part 1)
-	// "postperiod" = similar to resultsperiod for synth but begins with
-	//    treatment period
-	// "preperiod" = similar to resultsperiod for synth but refers to the
-	//    pre treatment periods only
-	// "mspeperiod" = period used for finding synthetic control (may or
-	//    may not differ from preperiod)
-	// "xperiod" = periods over which covariates are averaged, where
-	//    relevant (could be same or different from mspeperiod)
-	// "nested" = fully nested optimization procedure that searches among
-	//    all (diagonal) positive semidefinite V-matrics and sets of W-
-	//    weights. NOTE: better accuracy but takes much longer to run
-	// "allopt" = gaining fully robust results if nested is specified
-	//    (runs nested optimization 3 times using 3 different starting
-	//    points)
+//   preperiod( )= defines the pre-treatment period
+//   postperiod( )= defines the post-treatment period (starts with first
+//	    year of treatment)
+//   xperiod( )= defines the periods over which covariates are averaged, 
+//      where applicable. May or may not differ from mspeperiod.
+//   "nested" = fully nested optimization procedure that searches among
+//      all (diagonal) positive semidefinite V-matrics and sets of W-
+//      weights. NOTE: better accuracy but takes much longer to run
+//   "allopt" = gaining fully robust results if nested is specified
+//      (runs nested optimization 3 times using 3 different starting
+//      points)
 	
 	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
@@ -188,12 +93,21 @@
 		xperiod(1985(1)1992) /*nested allopt*/ ///
 		savegraph(set1, replace)
 	
-	// 5 graphs produced from the above
+	
+	// Combine 5 graphs produced from the above
 	graph combine "set1_bias.gph" "set1_pred.gph" "set1_weight_vars.gph" ///
 		"set1_eff.gph" "set1_weight_unit.gph" , cols(2) ysize(12) xsize(15) ///
 		name(synth2_set1, replace) altshrink
 	graph export synth2_set1.png, as(png) replace
 		
+
+// *****
+// (2)
+// *****
+// **************************************************************************
+// Use synth2 command to obtain placebo tests for statistical inference.
+// Two types of tests: "in space" and "in time" 
+// **************************************************************************
 		
 	// ******************************
 	// "In-space" placebo test (unit)
@@ -207,7 +121,7 @@
 		xperiod(1985(1)1992) /*nested allopt*/ ///
 		placebo(unit) savegraph(set2, replace)
 		
-	// 5 added graphs related to the placebo test
+	// combine 5 added graphs related to the placebo test
 
 	graph combine "set2_eff_pboUnit.gph" "set2_ratio_pboUnit.gph" ///
 		, rows(1) ysize(4) xsize(8) ///
@@ -269,6 +183,9 @@
 	// "Leave one out" (LOO) robustness test. 
 	// **************************************************
 	
+	// had to modify lab
+	label define statefip 11 "DC", modify
+	
 	synth2 bmprate bmprate(1988) bmprate(1991) bmprate(1992) ///
 		alcohol(1990) aidscapita(1990) aidscapita(1991) income ur ///
 		poverty black(1990) black(1991) black(1992) perc1519(1990), ///
@@ -284,15 +201,147 @@
 		name(synth2_set4, replace) altshrink 
 	graph export synth2_set4.png, as(png) replace	
 	
+
+// Close log and convert to PDF
+	capture log close
+	translate "Inclass-exercise-6-log.txt" "Inclass-exercise-6-log.pdf", translator(txt2pdf) ///
+		cmdnumber(off) logo(off) header(off) replace
+		
+exit
+	
+	
+// **************************************************************************
+// **************************************************************************
+// NOTE: below this point is old code, used prior to synth2 command. Only
+// provided as a reference, in case synth2 doesn't work for you
+// **************************************************************************
+// **************************************************************************
+
+// *****
+// (A)
+// *****
+// **************************************************************************
+// Use synth package to obtain weights, construct a synthetic control, and
+//    estimate treatment effects in each post-period year.
+// Outcome: Black male prisoners (per 100,000 population)
+// Treated state: Texas 
+// Year of treatment: 1993
+// **************************************************************************
+
+	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
+
+// Attach labels to state FIPS codes. Texas is state 48.
+// Note: labmask is a user-created command (part of labutil)
+
+	labmask statefip, values(state)
+	label list
+
+// synth command syntax: 
+//   bmprate = Black male incarceration rate per 100,000 
+//   next 14 variables = pre-treatment outcomes and covariates
+//   truint(48) = Texas (state 48) is the treated unit
+//   trperiod(1993) = 1993 is the first treatment year
+//   unitnames( ) = tells Stata which variable contains the unit names
+//   mspeperiod( )= the pre-treatment period used to minimize the RMSPE
+//	    NOTE: Cunningham's code used 1985(1)1993 for the pre-period--I 
+//	    think it should be 1985(1)1992. This is the default entire pre-
+//		period.
+//   resultsperiod( ) = the time period used in the resulting figure
+//   keep( ) = name of file for the saved results (used later, below)
+//   fig = tells Stata to generate the figure
+
+	synth bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
+		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
+		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), ///
+		trunit(48) trperiod(1993) unitnames(state) /// 
+		mspeperiod(1985(1)1992) resultsperiod(1985(1)2000) ///
+		keep(synth_bmprate.dta) replace fig
+
+// One figure produced: pre and post values of Texas and synthetic Texas		
+		
+	graph save Graph synth_tx.gph, replace
+	graph export "TX-vs-synthetic.png", as(png) replace
+
+// See the v matrix of coefficient weights
+
+	ereturn list
+	mat list e(V_matrix)
+	
+// Look at results saved in a different file
+
+	use synth_bmprate, clear
+	list, noobs
+	
+
+// *****
+// (B)
+// *****
+// **************************************************************************
+// Use synth_runner package to do placebo inference
+// **************************************************************************
+	
+	use https://github.com/scunning1975/mixtape/raw/master/texas.dta, clear
+	labmask statefip, values(state)
+	label list
+
+// synth_runner calls the synth package, so it uses many of the same options.
+// The code below will obtain the treatment effects, placebo effects, 
+// and p-vals. Notice I dropped the 'fig' and 'resultsperiod' options. The
+// saved results option is also omitted.
+
+// gen_vars = saves the variables necessary to run effect_graphs and
+//    single_treatment_graphs commands
+
+	synth_runner bmprate bmprate(1988) bmprate(1990) bmprate(1991) ///
+		bmprate(1992) alcohol(1990) aidscapita(1990) aidscapita(1991) ///
+		income ur poverty black(1990) black(1991) black(1992) perc1519(1990), /// 
+		trunit(48) trperiod(1993) unitnames(state)  /// 
+		mspeperiod(1985(1)1992) gen_vars
+
+// see saved statistics
+		
+	ereturn list
+		
+// get standard plot of means, as well as gap between TX and synthetic control
+
+	effect_graphs, trlinediff(0) treated_name(Texas) sc_name(Synthetic Texas) ///
+		tc_gname(synth_tx2) effect_gname(synth_tx2gap) ///
+		tc_ytitle(Black male incarceration rate per 100,000) ///
+		effect_ytitle(Gap in Black male incarceration rate)
+
+	graph save synth_tx2 synth_tx2, replace
+	graph save synth_tx2gap synth_tx2gap, replace
+		
+// plot the gap for TX vs all of the placebos
+
+	single_treatment_graphs, trlinediff(0) do_color(gs12) treated_name(Texas) ///
+		raw_gname(synth_tx3) effects_gname(synth_tx3gap)
+
+	graph save synth_tx3 synth_tx3, replace
+	graph save synth_tx3gap synth_tx3gap, replace
+		
+// plot pvalue by time period
+
+	pval_graphs
+	
+	graph save pvals pvals, replace
+	graph save pvals_std pvals_std, replace
+
+	graph combine "synth_tx2.gph" "synth_tx2gap.gph" ///
+		"synth_tx3.gph" "synth_tx3gap.gph" "pvals.gph" ///
+		"pvals_std.gph" , cols(2) name(synth_runner, replace) altshrink
+	graph export synth_runner.png, as(png) replace
+
 	
 // *****
-// (4)
+// (C)
 // *****
 // **************************************************************************
 // Use saved results from part 1 to manually crete a figure showing the gap
 // between Texas vs. synthetic Texas. Note synth_runner does this for you.
 // This code (from Mixtape) preceded synth_runner. This is just shown for
-// illustration. Better to use synth_runner or synth2
+// illustration. I don't recommend using it--better to just use synth_runner
+// or synth2
 // **************************************************************************
 
 // NOTE: look at the results dataset created earlier---contains both
@@ -321,7 +370,7 @@
 
 
 // *****
-// (5)
+// (D)
 // *****
 // **************************************************************************
 // Placebo inference part 1. Run synth for ALL states in the dataset using
@@ -377,12 +426,12 @@
 
 	
 // *****
-// (6)
+// (E)
 // *****
 // **************************************************************************
 // Placebo inference part 2: plot placebos on the same graph. 
 // Note synth_runner will automate this for you. This is code that
-// preceded synth_runner.
+// preceded synth_runner. Better to just use synth2.
 // **************************************************************************
 		
 	use placebo_bmprate.dta, replace
@@ -445,12 +494,13 @@
 
 	
 // *****
-// (7)
+// (F)
 // *****
 // **************************************************************************
 // Placebo inference part 3. Estimate the pre- and post-RMSPE and calculate
 // the ratio of the post to pre RMSPE. Show histogram of these ratios. Note
 // synth_runner and synth2 will automate this. No need to do this manually.
+// Better to just use synth2.
 // **************************************************************************
 // NOTE: this section could have been done more efficiently. Not sure why it
 // was coded this way.
@@ -514,10 +564,10 @@
 	
 
 // *****
-// (8)
+// (G)
 // *****
 // **************************************************************************
-// Clean up files
+// Clean up files created above
 // **************************************************************************
 
 		forvalues j=1/55 {
@@ -570,10 +620,5 @@
 		capture erase pvals.gph   
 	   
 	   
-	   
-// Close log and convert to PDF
-	capture log close
-	translate "Inclass-exercise-6-log.txt" "Inclass-exercise-6-log.pdf", translator(txt2pdf) ///
-		cmdnumber(off) logo(off) header(off) replace
-	
+
 	   
