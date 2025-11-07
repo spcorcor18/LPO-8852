@@ -22,6 +22,7 @@ Ash, E., et al. (2024). From Viewers to Voters: Tracing Fox News' Impact on Amer
 > Fox News cable channel position used as an instrument for viewership to examine its effects on political ideology.
 
 Ballis, B., & Heath, K. (2021). The Long-Run Impacts of Special Education. *American Economic Journal: Economic Policy*, 13(4), 72-111. https://doi.org/10.1257/pol.20190603
+> Estimates the long-run effects of special education in Texas using two methods, difference-in-differences and IV. Texas capped special education enrollments at 8% in 2005, which affected districts disproportionately based on their pre-policy special education rates. The instrument is pre-policy exposure to the policy change, identifying the effect of special education reoval for students on the margin. 
 
 Barrow, L., Schanzenbach, D. W., & Claessens, A. (2015). The impact of Chicago's small high school initiative. *Journal of Urban Economics*, 87(0), 100--113. https://doi.org/http://dx.doi.org/10.1016/j.jue.2015.02.002 
 
